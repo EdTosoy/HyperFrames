@@ -1,0 +1,712 @@
+{
+  "version": 1,
+  "historyId": "98dbfa9a-e58d-47a7-8650-c14b499934d7",
+  "currentRevision": "54a2a4cd-8ad3-4460-a554-9dc908a08143",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "compositions/main-graphics.html": {
+      "hash": "2999fcfef5c374f347d8cc3e01cc3674655af0f07befa31e3df93de386331623",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/29/2999fcfef5c374f347d8cc3e01cc3674655af0f07befa31e3df93de386331623"
+    },
+    "hyperframes.json": {
+      "hash": "1f1ffeb90257fc0e635cc1bbb1db03706a789f566de5fe89a337188539e18656",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/1f/1f1ffeb90257fc0e635cc1bbb1db03706a789f566de5fe89a337188539e18656"
+    },
+    "hyperframes.lock.json": {
+      "hash": "915e14e14fbdfbd55aa28bc9aae9259465fcff586095d012dbc183f19cc99d5e",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/91/915e14e14fbdfbd55aa28bc9aae9259465fcff586095d012dbc183f19cc99d5e"
+    },
+    "index.html": {
+      "hash": "84d77f78c9b0361ffd0b5da6cc511bd6318f22a3f664b21b95f7d1039c9c8a35",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/84/84d77f78c9b0361ffd0b5da6cc511bd6318f22a3f664b21b95f7d1039c9c8a35"
+    },
+    "meta.json": {
+      "hash": "123c0c5e42062b3243478c4586b35a6c97446de3ba228a21255e674718d87744",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/12/123c0c5e42062b3243478c4586b35a6c97446de3ba228a21255e674718d87744"
+    },
+    "package.json": {
+      "hash": "003c3075d6c21d58318ba3d24eff00b2cabd573d8cdffd28dc79dbd16f4e21a7",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/00/003c3075d6c21d58318ba3d24eff00b2cabd573d8cdffd28dc79dbd16f4e21a7"
+    },
+    "assets/fonts/Manrope.ttf": {
+      "hash": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/3a/3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    "assets/fonts/OFL-Manrope.txt": {
+      "hash": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/58/58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "compositions/components/inline-highlight.html": {
+      "hash": "5063977e75ef2c36ed9ce71e0f95b244504a7c489dd540b47defabbe39c09100",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/50/5063977e75ef2c36ed9ce71e0f95b244504a7c489dd540b47defabbe39c09100"
+    },
+    "compositions/components/per-word-rise.html": {
+      "hash": "02c1afcab7be877ac6b8d45e2de98fc919e779b73bd0dce6e3b9bc7983852bc0",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/02/02c1afcab7be877ac6b8d45e2de98fc919e779b73bd0dce6e3b9bc7983852bc0"
+    },
+    "assets/lesson.css": {
+      "hash": "1f11de1cb2f947a8530e24963fd979e82bf528669dd8cac53f156b85c1c947ef",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/1f/1f11de1cb2f947a8530e24963fd979e82bf528669dd8cac53f156b85c1c947ef"
+    },
+    "BRIEF.md": {
+      "hash": "df513d5311ed301c534e7845adfb8ea7fd4662423577477f66c4a4c2604435dc",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/df/df513d5311ed301c534e7845adfb8ea7fd4662423577477f66c4a4c2604435dc"
+    },
+    "compositions/example-i.html": {
+      "hash": "4d6a90fcbcb7cf5f33e8c9948ea66b811c121711af30e0e16e9beae292b3638f",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/4d/4d6a90fcbcb7cf5f33e8c9948ea66b811c121711af30e0e16e9beae292b3638f"
+    },
+    "compositions/example-she.html": {
+      "hash": "cc144931964d6dae1e31e8b0a2b6ce89f68b62372935a827f5db702686477764",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/cc/cc144931964d6dae1e31e8b0a2b6ce89f68b62372935a827f5db702686477764"
+    },
+    "compositions/example-they.html": {
+      "hash": "d47e7a06fc9f4c2b5da191fe6bbdae410574d66f58a27774f2d66028bf986293",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/d4/d47e7a06fc9f4c2b5da191fe6bbdae410574d66f58a27774f2d66028bf986293"
+    },
+    "compositions/lesson-shell.html": {
+      "hash": "c80e3ee31fd22223fcd19f76ec3bc69e6a376ff486462039b936ff7308d8c6fa",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/c8/c80e3ee31fd22223fcd19f76ec3bc69e6a376ff486462039b936ff7308d8c6fa"
+    },
+    "compositions/quiz.html": {
+      "hash": "7ae73044d326f307e5f74b8fcedf32ba6b8b7a8ff05e994cc2789cf5b93bef3b",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/7a/7ae73044d326f307e5f74b8fcedf32ba6b8b7a8ff05e994cc2789cf5b93bef3b"
+    },
+    "compositions/rule.html": {
+      "hash": "27565affca56646e3b3dffcdab04c6ec8c1e1ef72d57251b71ab8e3895e76906",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/27/27565affca56646e3b3dffcdab04c6ec8c1e1ef72d57251b71ab8e3895e76906"
+    },
+    "index.motion.json": {
+      "hash": "e7cf716035a4b6429fb4df92fe0bf4687cb4e74df1566d1cd5a7d64a70444afd",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/e7/e7cf716035a4b6429fb4df92fe0bf4687cb4e74df1566d1cd5a7d64a70444afd"
+    },
+    "STORYBOARD.md": {
+      "hash": "2d100c1daeea37d8b0aae80c5d97d8687202e8bc55e094d1e6bac3f11ad0761e",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/2d/2d100c1daeea37d8b0aae80c5d97d8687202e8bc55e094d1e6bac3f11ad0761e"
+    },
+    "README.md": {
+      "hash": "7e00445f542dcae31f48d5ecc23f1158d2a1b6c4a0496b2a97586ff778ff8ef5",
+      "content": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/7e/7e00445f542dcae31f48d5ecc23f1158d2a1b6c4a0496b2a97586ff778ff8ef5"
+    }
+  },
+  "revisions": {
+    "05cf157c-0a47-4cfa-89ef-89de51ef5736": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792550151968,
+      "endedAt": 1792550151991,
+      "files": {
+        "assets/fonts/Manrope.ttf": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/3a/3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+        },
+        "assets/fonts/OFL-Manrope.txt": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/58/58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+        },
+        "assets/vendor/gsap.min.js": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        "compositions/components/inline-highlight.html": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/50/5063977e75ef2c36ed9ce71e0f95b244504a7c489dd540b47defabbe39c09100"
+        },
+        "compositions/components/per-word-rise.html": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/e0/e093265396dba184e2b451eb8154d7bbf3d80a49edd33d3a84d6676702a190f7"
+        },
+        "hyperframes.json": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/1f/1f1ffeb90257fc0e635cc1bbb1db03706a789f566de5fe89a337188539e18656"
+        },
+        "hyperframes.lock.json": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/9c/9c1cb657deb902e8b7bb4ed15edb1615d0e15582298f123f611b1e9ef0c87eb4",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/91/915e14e14fbdfbd55aa28bc9aae9259465fcff586095d012dbc183f19cc99d5e"
+        }
+      }
+    },
+    "c8bffd9f-1790-419f-8abc-79f780a2f9c7": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "Create 30-second am is are lesson",
+      "startedAt": 1792550151993,
+      "endedAt": 1792550281664.975,
+      "files": {
+        "assets/lesson.css": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/ea/eaf10bcdbb3e71f3cb4baa69ffd7b42468e4847efccbe5f620bad651aef0f624"
+        },
+        "BRIEF.md": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/df/df513d5311ed301c534e7845adfb8ea7fd4662423577477f66c4a4c2604435dc"
+        },
+        "compositions/example-i.html": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/e5/e535743a17005365a301a12810fc0eaa080319bb74b48b5e7264ebc2738e8101"
+        },
+        "compositions/example-she.html": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/5e/5e7afd4550ea8a75b2b668c1a480aedd4ba4333ce389fdd6965e68153b181787"
+        },
+        "compositions/example-they.html": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/ce/ce7e250f163cd2be74f4677b384b7e2b9c1c4bc00f290d30bf93d6a9111fbafa"
+        },
+        "compositions/lesson-shell.html": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/fb/fb7f40ee773439c94a99b630bf051711f6e44fe2cf2452053a9cd6e51ec4abd9"
+        },
+        "compositions/main-graphics.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/38/38a41a0d8746532fcfe10257c8a50bde9d66052c425a00e121b3795fb0a3a218",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/b8/b862c4b4fdd8e67af35b9889a070d0f35dbc6880d84ba9316f236b70fc1126a4"
+        },
+        "compositions/quiz.html": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/35/35c756e825a99129b956a36ffc759499b9012f5a2cd6624d6eb72fd3f123569f"
+        },
+        "compositions/rule.html": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/ac/acbeb37d104d2109caf488c1447e8b02d083627c6fbd443d9f34f9c014dd724f"
+        },
+        "index.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/c3/c36c5055b1d10e10a36657ff72aacc4c31ea36b7a4f30e9da3fd7022f34b5395",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/78/7802493d463c478027f4dc2d3671d6c1077e902012a8d006fb33f37b984e4432"
+        },
+        "index.motion.json": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/93/9393605f9561c2f21ebad3da050c92c094fe0f1278607d45ef9cb0c1ac17371d"
+        },
+        "meta.json": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/71/71d9aff3fd1382e39dc95bae2cca39010263fec3021a21150b5d96e61d9dd8c3",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/12/123c0c5e42062b3243478c4586b35a6c97446de3ba228a21255e674718d87744"
+        },
+        "STORYBOARD.md": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/2d/2d100c1daeea37d8b0aae80c5d97d8687202e8bc55e094d1e6bac3f11ad0761e"
+        }
+      }
+    },
+    "59ab4371-eedd-4d16-b789-1c6c62cbb66a": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "Create 30-second am is are lesson",
+      "startedAt": 1792550151993,
+      "endedAt": 1792550322828.008,
+      "files": {
+        "assets/lesson.css": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/ea/eaf10bcdbb3e71f3cb4baa69ffd7b42468e4847efccbe5f620bad651aef0f624",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/b2/b2e4bc9b0dfa44e07eeade603b15997a6554357b99b8247a218b76289a809ff6"
+        },
+        "compositions/example-i.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/e5/e535743a17005365a301a12810fc0eaa080319bb74b48b5e7264ebc2738e8101",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/cd/cd2ca9c2059c4ccd738e9c913d98e00e7a0ae8e457a2aacee15bd9443f268083"
+        },
+        "compositions/example-she.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/5e/5e7afd4550ea8a75b2b668c1a480aedd4ba4333ce389fdd6965e68153b181787",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/ea/ea5bd6e07c703bc0677b1d31452194ab446a89edace0290e7fa7955eea0f3fc1"
+        },
+        "compositions/example-they.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/ce/ce7e250f163cd2be74f4677b384b7e2b9c1c4bc00f290d30bf93d6a9111fbafa",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/4e/4e7e9ad6a0ed025558bb6b870bf08e5a7e93f09935f9c1570d37a4d8fe7ea375"
+        },
+        "compositions/main-graphics.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/b8/b862c4b4fdd8e67af35b9889a070d0f35dbc6880d84ba9316f236b70fc1126a4",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/f9/f9a5cbc4ee839f2627ce961b68058427a52617d82c827e39abdd610ac00e46f4"
+        },
+        "compositions/quiz.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/35/35c756e825a99129b956a36ffc759499b9012f5a2cd6624d6eb72fd3f123569f",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/2a/2a6dc5a848a632f8c3f1f483125bc98817c9ec882c86e1689d9f07cd1d2d6c76"
+        },
+        "compositions/rule.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/ac/acbeb37d104d2109caf488c1447e8b02d083627c6fbd443d9f34f9c014dd724f",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/e4/e4d41c582698d5df56558d18fb50f6d932fd2ddc9fdd565908271ed42b118503"
+        },
+        "index.motion.json": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/93/9393605f9561c2f21ebad3da050c92c094fe0f1278607d45ef9cb0c1ac17371d",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/e7/e7cf716035a4b6429fb4df92fe0bf4687cb4e74df1566d1cd5a7d64a70444afd"
+        }
+      }
+    },
+    "4af05711-55a2-4b84-92ac-2541078d9b94": {
+      "actor": {
+        "kind": "agent",
+        "name": "codex"
+      },
+      "label": "Create 30-second am is are lesson",
+      "startedAt": 1792550151993,
+      "endedAt": 1792550354666.8125,
+      "files": {
+        "assets/lesson.css": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/b2/b2e4bc9b0dfa44e07eeade603b15997a6554357b99b8247a218b76289a809ff6",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/1f/1f11de1cb2f947a8530e24963fd979e82bf528669dd8cac53f156b85c1c947ef"
+        },
+        "compositions/quiz.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/2a/2a6dc5a848a632f8c3f1f483125bc98817c9ec882c86e1689d9f07cd1d2d6c76",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/96/9679d94b85d6f9f813bf3ba43f3511b74db163a9963a71d5f271e5353f82717d"
+        }
+      }
+    },
+    "558e5e7d-6b90-458b-a387-0a3458c3b4e5": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792550379406,
+      "endedAt": 1792550379425,
+      "files": {
+        "compositions/components/per-word-rise.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/e0/e093265396dba184e2b451eb8154d7bbf3d80a49edd33d3a84d6676702a190f7",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/02/02c1afcab7be877ac6b8d45e2de98fc919e779b73bd0dce6e3b9bc7983852bc0"
+        },
+        "compositions/example-i.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/cd/cd2ca9c2059c4ccd738e9c913d98e00e7a0ae8e457a2aacee15bd9443f268083",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/4d/4d6a90fcbcb7cf5f33e8c9948ea66b811c121711af30e0e16e9beae292b3638f"
+        },
+        "compositions/example-she.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/ea/ea5bd6e07c703bc0677b1d31452194ab446a89edace0290e7fa7955eea0f3fc1",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/cc/cc144931964d6dae1e31e8b0a2b6ce89f68b62372935a827f5db702686477764"
+        },
+        "compositions/example-they.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/4e/4e7e9ad6a0ed025558bb6b870bf08e5a7e93f09935f9c1570d37a4d8fe7ea375",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/d4/d47e7a06fc9f4c2b5da191fe6bbdae410574d66f58a27774f2d66028bf986293"
+        },
+        "compositions/lesson-shell.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/fb/fb7f40ee773439c94a99b630bf051711f6e44fe2cf2452053a9cd6e51ec4abd9",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/c8/c80e3ee31fd22223fcd19f76ec3bc69e6a376ff486462039b936ff7308d8c6fa"
+        },
+        "compositions/main-graphics.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/f9/f9a5cbc4ee839f2627ce961b68058427a52617d82c827e39abdd610ac00e46f4",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/29/2999fcfef5c374f347d8cc3e01cc3674655af0f07befa31e3df93de386331623"
+        },
+        "compositions/quiz.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/96/9679d94b85d6f9f813bf3ba43f3511b74db163a9963a71d5f271e5353f82717d",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/7a/7ae73044d326f307e5f74b8fcedf32ba6b8b7a8ff05e994cc2789cf5b93bef3b"
+        },
+        "compositions/rule.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/e4/e4d41c582698d5df56558d18fb50f6d932fd2ddc9fdd565908271ed42b118503",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/27/27565affca56646e3b3dffcdab04c6ec8c1e1ef72d57251b71ab8e3895e76906"
+        },
+        "index.html": {
+          "before": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/78/7802493d463c478027f4dc2d3671d6c1077e902012a8d006fb33f37b984e4432",
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/84/84d77f78c9b0361ffd0b5da6cc511bd6318f22a3f664b21b95f7d1039c9c8a35"
+        }
+      }
+    },
+    "54a2a4cd-8ad3-4460-a554-9dc908a08143": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792550416419,
+      "endedAt": 1792550416927,
+      "files": {
+        "README.md": {
+          "before": null,
+          "after": "/home/edtosoy/.cache/hyperframes/history/98dbfa9a-e58d-47a7-8650-c14b499934d7/blobs/7e/7e00445f542dcae31f48d5ecc23f1158d2a1b6c4a0496b2a97586ff778ff8ef5"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {
+      "c8bffd9f-1790-419f-8abc-79f780a2f9c7": [
+        {
+          "id": "aa59a5d6-0227-4c52-86b2-c03d020d7c66",
+          "scope": "project",
+          "metadata": {
+            "ok": false,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792550300927,
+          "contentHash": "49a20a99c2743f93af85faf468cea9702e037240df2da7d2866f835b6118b323",
+          "revision": "c8bffd9f-1790-419f-8abc-79f780a2f9c7",
+          "inputFingerprint": "fcfb70be8540b8dccf917109b11fd0011e53673df7efb9666710b5dbdadd7d67",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2acad01e-b371-4bfd-bc20-8b0419ea11c9"
+        }
+      ],
+      "59ab4371-eedd-4d16-b789-1c6c62cbb66a": [
+        {
+          "id": "e5bb0ec3-6481-4ef1-8ec7-a0ee63873c92",
+          "scope": "project",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792550341454,
+          "contentHash": "4f1f5f051557b6bec83892c2fb96fcb4464b737d1c0b767bf815923a7f2055a8",
+          "revision": "59ab4371-eedd-4d16-b789-1c6c62cbb66a",
+          "inputFingerprint": "bb8420925c296589fd7545293e47f80a7b9a99e3f61e28104c77be774f54d9f7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2acad01e-b371-4bfd-bc20-8b0419ea11c9"
+        }
+      ],
+      "4af05711-55a2-4b84-92ac-2541078d9b94": [
+        {
+          "id": "21d47431-84a9-4986-b301-84ca5a27d772",
+          "scope": "project",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1792550374220,
+          "contentHash": "4f1f5f051557b6bec83892c2fb96fcb4464b737d1c0b767bf815923a7f2055a8",
+          "revision": "4af05711-55a2-4b84-92ac-2541078d9b94",
+          "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2acad01e-b371-4bfd-bc20-8b0419ea11c9"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-12"
+    },
+    "revisions": {
+      "c8bffd9f-1790-419f-8abc-79f780a2f9c7": []
+    },
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-0",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-00-at-0s.png",
+        "time": 0,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379890,
+        "contentHash": "c3830eaf71f2dc113ec5e81a1dc69a3dc7293021b4e1566c5b1972b970d11235",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-1",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-01-at-2s.png",
+        "time": 2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "f4c78c1ca93e6621f7c4f629ba6aa90a0212f588163b11f4991dd4cdbfb11c7b",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-2",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-02-at-3.7s.png",
+        "time": 3.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "6b8d8664b4c67af4a0d50043ad84acc0b20794197d418bd6d593a4db301c9041",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-3",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-03-at-4.1s.png",
+        "time": 4.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "a49506c9be91e95cbb024a99e546231ecdd8cba752af2a5349aa46fada6a8658",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-4",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-04-at-4.5s.png",
+        "time": 4.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "ebab598f115d48bd7084c302acbde05418fb813ace1a3b5e32c9aa0c560cacd4",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-5",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-05-at-6s.png",
+        "time": 6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "ad87c74e8f09a2bf992da21dcb6e71ed4fce4c5038625b19b8b9cccb53c08173",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-6",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-06-at-10.5s.png",
+        "time": 10.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "3b17015adcec5e5d94426b81a1489ec90f4f85865f97ee406fbb8c155a0fbe3a",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-7",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-07-at-15s.png",
+        "time": 15,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "9dee6c392207a1f9628720cb7b1707082526ff4805c77a29e414dd49bfcd0fba",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-8",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-08-at-20.5s.png",
+        "time": 20.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "da9930d88c37abe38c77860cb2cc48f83c8fd7563567881abe1cb5e73b1beebd",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-9",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-09-at-25s.png",
+        "time": 25,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "952a5a7cd7d9de4c0889f39b84270a21de64d2c2914afb93a17a91fbbd7549c7",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-10",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-10-at-26.9s.png",
+        "time": 26.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "e0437f1aeed69b5cbb30fff45522e4dca12502ae5a672dd1b85c6c99cfac68af",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-11",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-11-at-27.6s.png",
+        "time": 27.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "168e332af523a556384b1b4e7d458abed54793674b5fbd56652ffceaf339543a",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "ed276797-130b-4cfa-8323-7d84b41f9a5a-12",
+        "image": "/home/edtosoy/english/grammar-video-factory/renders/preview-frames/frame-12-at-29.967s.png",
+        "time": 29.967,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1792550379891,
+        "contentHash": "0c0104a13beb1e3043c38f881ef42af4a64247e8174ad85ea2b413f2f2bc9ee1",
+        "revision": null,
+        "inputFingerprint": "b659c6d4108a3a671ed61b877f86ef8eaf3952713170840ca08f929c5178e397",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "2acad01e-b371-4bfd-bc20-8b0419ea11c9",
+      "completedAt": 1792550466998,
+      "output": "/home/edtosoy/english/grammar-video-factory/renders/am-is-are-lesson.mp4",
+      "status": "completed",
+      "revision": "54a2a4cd-8ad3-4460-a554-9dc908a08143"
+    },
+    "retainedRevisions": [
+      "54a2a4cd-8ad3-4460-a554-9dc908a08143"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

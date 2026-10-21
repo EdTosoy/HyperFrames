@@ -1,0 +1,56 @@
+{
+  "duration": 30,
+  "assertions": [
+    {
+      "kind": "before",
+      "a": "#example-i-subject",
+      "b": "#example-i-verb"
+    },
+    {
+      "kind": "before",
+      "a": "#example-she-subject",
+      "b": "#example-she-verb"
+    },
+    {
+      "kind": "before",
+      "a": "#example-they-subject",
+      "b": "#example-they-verb"
+    },
+    {
+      "kind": "before",
+      "a": "#example-i-verb",
+      "b": "#example-i-ready"
+    },
+    {
+      "kind": "before",
+      "a": "#example-she-verb",
+      "b": "#example-she-ready"
+    },
+    {
+      "kind": "before",
+      "a": "#example-they-verb",
+      "b": "#example-they-ready"
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#quiz-answer",
+      "bySec": 27.6
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": ".quiz-sentence"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#example-i-stage .sentence"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#example-she-stage .sentence"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#example-they-stage .sentence"
+    }
+  ]
+}

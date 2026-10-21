@@ -1,0 +1,1551 @@
+{
+  "project": "grammar-video-factory",
+  "runtime": "all",
+  "compositions": [
+    {
+      "composition": "index.html",
+      "source": "index.html",
+      "tweens": [],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "lesson-shell",
+      "source": "compositions/lesson-shell.html",
+      "tweens": [
+        {
+          "id": ".shell-progress-fromTo-0-scale",
+          "target": ".shell-progress",
+          "method": "fromTo",
+          "group": "scale",
+          "start": 0,
+          "duration": 30,
+          "end": 30,
+          "totalDuration": 30,
+          "position": 0,
+          "ease": "none",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0,
+              "properties": {
+                "scaleX": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 30,
+              "properties": {
+                "scaleX": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-to-__raw:time-other",
+          "target": "__unresolved__",
+          "method": "to",
+          "group": "other",
+          "start": null,
+          "duration": 0.25,
+          "end": null,
+          "totalDuration": 0.25,
+          "position": "__raw:time",
+          "unresolved": [
+            "start",
+            "target",
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {}
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "backgroundColor": "#192a30"
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": ".shell-orbit-fromTo-0-position",
+          "target": ".shell-orbit",
+          "method": "fromTo",
+          "group": "position",
+          "start": 0,
+          "duration": 3,
+          "end": 30,
+          "totalDuration": 30,
+          "position": 0,
+          "ease": "sine.inOut",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0,
+              "properties": {
+                "y": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 3,
+              "properties": {
+                "y": -20
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "main-graphics",
+      "source": "compositions/main-graphics.html",
+      "tweens": [
+        {
+          "id": "#main-graphics-stage-fromTo-0",
+          "target": "#main-graphics-stage",
+          "method": "fromTo",
+          "start": 0,
+          "duration": 0.4,
+          "end": 0.4,
+          "totalDuration": 0.4,
+          "position": 0,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0,
+              "properties": {
+                "y": 32,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.4,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#main-graphics-stage-to-3260",
+          "target": "#main-graphics-stage",
+          "method": "to",
+          "start": 3.26,
+          "duration": 0.24,
+          "end": 3.5,
+          "totalDuration": 0.24,
+          "position": 3.26,
+          "ease": "power2.in",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 3.26,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "pct": 100,
+              "time": 3.5,
+              "properties": {
+                "y": -28,
+                "opacity": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": ".intro-words .word-fromTo-100",
+          "target": ".intro-words .word",
+          "method": "fromTo",
+          "start": 0.1,
+          "duration": 0.6,
+          "end": 1.06,
+          "totalDuration": 0.96,
+          "position": 0.1,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.1,
+              "properties": {
+                "y": 65,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.7,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": ".intro-words .verb-to-500-other",
+          "target": ".intro-words .verb",
+          "method": "to",
+          "group": "other",
+          "start": 0.5,
+          "duration": 0.48,
+          "end": 1.34,
+          "totalDuration": 0.84,
+          "position": 0.5,
+          "ease": "power2.out",
+          "unresolved": [
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.5,
+              "properties": {}
+            },
+            {
+              "pct": 100,
+              "time": 0.98,
+              "properties": {
+                "--hf-highlight-scale": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": ".intro-line-fromTo-1100-scale",
+          "target": ".intro-line",
+          "method": "fromTo",
+          "group": "scale",
+          "start": 1.1,
+          "duration": 0.55,
+          "end": 1.65,
+          "totalDuration": 0.55,
+          "position": 1.1,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.1,
+              "properties": {
+                "scaleX": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.65,
+              "properties": {
+                "scaleX": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": ".intro-caption-fromTo-1250",
+          "target": ".intro-caption",
+          "method": "fromTo",
+          "start": 1.25,
+          "duration": 0.5,
+          "end": 1.75,
+          "totalDuration": 0.5,
+          "position": 1.25,
+          "ease": "power2.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.25,
+              "properties": {
+                "y": 20,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.75,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "example-i",
+      "source": "compositions/example-i.html",
+      "tweens": [
+        {
+          "id": "#example-i-stage-fromTo-0",
+          "target": "#example-i-stage",
+          "method": "fromTo",
+          "start": 0,
+          "duration": 0.4,
+          "end": 0.4,
+          "totalDuration": 0.4,
+          "position": 0,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0,
+              "properties": {
+                "y": 32,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.4,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-i-stage-to-4260",
+          "target": "#example-i-stage",
+          "method": "to",
+          "start": 4.26,
+          "duration": 0.24,
+          "end": 4.5,
+          "totalDuration": 0.24,
+          "position": 4.26,
+          "ease": "power2.in",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 4.26,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "pct": 100,
+              "time": 4.5,
+              "properties": {
+                "y": -28,
+                "opacity": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-i-subject-fromTo-250",
+          "target": "#example-i-subject",
+          "method": "fromTo",
+          "start": 0.25,
+          "duration": 0.6,
+          "end": 0.85,
+          "totalDuration": 0.6,
+          "position": 0.25,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.25,
+              "properties": {
+                "y": 70,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.85,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-i-verb-fromTo-650",
+          "target": "#example-i-verb",
+          "method": "fromTo",
+          "start": 0.65,
+          "duration": 0.6,
+          "end": 1.25,
+          "totalDuration": 0.6,
+          "position": 0.65,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.65,
+              "properties": {
+                "y": 70,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.25,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-i-ready-fromTo-1050",
+          "target": "#example-i-ready",
+          "method": "fromTo",
+          "start": 1.05,
+          "duration": 0.6,
+          "end": 1.65,
+          "totalDuration": 0.6,
+          "position": 1.05,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.05,
+              "properties": {
+                "y": 70,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.65,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-i-verb-to-1150-other",
+          "target": "#example-i-verb",
+          "method": "to",
+          "group": "other",
+          "start": 1.15,
+          "duration": 0.52,
+          "end": 1.67,
+          "totalDuration": 0.52,
+          "position": 1.15,
+          "ease": "power2.out",
+          "unresolved": [
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.15,
+              "properties": {}
+            },
+            {
+              "pct": 100,
+              "time": 1.67,
+              "properties": {
+                "--hf-highlight-scale": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-i-stage .sentence-note-fromTo-1700",
+          "target": "#example-i-stage .sentence-note",
+          "method": "fromTo",
+          "start": 1.7,
+          "duration": 0.5,
+          "end": 2.2,
+          "totalDuration": 0.5,
+          "position": 1.7,
+          "ease": "power2.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.7,
+              "properties": {
+                "y": 18,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 2.2,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "example-she",
+      "source": "compositions/example-she.html",
+      "tweens": [
+        {
+          "id": "#example-she-stage-fromTo-0",
+          "target": "#example-she-stage",
+          "method": "fromTo",
+          "start": 0,
+          "duration": 0.4,
+          "end": 0.4,
+          "totalDuration": 0.4,
+          "position": 0,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0,
+              "properties": {
+                "y": 32,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.4,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-she-stage-to-4260",
+          "target": "#example-she-stage",
+          "method": "to",
+          "start": 4.26,
+          "duration": 0.24,
+          "end": 4.5,
+          "totalDuration": 0.24,
+          "position": 4.26,
+          "ease": "power2.in",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 4.26,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "pct": 100,
+              "time": 4.5,
+              "properties": {
+                "y": -28,
+                "opacity": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-she-subject-fromTo-250",
+          "target": "#example-she-subject",
+          "method": "fromTo",
+          "start": 0.25,
+          "duration": 0.6,
+          "end": 0.85,
+          "totalDuration": 0.6,
+          "position": 0.25,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.25,
+              "properties": {
+                "y": 70,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.85,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-she-verb-fromTo-650",
+          "target": "#example-she-verb",
+          "method": "fromTo",
+          "start": 0.65,
+          "duration": 0.6,
+          "end": 1.25,
+          "totalDuration": 0.6,
+          "position": 0.65,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.65,
+              "properties": {
+                "y": 70,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.25,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-she-ready-fromTo-1050",
+          "target": "#example-she-ready",
+          "method": "fromTo",
+          "start": 1.05,
+          "duration": 0.6,
+          "end": 1.65,
+          "totalDuration": 0.6,
+          "position": 1.05,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.05,
+              "properties": {
+                "y": 70,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.65,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-she-verb-to-1150-other",
+          "target": "#example-she-verb",
+          "method": "to",
+          "group": "other",
+          "start": 1.15,
+          "duration": 0.52,
+          "end": 1.67,
+          "totalDuration": 0.52,
+          "position": 1.15,
+          "ease": "power2.out",
+          "unresolved": [
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.15,
+              "properties": {}
+            },
+            {
+              "pct": 100,
+              "time": 1.67,
+              "properties": {
+                "--hf-highlight-scale": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-she-stage .sentence-note-fromTo-1700",
+          "target": "#example-she-stage .sentence-note",
+          "method": "fromTo",
+          "start": 1.7,
+          "duration": 0.5,
+          "end": 2.2,
+          "totalDuration": 0.5,
+          "position": 1.7,
+          "ease": "power2.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.7,
+              "properties": {
+                "y": 18,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 2.2,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "example-they",
+      "source": "compositions/example-they.html",
+      "tweens": [
+        {
+          "id": "#example-they-stage-fromTo-0",
+          "target": "#example-they-stage",
+          "method": "fromTo",
+          "start": 0,
+          "duration": 0.4,
+          "end": 0.4,
+          "totalDuration": 0.4,
+          "position": 0,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0,
+              "properties": {
+                "y": 32,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.4,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-they-stage-to-4260",
+          "target": "#example-they-stage",
+          "method": "to",
+          "start": 4.26,
+          "duration": 0.24,
+          "end": 4.5,
+          "totalDuration": 0.24,
+          "position": 4.26,
+          "ease": "power2.in",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 4.26,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "pct": 100,
+              "time": 4.5,
+              "properties": {
+                "y": -28,
+                "opacity": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-they-subject-fromTo-250",
+          "target": "#example-they-subject",
+          "method": "fromTo",
+          "start": 0.25,
+          "duration": 0.6,
+          "end": 0.85,
+          "totalDuration": 0.6,
+          "position": 0.25,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.25,
+              "properties": {
+                "y": 70,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.85,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-they-verb-fromTo-650",
+          "target": "#example-they-verb",
+          "method": "fromTo",
+          "start": 0.65,
+          "duration": 0.6,
+          "end": 1.25,
+          "totalDuration": 0.6,
+          "position": 0.65,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.65,
+              "properties": {
+                "y": 70,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.25,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-they-ready-fromTo-1050",
+          "target": "#example-they-ready",
+          "method": "fromTo",
+          "start": 1.05,
+          "duration": 0.6,
+          "end": 1.65,
+          "totalDuration": 0.6,
+          "position": 1.05,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.05,
+              "properties": {
+                "y": 70,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.65,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-they-verb-to-1150-other",
+          "target": "#example-they-verb",
+          "method": "to",
+          "group": "other",
+          "start": 1.15,
+          "duration": 0.52,
+          "end": 1.67,
+          "totalDuration": 0.52,
+          "position": 1.15,
+          "ease": "power2.out",
+          "unresolved": [
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.15,
+              "properties": {}
+            },
+            {
+              "pct": 100,
+              "time": 1.67,
+              "properties": {
+                "--hf-highlight-scale": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#example-they-stage .sentence-note-fromTo-1700",
+          "target": "#example-they-stage .sentence-note",
+          "method": "fromTo",
+          "start": 1.7,
+          "duration": 0.5,
+          "end": 2.2,
+          "totalDuration": 0.5,
+          "position": 1.7,
+          "ease": "power2.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.7,
+              "properties": {
+                "y": 18,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 2.2,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "rule",
+      "source": "compositions/rule.html",
+      "tweens": [
+        {
+          "id": "#rule-stage-fromTo-0",
+          "target": "#rule-stage",
+          "method": "fromTo",
+          "start": 0,
+          "duration": 0.4,
+          "end": 0.4,
+          "totalDuration": 0.4,
+          "position": 0,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0,
+              "properties": {
+                "y": 32,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.4,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#rule-stage-to-5760",
+          "target": "#rule-stage",
+          "method": "to",
+          "start": 5.76,
+          "duration": 0.24,
+          "end": 6,
+          "totalDuration": 0.24,
+          "position": 5.76,
+          "ease": "power2.in",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 5.76,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            },
+            {
+              "pct": 100,
+              "time": 6,
+              "properties": {
+                "y": -28,
+                "opacity": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": ".rule-row-fromTo-300",
+          "target": ".rule-row",
+          "method": "fromTo",
+          "start": 0.3,
+          "duration": 0.5,
+          "end": 1.7,
+          "totalDuration": 1.4,
+          "position": 0.3,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.3,
+              "properties": {
+                "x": 40,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.8,
+              "properties": {
+                "x": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": ".rule-row .verb-to-750-other",
+          "target": ".rule-row .verb",
+          "method": "to",
+          "group": "other",
+          "start": 0.75,
+          "duration": 0.45,
+          "end": 2.1,
+          "totalDuration": 1.35,
+          "position": 0.75,
+          "ease": "power2.out",
+          "unresolved": [
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.75,
+              "properties": {}
+            },
+            {
+              "pct": 100,
+              "time": 1.2,
+              "properties": {
+                "--hf-highlight-scale": 1
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "quiz",
+      "source": "compositions/quiz.html",
+      "tweens": [
+        {
+          "id": "#quiz-stage-fromTo-0",
+          "target": "#quiz-stage",
+          "method": "fromTo",
+          "start": 0,
+          "duration": 0.4,
+          "end": 0.4,
+          "totalDuration": 0.4,
+          "position": 0,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0,
+              "properties": {
+                "y": 32,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.4,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#quiz-we, #quiz-blank, #quiz-happy-fromTo-200",
+          "target": "#quiz-we, #quiz-blank, #quiz-happy",
+          "method": "fromTo",
+          "start": 0.2,
+          "duration": 0.5,
+          "end": 1.1,
+          "totalDuration": 0.9,
+          "position": 0.2,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.2,
+              "properties": {
+                "y": 50,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.7,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": ".choices-fromTo-1000",
+          "target": ".choices",
+          "method": "fromTo",
+          "start": 1,
+          "duration": 0.5,
+          "end": 1.5,
+          "totalDuration": 0.5,
+          "position": 1,
+          "ease": "power2.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1,
+              "properties": {
+                "y": 20,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.5,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#quiz-answer-fromTo-4000",
+          "target": "#quiz-answer",
+          "method": "fromTo",
+          "start": 4,
+          "duration": 0.5,
+          "end": 4.5,
+          "totalDuration": 0.5,
+          "position": 4,
+          "ease": "power3.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 4,
+              "properties": {
+                "y": 35,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 4.5,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#quiz-blank-to-3900-visual",
+          "target": "#quiz-blank",
+          "method": "to",
+          "group": "visual",
+          "start": 3.9,
+          "duration": 0.15,
+          "end": 4.05,
+          "totalDuration": 0.15,
+          "position": 3.9,
+          "unresolved": [
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 3.9,
+              "properties": {}
+            },
+            {
+              "pct": 100,
+              "time": 4.05,
+              "properties": {
+                "opacity": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#quiz-answer-to-4250-other",
+          "target": "#quiz-answer",
+          "method": "to",
+          "group": "other",
+          "start": 4.25,
+          "duration": 0.5,
+          "end": 4.75,
+          "totalDuration": 0.5,
+          "position": 4.25,
+          "ease": "power2.out",
+          "unresolved": [
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 4.25,
+              "properties": {}
+            },
+            {
+              "pct": 100,
+              "time": 4.75,
+              "properties": {
+                "--hf-highlight-scale": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#choice-am, #choice-is-to-4000-visual",
+          "target": "#choice-am, #choice-is",
+          "method": "to",
+          "group": "visual",
+          "start": 4,
+          "duration": 0.25,
+          "end": 4.25,
+          "totalDuration": 0.25,
+          "position": 4,
+          "unresolved": [
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 4,
+              "properties": {}
+            },
+            {
+              "pct": 100,
+              "time": 4.25,
+              "properties": {
+                "opacity": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#choice-are-to-4000-other",
+          "target": "#choice-are",
+          "method": "to",
+          "group": "other",
+          "start": 4,
+          "duration": 0.3,
+          "end": 4.3,
+          "totalDuration": 0.3,
+          "position": 4,
+          "unresolved": [
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 4,
+              "properties": {}
+            },
+            {
+              "pct": 100,
+              "time": 4.3,
+              "properties": {
+                "backgroundColor": "#a9ddc9",
+                "borderColor": "#006950",
+                "color": "#006950"
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#quiz-think-to-3800-visual",
+          "target": "#quiz-think",
+          "method": "to",
+          "group": "visual",
+          "start": 3.8,
+          "duration": 0.2,
+          "end": 4,
+          "totalDuration": 0.2,
+          "position": 3.8,
+          "unresolved": [
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 3.8,
+              "properties": {}
+            },
+            {
+              "pct": 100,
+              "time": 4,
+              "properties": {
+                "opacity": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#quiz-reason-fromTo-4550",
+          "target": "#quiz-reason",
+          "method": "fromTo",
+          "start": 4.55,
+          "duration": 0.4,
+          "end": 4.95,
+          "totalDuration": 0.4,
+          "position": 4.55,
+          "ease": "power2.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 4.55,
+              "properties": {
+                "opacity": 0,
+                "y": 12
+              }
+            },
+            {
+              "pct": 100,
+              "time": 4.95,
+              "properties": {
+                "opacity": 1,
+                "y": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#quiz-timer-fromTo-1000-scale",
+          "target": "#quiz-timer",
+          "method": "fromTo",
+          "group": "scale",
+          "start": 1,
+          "duration": 3,
+          "end": 4,
+          "totalDuration": 3,
+          "position": 1,
+          "ease": "none",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1,
+              "properties": {
+                "scaleX": 1
+              }
+            },
+            {
+              "pct": 100,
+              "time": 4,
+              "properties": {
+                "scaleX": 0
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    }
+  ],
+  "_meta": {
+    "version": "0.8.181",
+    "latestVersion": "0.8.181",
+    "updateAvailable": false
+  }
+}
