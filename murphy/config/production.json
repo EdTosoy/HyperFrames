@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "branding": {
+    "seriesTitle": "English, Made Clear.",
+    "label": "ENGLISH / MADE CLEAR"
+  },
+  "tokens": {
+    "canvas": "#F6F5F0",
+    "text": "#223248",
+    "grammar": "#168076",
+    "focus": "#D79A55",
+    "error": "#C65E5A",
+    "panel": "#FFFFFF",
+    "line": "#D5DAD4",
+    "muted": "#526276"
+  },
+  "typography": {
+    "family": "Manrope",
+    "fontAssetId": "font-manrope",
+    "title": 78,
+    "body": 56,
+    "caption": 46,
+    "label": 28,
+    "compact": 48,
+    "role": 30
+  },
+  "profiles": {
+    "vertical": {
+      "width": 1080,
+      "height": 1920,
+      "aspectRatio": "9:16",
+      "fps": 30,
+      "container": "mp4",
+      "videoCodec": "h264",
+      "pixelFormat": "yuv420p",
+      "audioCodec": "aac",
+      "typicalMinSeconds": 45,
+      "typicalMaxSeconds": 90
+    }
+  },
+  "safeAreas": {
+    "social-conservative": {
+      "top": 220,
+      "right": 180,
+      "bottom": 420,
+      "left": 96,
+      "captionHeight": 240,
+      "captionGap": 48
+    },
+    "reels-review": {
+      "top": 240,
+      "right": 190,
+      "bottom": 440,
+      "left": 96,
+      "captionHeight": 240,
+      "captionGap": 48
+    },
+    "shorts-review": {
+      "top": 220,
+      "right": 200,
+      "bottom": 440,
+      "left": 96,
+      "captionHeight": 240,
+      "captionGap": 48
+    }
+  },
+  "audio": {
+    "sampleRate": 48000,
+    "masterFormat": "wav",
+    "channels": 1,
+    "targetLufs": -16,
+    "lufsTolerance": 1,
+    "maxTruePeakDb": -1,
+    "durationToleranceSeconds": 0.1
+  },
+  "motion": {
+    "enterSeconds": 0.3,
+    "risePixels": 16,
+    "highlightSeconds": 0.4,
+    "ease": "power2.out",
+    "exitSeconds": 0.2,
+    "staggerSeconds": 0.16,
+    "replaceSeconds": 0.2,
+    "drawSeconds": 0.6,
+    "reducedSeconds": 0.1
+  },
+  "runtimeAssetId": "runtime-gsap",
+  "spacing": {
+    "xs": 12,
+    "sm": 20,
+    "md": 32,
+    "lg": 48,
+    "xl": 72
+  },
+  "surface": {
+    "radius": 24,
+    "stroke": 2,
+    "shadow": "none"
+  },
+  "layout": {
+    "contentOffset": 112,
+    "legacyContentOffset": 200,
+    "legacyGap": 36,
+    "panelPadding": 28,
+    "captionPadding": 24,
+    "progressHeight": 4,
+    "illustrationHeight": 320,
+    "progressOffset": 64,
+    "captionMaxCharsPerSecond": 22
+  }
+}

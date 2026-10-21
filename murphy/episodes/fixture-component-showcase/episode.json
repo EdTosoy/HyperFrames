@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "id": "fixture-component-showcase",
+  "kind": "fixture",
+  "curriculum": {
+    "reference": "Infrastructure fixture; no textbook unit",
+    "unit": null,
+    "part": 1
+  },
+  "title": "Phase 2 \u2014 Visual component showcase",
+  "learningObjective": "Demonstrate the visual component library; not a curriculum lesson.",
+  "learnerLevel": "fixture",
+  "hook": "Clarity, in motion.",
+  "script": "Silent visual system demonstration. No narration or textbook unit.",
+  "rules": [],
+  "examples": [],
+  "quizzes": [
+    {
+      "id": "demo-choice",
+      "kind": "multiple-choice",
+      "question": "Which parcel is blue?",
+      "choices": ["The blue parcel", "The orange parcel"],
+      "answerIndex": 0,
+      "explanation": "Color and label point to the same choice."
+    }
+  ],
+  "profile": "vertical",
+  "safeArea": "social-conservative",
+  "durationSeconds": 40,
+  "durationReason": "Forty-second technical component showcase; never publish.",
+  "scenes": [
+    {
+      "id": "demo-title",
+      "purpose": "hook",
+      "component": "title",
+      "start": 0,
+      "duration": 3,
+      "heading": "Clarity, in motion.",
+      "body": "Component showcase / not a lesson.",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "visual": {
+        "unit": null,
+        "part": 1,
+        "subtitle": "A visual language for English."
+      }
+    },
+    {
+      "id": "demo-builder",
+      "purpose": "visual-explanation",
+      "component": "sentence-builder",
+      "start": 3,
+      "duration": 8,
+      "heading": "Build. Change. Ask.",
+      "body": "Same words. A different structure.",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "visual": {
+        "states": [
+          {
+            "label": "Positive",
+            "at": 0.4,
+            "groups": [
+              {
+                "text": "The robot",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "can",
+                "role": "auxiliary",
+                "emphasis": "both"
+              },
+              {
+                "text": "carry",
+                "role": "verb",
+                "emphasis": "none"
+              },
+              {
+                "text": "a parcel.",
+                "role": "object",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "Negative",
+            "at": 2.8,
+            "groups": [
+              {
+                "text": "The robot",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "can",
+                "role": "auxiliary",
+                "emphasis": "none"
+              },
+              {
+                "text": "not",
+                "role": "negation",
+                "emphasis": "both"
+              },
+              {
+                "text": "carry",
+                "role": "verb",
+                "emphasis": "none"
+              },
+              {
+                "text": "a parcel.",
+                "role": "object",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "Question",
+            "at": 5.4,
+            "groups": [
+              {
+                "text": "Can",
+                "role": "auxiliary",
+                "emphasis": "both"
+              },
+              {
+                "text": "the robot",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "carry",
+                "role": "verb",
+                "emphasis": "none"
+              },
+              {
+                "text": "a parcel?",
+                "role": "object",
+                "emphasis": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo-comparison",
+      "purpose": "visual-explanation",
+      "component": "comparison",
+      "start": 11,
+      "duration": 5,
+      "heading": "Make the difference clear.",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "visual": {
+        "layout": "stacked",
+        "items": [
+          {
+            "label": "Before edit",
+            "text": "a parcels",
+            "emphasis": "parcels",
+            "verdict": "incorrect"
+          },
+          {
+            "label": "After edit",
+            "text": "a parcel",
+            "emphasis": "parcel",
+            "verdict": "correct"
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo-timeline",
+      "purpose": "visual-explanation",
+      "component": "timeline",
+      "start": 16,
+      "duration": 5,
+      "heading": "Time, made visible.",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "visual": {
+        "labels": {
+          "past": "PAST",
+          "present": "NOW",
+          "future": "FUTURE"
+        },
+        "now": 0.5,
+        "events": [
+          {
+            "id": "packed",
+            "label": "Parcel packed",
+            "start": 0.12,
+            "end": 0.4,
+            "at": 0.5,
+            "status": "completed"
+          },
+          {
+            "id": "carrying",
+            "label": "Robot carrying",
+            "start": 0.35,
+            "end": 0.75,
+            "at": 1.5,
+            "status": "ongoing"
+          },
+          {
+            "id": "opening",
+            "label": "Door opens",
+            "start": 0.88,
+            "at": 2.6,
+            "status": "event"
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo-dialogue",
+      "purpose": "real-life-example",
+      "component": "dialogue",
+      "start": 21,
+      "duration": 5,
+      "heading": "Put language in context.",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "visual": {
+        "speakers": [
+          {
+            "id": "mina",
+            "name": "Mina",
+            "side": "left"
+          },
+          {
+            "id": "leo",
+            "name": "Leo",
+            "side": "right"
+          }
+        ],
+        "messages": [
+          {
+            "speakerId": "mina",
+            "text": "Could you hold the blue parcel?",
+            "at": 0.5,
+            "emphasis": "blue parcel"
+          },
+          {
+            "speakerId": "leo",
+            "text": "Of course. Place it beside the lamp.",
+            "at": 2.4,
+            "emphasis": "beside the lamp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo-quiz",
+      "purpose": "guided-practice",
+      "component": "quiz",
+      "start": 26,
+      "duration": 6,
+      "heading": "Pause. Choose. Check.",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "visual": {
+        "thinkingLabel": "Take a moment.",
+        "thinkingFrom": 0.5
+      },
+      "quizId": "demo-choice",
+      "answerAt": 3.5
+    },
+    {
+      "id": "demo-focus",
+      "purpose": "visual-explanation",
+      "component": "phrase-focus",
+      "start": 32,
+      "duration": 4,
+      "heading": "Guide the eye.",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "visual": {
+        "tokens": [
+          {
+            "text": "We",
+            "emphasis": "none",
+            "at": 0.4
+          },
+          {
+            "text": "work",
+            "emphasis": "both",
+            "at": 0.6,
+            "replacement": {
+              "text": "learn",
+              "at": 1.8
+            }
+          },
+          {
+            "text": "at our own pace.",
+            "emphasis": "underline",
+            "at": 1.1
+          }
+        ],
+        "note": "A word changes. The sentence holds."
+      }
+    },
+    {
+      "id": "demo-recap",
+      "purpose": "recap",
+      "component": "recap",
+      "start": 36,
+      "duration": 4,
+      "heading": "Keep it clear.",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "visual": {
+        "pattern": "Clear words. Clear meaning.",
+        "takeaways": ["Show one idea at a time.", "Let the important word stand out."],
+        "reminder": "Original content. Human voice.",
+        "nextPart": "Next: an original lesson, when approved."
+      }
+    }
+  ],
+  "assets": [],
+  "mediaAssetIds": [],
+  "narration": null,
+  "captions": [
+    {
+      "id": "demo-caption-0",
+      "start": 0.4,
+      "end": 2.6,
+      "text": "Visual component showcase. Not a lesson.",
+      "emphasis": ["showcase"]
+    },
+    {
+      "id": "demo-caption-1",
+      "start": 3.5,
+      "end": 5.8,
+      "text": "Reveal each word group in order.",
+      "emphasis": ["word group"]
+    },
+    {
+      "id": "demo-caption-2",
+      "start": 6,
+      "end": 10.5,
+      "text": "Keep attention on the structure.",
+      "emphasis": ["structure"]
+    },
+    {
+      "id": "demo-caption-3",
+      "start": 11.5,
+      "end": 15.5,
+      "text": "A label explains the visual cue.",
+      "emphasis": ["label"]
+    },
+    {
+      "id": "demo-caption-4",
+      "start": 16.5,
+      "end": 20.5,
+      "text": "Events and intervals share one time axis.",
+      "emphasis": ["one time axis"]
+    },
+    {
+      "id": "demo-caption-5",
+      "start": 21.5,
+      "end": 25.5,
+      "text": "Text appears at explicit scene times.",
+      "emphasis": ["explicit scene times"]
+    },
+    {
+      "id": "demo-caption-6",
+      "start": 26.5,
+      "end": 29.3,
+      "text": "A thinking pause comes before the answer.",
+      "emphasis": ["thinking pause"]
+    },
+    {
+      "id": "demo-caption-7",
+      "start": 29.8,
+      "end": 31.6,
+      "text": "Then show the answer and explain it.",
+      "emphasis": ["answer"]
+    },
+    {
+      "id": "demo-caption-8",
+      "start": 32.5,
+      "end": 35.5,
+      "text": "Change the word without shifting the line.",
+      "emphasis": ["the word"]
+    },
+    {
+      "id": "demo-caption-9",
+      "start": 36.5,
+      "end": 39.5,
+      "text": "One system. Many original lessons.",
+      "emphasis": ["original"]
+    }
+  ],
+  "status": "draft",
+  "reviewEvidence": null,
+  "publication": []
+}

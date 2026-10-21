@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "fixture-pipeline-smoke",
+  "kind": "fixture",
+  "curriculum": {
+    "reference": "Infrastructure fixture; no textbook unit",
+    "unit": null,
+    "part": 1
+  },
+  "title": "Production pipeline smoke fixture",
+  "learningObjective": "Verify shared layout, highlighting, quiz reveal and caption timing.",
+  "learnerLevel": "fixture",
+  "hook": "A clear production system.",
+  "script": "Infrastructure fixture only. This is a layout check. The highlighted word demonstrates timing. Choose the marked option. The pipeline is ready for review.",
+  "rules": [
+    {
+      "id": "fixture-rule",
+      "explanation": "Original fixture text tests the explanation card."
+    }
+  ],
+  "examples": [
+    {
+      "id": "fixture-example",
+      "tokens": [
+        {
+          "text": "Clear",
+          "highlight": true
+        },
+        {
+          "text": "by",
+          "highlight": false
+        },
+        {
+          "text": "design.",
+          "highlight": false
+        }
+      ],
+      "explanation": "A rendering sample, not a grammar lesson."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "fixture-quiz",
+      "question": "Which option is marked?",
+      "choices": ["Option A", "Option B"],
+      "answerIndex": 1,
+      "explanation": "Option B is the marked fixture answer."
+    }
+  ],
+  "profile": "vertical",
+  "safeArea": "social-conservative",
+  "durationSeconds": 6,
+  "durationReason": "Six-second infrastructure smoke test; never publish.",
+  "scenes": [
+    {
+      "id": "fixture-card",
+      "purpose": "hook",
+      "component": "card",
+      "start": 0,
+      "duration": 2,
+      "heading": "Production fixture",
+      "body": "Shared design. Original content. Human voice.",
+      "ruleIds": [],
+      "highlightAt": 0.3
+    },
+    {
+      "id": "fixture-sentence",
+      "purpose": "visual-explanation",
+      "component": "sentence",
+      "start": 2,
+      "duration": 2,
+      "heading": "Readable by design",
+      "body": "A shared sentence layout.",
+      "ruleIds": [],
+      "exampleId": "fixture-example",
+      "highlightAt": 0.4
+    },
+    {
+      "id": "fixture-practice",
+      "purpose": "guided-practice",
+      "component": "quiz",
+      "start": 4,
+      "duration": 2,
+      "heading": "Reveal check",
+      "body": "A timed answer, for testing only.",
+      "ruleIds": [],
+      "quizId": "fixture-quiz",
+      "highlightAt": 0.3,
+      "answerAt": 0.8
+    }
+  ],
+  "assets": [],
+  "mediaAssetIds": [],
+  "narration": null,
+  "captions": [
+    {
+      "id": "fixture-caption",
+      "start": 0,
+      "end": 2,
+      "text": "Infrastructure fixture \u2014 not a lesson."
+    }
+  ],
+  "status": "draft",
+  "reviewEvidence": null,
+  "publication": []
+}

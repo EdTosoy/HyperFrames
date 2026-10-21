@@ -1,0 +1,721 @@
+{
+  "schemaVersion": 1,
+  "id": "u001-p01-am-is-are",
+  "kind": "lesson",
+  "curriculum": {
+    "reference": "Raymond Murphy — Essential Grammar in Use; Unit 1 topic reference only. Original script and visuals; no textbook pages or exercises reproduced.",
+    "unit": 1,
+    "part": 1
+  },
+  "title": "am, is, are — Positive statements and contractions",
+  "learningObjective": "Choose am, is or are for a subject in a positive present statement, recognize common contractions, and complete one plural-subject example.",
+  "learnerLevel": "A1",
+  "hook": "I am excited. She is excited. They are excited. Why different verbs?",
+  "script": "Listen to these three sentences.\nI am excited.\nShe is excited.\nThey are excited.\nWhy do we use three different words?\n\nAm, is, and are are forms of the verb be in the present.\nThe word we choose depends on the subject.\nWith I, we use am.\nWith he, she, and it, we use is.\nAnd with you, we, and they, we use are.\n\nIn everyday English, we often shorten these expressions.\nI am becomes I'm.\nShe is becomes she's.\nAnd they are becomes they're.\n\nNow, your turn!\nMy classmates ___ outside.\nIs it am, is, or are?\n[Pause for three seconds. Do not read the blank aloud.]\nThe answer is are!\nMy classmates are outside.\nBecause my classmates means they.\n\nRemember:\nI am.\nHe, she, it — is.\nYou, we, they — are.\nSee you in Part 2!",
+  "rules": [
+    {
+      "id": "present-be",
+      "explanation": "Am, is and are are present forms of be. In this lesson they describe a feeling or location."
+    },
+    {
+      "id": "subject-agreement",
+      "explanation": "Use am with I; is with he, she or it; are with you, we or they. A plural subject such as my classmates uses are."
+    },
+    {
+      "id": "contractions",
+      "explanation": "Common positive contractions include I am → I'm, she is → she's and they are → they're. The apostrophe marks omitted letters; the meaning stays the same here."
+    }
+  ],
+  "examples": [
+    {
+      "id": "excited-i",
+      "tokens": [
+        {
+          "text": "I",
+          "highlight": false
+        },
+        {
+          "text": "am",
+          "highlight": true
+        },
+        {
+          "text": "excited.",
+          "highlight": false
+        }
+      ],
+      "explanation": "I takes am."
+    },
+    {
+      "id": "excited-she",
+      "tokens": [
+        {
+          "text": "She",
+          "highlight": false
+        },
+        {
+          "text": "is",
+          "highlight": true
+        },
+        {
+          "text": "excited.",
+          "highlight": false
+        }
+      ],
+      "explanation": "She takes is."
+    },
+    {
+      "id": "excited-they",
+      "tokens": [
+        {
+          "text": "They",
+          "highlight": false
+        },
+        {
+          "text": "are",
+          "highlight": true
+        },
+        {
+          "text": "excited.",
+          "highlight": false
+        }
+      ],
+      "explanation": "They takes are."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "classmates-outside",
+      "kind": "multiple-choice",
+      "question": "My classmates ___ outside.",
+      "choices": ["am", "is", "are"],
+      "answerIndex": 2,
+      "explanation": "My classmates are outside. My classmates = they."
+    }
+  ],
+  "profile": "vertical",
+  "safeArea": "social-conservative",
+  "durationSeconds": 74,
+  "durationReason": "Estimated owner narration with a three-second thinking pause; real audio will determine final timing.",
+  "scenes": [
+    {
+      "id": "u1-listen",
+      "purpose": "hook",
+      "component": "title",
+      "start": 0,
+      "duration": 2.5,
+      "heading": "am · is · are",
+      "label": "Listen",
+      "body": "Positive statements",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "visual": {
+        "subtitle": "One feeling. Three subjects."
+      }
+    },
+    {
+      "id": "u1-examples",
+      "purpose": "real-life-example",
+      "component": "sentence-builder",
+      "start": 2.5,
+      "duration": 8,
+      "heading": "Same feeling. Different subject.",
+      "label": "Listen and notice",
+      "body": "",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "states": [
+          {
+            "label": "ONE PERSON / I",
+            "at": 0.4,
+            "groups": [
+              {
+                "text": "I",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "am",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "excited.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "ONE PERSON / SHE",
+            "at": 2.8,
+            "groups": [
+              {
+                "text": "She",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "excited.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "MORE THAN ONE / THEY",
+            "at": 5.2,
+            "groups": [
+              {
+                "text": "They",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "are",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "excited.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u1-notice",
+      "purpose": "visual-explanation",
+      "component": "comparison",
+      "start": 10.5,
+      "duration": 3.5,
+      "heading": "Why different verbs?",
+      "label": "Notice the change",
+      "body": "",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "layout": "columns",
+        "items": [
+          {
+            "label": "Subject: I",
+            "text": "I am excited.",
+            "emphasis": "am",
+            "verdict": "different"
+          },
+          {
+            "label": "Subject: she",
+            "text": "She is excited.",
+            "emphasis": "is",
+            "verdict": "different"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u1-be",
+      "purpose": "visual-explanation",
+      "component": "phrase-focus",
+      "start": 14,
+      "duration": 8,
+      "heading": "One verb: be",
+      "label": "Present forms",
+      "body": "Present forms of be",
+      "ruleIds": ["present-be"],
+      "highlightAt": 0.4,
+      "visual": {
+        "tokens": [
+          {
+            "text": "am",
+            "at": 0.5,
+            "emphasis": "both"
+          },
+          {
+            "text": "is",
+            "at": 2,
+            "emphasis": "both"
+          },
+          {
+            "text": "are",
+            "at": 3.5,
+            "emphasis": "both"
+          }
+        ],
+        "note": "The subject tells us which form to use."
+      }
+    },
+    {
+      "id": "u1-match",
+      "purpose": "grammar-breakdown",
+      "component": "sentence-builder",
+      "start": 22,
+      "duration": 10,
+      "heading": "Match the subject.",
+      "label": "Choose the form",
+      "body": "",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "states": [
+          {
+            "label": "WITH I",
+            "at": 0.4,
+            "groups": [
+              {
+                "text": "I",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "am",
+                "role": "verb",
+                "emphasis": "both"
+              }
+            ]
+          },
+          {
+            "label": "WITH HE, SHE OR IT",
+            "at": 3.3,
+            "groups": [
+              {
+                "text": "he / she / it",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "verb",
+                "emphasis": "both"
+              }
+            ]
+          },
+          {
+            "label": "WITH YOU, WE OR THEY",
+            "at": 6.8,
+            "groups": [
+              {
+                "text": "you / we / they",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "are",
+                "role": "verb",
+                "emphasis": "both"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u1-contract-i",
+      "purpose": "grammar-breakdown",
+      "component": "phrase-focus",
+      "start": 32,
+      "duration": 7,
+      "heading": "Make it shorter.",
+      "label": "Everyday English",
+      "body": "",
+      "ruleIds": ["contractions"],
+      "highlightAt": 0.4,
+      "visual": {
+        "tokens": [
+          {
+            "text": "I am",
+            "at": 3.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "I'm",
+              "at": 5
+            }
+          }
+        ],
+        "note": "The apostrophe marks missing letters."
+      }
+    },
+    {
+      "id": "u1-contract-she",
+      "purpose": "grammar-breakdown",
+      "component": "phrase-focus",
+      "start": 39,
+      "duration": 4,
+      "heading": "Same meaning. Shorter form.",
+      "label": "Contractions",
+      "body": "",
+      "ruleIds": ["contractions"],
+      "highlightAt": 0.4,
+      "visual": {
+        "tokens": [
+          {
+            "text": "She is",
+            "at": 0.4,
+            "emphasis": "both",
+            "replacement": {
+              "text": "She's",
+              "at": 1.6
+            }
+          }
+        ],
+        "note": "Two words become one."
+      }
+    },
+    {
+      "id": "u1-contract-they",
+      "purpose": "grammar-breakdown",
+      "component": "phrase-focus",
+      "start": 43,
+      "duration": 4,
+      "heading": "Same meaning. Shorter form.",
+      "label": "Contractions",
+      "body": "",
+      "ruleIds": ["contractions"],
+      "highlightAt": 0.4,
+      "visual": {
+        "tokens": [
+          {
+            "text": "They are",
+            "at": 0.4,
+            "emphasis": "both",
+            "replacement": {
+              "text": "They're",
+              "at": 1.6
+            }
+          }
+        ],
+        "note": "Keep the apostrophe."
+      }
+    },
+    {
+      "id": "u1-practice",
+      "purpose": "guided-practice",
+      "component": "quiz",
+      "start": 47,
+      "duration": 13,
+      "heading": "Your turn!",
+      "label": "Choose am, is or are",
+      "body": "",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "thinkingLabel": "Think for 3 seconds.",
+        "thinkingFrom": 4.8
+      },
+      "quizId": "classmates-outside",
+      "answerAt": 7.8
+    },
+    {
+      "id": "u1-why",
+      "purpose": "guided-practice",
+      "component": "sentence-builder",
+      "start": 60,
+      "duration": 4,
+      "heading": "Classmates → they.",
+      "label": "Why are?",
+      "body": "More than one classmate → they.",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "states": [
+          {
+            "label": "MY CLASSMATES = THEY",
+            "at": 0.4,
+            "groups": [
+              {
+                "text": "My classmates",
+                "role": "subject",
+                "emphasis": "both"
+              },
+              {
+                "text": "are",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "outside.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "SAME VERB: ARE",
+            "at": 1.6,
+            "groups": [
+              {
+                "text": "They",
+                "role": "subject",
+                "emphasis": "both"
+              },
+              {
+                "text": "are",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "outside.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "typography": "compact"
+    },
+    {
+      "id": "u1-remember",
+      "purpose": "recap",
+      "component": "sentence-builder",
+      "start": 64,
+      "duration": 7.5,
+      "heading": "Remember the match.",
+      "label": "Your three patterns",
+      "body": "",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "states": [
+          {
+            "label": "I",
+            "at": 0.4,
+            "groups": [
+              {
+                "text": "I",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "am",
+                "role": "verb",
+                "emphasis": "both"
+              }
+            ]
+          },
+          {
+            "label": "HE / SHE / IT",
+            "at": 2.6,
+            "groups": [
+              {
+                "text": "he / she / it",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "verb",
+                "emphasis": "both"
+              }
+            ]
+          },
+          {
+            "label": "YOU / WE / THEY",
+            "at": 4.8,
+            "groups": [
+              {
+                "text": "you / we / they",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "are",
+                "role": "verb",
+                "emphasis": "both"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u1-ending",
+      "purpose": "recap",
+      "component": "recap",
+      "start": 71.5,
+      "duration": 2.5,
+      "heading": "You know the pattern.",
+      "label": "Unit 1 · Part 1/3",
+      "body": "",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "pattern": "am · is · are",
+        "takeaways": ["Choose the verb for the subject."],
+        "reminder": "Unit 1 · Part 1/3",
+        "nextPart": "See you in Part 2!"
+      }
+    }
+  ],
+  "assets": [],
+  "mediaAssetIds": [],
+  "narration": null,
+  "captions": [
+    {
+      "id": "u1-cap-01",
+      "start": 0.2,
+      "end": 2.5,
+      "text": "Listen to these three sentences."
+    },
+    {
+      "id": "u1-cap-02",
+      "start": 2.9,
+      "end": 5,
+      "text": "I am excited."
+    },
+    {
+      "id": "u1-cap-03",
+      "start": 5.5,
+      "end": 7.7,
+      "text": "She is excited."
+    },
+    {
+      "id": "u1-cap-04",
+      "start": 8,
+      "end": 10.4,
+      "text": "They are excited."
+    },
+    {
+      "id": "u1-cap-05",
+      "start": 10.7,
+      "end": 13.9,
+      "text": "Why do we use three different words?"
+    },
+    {
+      "id": "u1-cap-06",
+      "start": 14.2,
+      "end": 17.7,
+      "text": "Am, is, and are are forms of the verb be"
+    },
+    {
+      "id": "u1-cap-07",
+      "start": 17.7,
+      "end": 19.2,
+      "text": "in the present."
+    },
+    {
+      "id": "u1-cap-08",
+      "start": 19.2,
+      "end": 22,
+      "text": "The word we choose depends on the subject."
+    },
+    {
+      "id": "u1-cap-09",
+      "start": 22.4,
+      "end": 25.2,
+      "text": "With I, we use am."
+    },
+    {
+      "id": "u1-cap-10",
+      "start": 25.6,
+      "end": 28.6,
+      "text": "With he, she, and it, we use is."
+    },
+    {
+      "id": "u1-cap-11",
+      "start": 29,
+      "end": 31.9,
+      "text": "And with you, we, and they, we use are."
+    },
+    {
+      "id": "u1-cap-12",
+      "start": 32.2,
+      "end": 35.7,
+      "text": "In everyday English, we often shorten these expressions."
+    },
+    {
+      "id": "u1-cap-13",
+      "start": 35.8,
+      "end": 38.8,
+      "text": "I am becomes I'm."
+    },
+    {
+      "id": "u1-cap-14",
+      "start": 39.3,
+      "end": 42.8,
+      "text": "She is becomes she's."
+    },
+    {
+      "id": "u1-cap-15",
+      "start": 43.3,
+      "end": 46.8,
+      "text": "And they are becomes they're."
+    },
+    {
+      "id": "u1-cap-16",
+      "start": 47.2,
+      "end": 48.7,
+      "text": "Now, your turn!"
+    },
+    {
+      "id": "u1-cap-17",
+      "start": 48.8,
+      "end": 50.5,
+      "text": "My classmates ___ outside."
+    },
+    {
+      "id": "u1-cap-18",
+      "start": 50.5,
+      "end": 51.8,
+      "text": "Is it am, is, or are?"
+    },
+    {
+      "id": "u1-cap-19",
+      "start": 55,
+      "end": 56.5,
+      "text": "The answer is are!"
+    },
+    {
+      "id": "u1-cap-20",
+      "start": 56.5,
+      "end": 59.3,
+      "text": "My classmates are outside."
+    },
+    {
+      "id": "u1-cap-21",
+      "start": 59.4,
+      "end": 63.8,
+      "text": "Because my classmates means they."
+    },
+    {
+      "id": "u1-cap-22",
+      "start": 64.1,
+      "end": 65.2,
+      "text": "Remember:"
+    },
+    {
+      "id": "u1-cap-23",
+      "start": 65.2,
+      "end": 66.2,
+      "text": "I am."
+    },
+    {
+      "id": "u1-cap-24",
+      "start": 66.8,
+      "end": 68.5,
+      "text": "He, she, it — is."
+    },
+    {
+      "id": "u1-cap-25",
+      "start": 69,
+      "end": 71.4,
+      "text": "You, we, they — are."
+    },
+    {
+      "id": "u1-cap-26",
+      "start": 71.6,
+      "end": 73.9,
+      "text": "See you in Part 2!"
+    }
+  ],
+  "status": "draft",
+  "reviewEvidence": null,
+  "publication": []
+}

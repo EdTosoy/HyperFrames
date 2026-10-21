@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "font-manrope",
+      "type": "font",
+      "path": "assets/fonts/Manrope.ttf",
+      "creator": "The Manrope Project Authors (as credited in the bundled OFL notice)",
+      "source": "https://github.com/googlefonts/manrope",
+      "license": {
+        "name": "SIL Open Font License 1.1",
+        "source": "assets/fonts/OFL-Manrope.txt",
+        "redistributionAllowed": true
+      },
+      "attribution": "Retain assets/fonts/OFL-Manrope.txt when distributing the font.",
+      "intendedUsage": "Shared series typography",
+      "distribution": "tracked"
+    },
+    {
+      "id": "runtime-gsap",
+      "type": "runtime",
+      "path": "assets/vendor/gsap.min.js",
+      "creator": "GreenSock / Jack Doyle",
+      "source": "https://gsap.com",
+      "license": {
+        "name": "GSAP Standard License",
+        "source": "https://gsap.com/standard-license",
+        "redistributionAllowed": true
+      },
+      "attribution": "Preserve the copyright and license header in the vendor file.",
+      "intendedUsage": "Seekable HyperFrames animation runtime; do not offer as a competing animation tool.",
+      "distribution": "tracked"
+    }
+  ]
+}

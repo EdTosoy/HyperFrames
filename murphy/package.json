@@ -2,10 +2,36 @@
   "name": "grammar-video-factory",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "packageManager": "npm@11.19.0",
   "scripts": {
-    "dev": "npx --yes hyperframes@0.8.181 preview",
-    "check": "npx --yes hyperframes@0.8.181 check",
-    "render": "npx --yes hyperframes@0.8.181 render",
-    "publish": "npx --yes hyperframes@0.8.181 publish"
+    "dev": "hyperframes preview",
+    "preview": "node scripts/factory.mjs preview",
+    "preview:status": "node scripts/factory.mjs status",
+    "preview:stop": "node scripts/factory.mjs stop",
+    "episode:new": "node scripts/factory.mjs new",
+    "episode:build": "node scripts/factory.mjs build",
+    "validate:episodes": "node scripts/factory.mjs validate",
+    "validate": "npm run format:check && npm run lint && npm run validate:episodes && npm test",
+    "validate:ci": "npm run format:check && npm run lint && node scripts/factory.mjs validate --portable && npm test",
+    "lint": "node scripts/factory.mjs lint",
+    "format:check": "prettier --check .",
+    "format": "prettier --write .",
+    "test": "node --test --test-isolation=none tests/*.test.mjs",
+    "check": "node scripts/factory.mjs check",
+    "check:static": "node scripts/factory.mjs static",
+    "check:visual": "node scripts/visual-audit.mjs",
+    "ready": "node scripts/factory.mjs ready",
+    "render": "hyperframes render",
+    "publish": "hyperframes publish",
+    "render:draft": "node scripts/factory.mjs draft",
+    "render:production": "node scripts/factory.mjs production"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0",
+    "hyperframes": "0.8.184",
+    "prettier": "3.6.2"
   }
 }

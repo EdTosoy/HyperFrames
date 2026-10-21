@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$",
+      "maxLength": 80
+    },
+    "type": {
+      "enum": ["font", "runtime", "image", "audio", "document"]
+    },
+    "path": {
+      "type": "string",
+      "pattern": "^(?:assets|recordings|episodes)/[A-Za-z0-9_./-]+$"
+    },
+    "creator": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000
+    },
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4000
+        },
+        "redistributionAllowed": {
+          "type": "boolean"
+        }
+      },
+      "required": ["name", "source", "redistributionAllowed"]
+    },
+    "attribution": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000
+    },
+    "intendedUsage": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000
+    },
+    "distribution": {
+      "enum": ["tracked", "local-required"]
+    }
+  },
+  "required": [
+    "id",
+    "type",
+    "path",
+    "creator",
+    "source",
+    "license",
+    "attribution",
+    "intendedUsage",
+    "distribution"
+  ]
+}
