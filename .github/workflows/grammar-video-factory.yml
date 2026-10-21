@@ -1,0 +1,35 @@
+name: Grammar Video Factory
+on:
+  pull_request:
+    paths:
+      - "murphy/**"
+      - ".github/workflows/grammar-video-factory.yml"
+  push:
+    paths:
+      - "murphy/**"
+      - ".github/workflows/grammar-video-factory.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: grammar-factory-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: murphy
+    env:
+      HYPERFRAMES_NO_TELEMETRY: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: "murphy/.nvmrc"
+          cache: npm
+          cache-dependency-path: murphy/package-lock.json
+      - run: npm ci
+      - run: npm run validate:ci
+      - run: npm run check:static

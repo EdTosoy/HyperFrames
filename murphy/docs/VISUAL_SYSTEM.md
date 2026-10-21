@@ -186,6 +186,12 @@ reserved regions, checks text boxes, verifies sentence states/dialogue/quiz/word
 replacement, and compares painted geometry after backward seeking. This tool is
 version-sensitive to the locked preview runtime and is not required in normal CI.
 
+On long cuts, HyperFrames 0.8.184 caps its motion sweep at 300 observations.
+`build.mjs` aligns generated long-cut motion deadlines to that observable grid;
+it does not retime animation. `check:visual` additionally samples the original
+entrance and quiz-answer deadlines exactly, preserving the authored timing check.
+Run it for long-cut release review. Recheck this compatibility code on a CLI upgrade.
+
 Render with `render:draft`, inspect decoded frames at every component, transition,
 longest text, before/after an answer and the final frame. Review 360×640 copies of
 those frames for mobile reading; inspect full-size detail too. Automated bounds

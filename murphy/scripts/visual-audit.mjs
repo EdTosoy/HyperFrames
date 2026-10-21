@@ -89,6 +89,14 @@ try {
     episode.durationSeconds - 1 / config.profiles.vertical.fps,
   ]);
   for (const scene of episode.scenes) {
+    const entranceDeadline =
+      scene.start + config.motion.enterSeconds + 1 / config.profiles[episode.profile].fps;
+    times.add(entranceDeadline);
+    assert.equal(
+      await visible(`#${scene.id}-content`, entranceDeadline),
+      true,
+      `${scene.id}: entrance missed its authored deadline`,
+    );
     times.add(scene.start + 0.4);
     times.add(scene.start + scene.duration - 0.4);
     const v = scene.visual;
@@ -118,6 +126,18 @@ try {
             );
       }
     if (scene.component === "quiz") {
+      const answerDeadline =
+        scene.start +
+        scene.answerAt +
+        config.motion.replaceSeconds +
+        config.motion.enterSeconds +
+        1 / config.profiles[episode.profile].fps;
+      times.add(answerDeadline);
+      assert.equal(
+        await visible(`#${scene.id}-answer`, answerDeadline),
+        true,
+        "Quiz answer missed its authored reveal deadline",
+      );
       const before = scene.start + scene.answerAt - 0.1,
         after =
           scene.start +

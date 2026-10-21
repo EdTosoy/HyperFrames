@@ -1,69 +1,84 @@
-# Local silent-draft review — 2026-10-22
+# Expanded-script silent draft — 2026-10-22
 
-Episode: `u001-p01-am-is-are`. Status remains **draft**. These are implementation
-observations, not human approval or production review evidence.
+Episode: `u001-p01-am-is-are`. This revision uses the six-chapter script supplied
+in the conversation, including the meaning of be, present meanings and the subject
+definition. The earlier 74-second draft and its source/review evidence are preserved
+in `renders/u001-p01-am-is-are/versions/v01-74s/`.
+
+Status remains **draft**. These are implementation observations, not human approval
+or production review evidence. The longer script takes priority over the original
+60–75-second target. Delivery and caption timing remain estimates until recording.
 
 ## Output
 
 - File: `renders/u001-p01-am-is-are/draft.mp4` (ignored).
 - MP4, H.264, yuv420p, 1080×1920, 9:16, 30/1 FPS.
-- Duration: **74.000000 seconds**, **2,220 frames**, **3,043,790 bytes**.
-- Audio streams: **0**, intentionally. No speech, music or sound effects.
-- Input fingerprint: `4d4a84d891e6b893917d289b4a494d20de255e74b0be7fa62cd78d3a6e19c4a0`.
+- Duration: **150.000000 seconds**, **4,500 frames**, **6013648 bytes**.
+- Audio streams: **0**, intentionally. No generated voice, music or sound effects.
+- Input fingerprint: `206e33f2ab8e69764d40395e7abbc68d16fbfc94abb8339085de5ec9c5ddc870`.
 - Automatic ffprobe evidence: `draft.verification.json` beside the MP4.
-- Render: 98.5 seconds; CLI summary reports screenshot capture with hardware GPU.
-  Internal traces mention BeginFrame, but no faster capture path is inferred.
+- Render log: `expanded-render.log`. Renderer summary: 161.6 seconds, screenshot
+  capture, hardware GPU. Internal BeginFrame traces do not establish a faster path.
 
-## Executed verification
+## Executed checks
 
-| Status  | Check                                    | Observation                                                                                      |
-| ------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| PASS    | `npm run validate`                       | Formatting, Node syntax, episode contracts and 31 test groups                                    |
-| PASS    | `npm run check`                          | Preserved composition and both fixtures: zero lint/runtime/layout/motion findings                |
-| PASS    | Initial lesson browser check             | 24 authored timestamps spanning all scenes; zero findings; 49/49 contrast checks                 |
-| PASS    | Final draft command's HyperFrames check  | Nine samples, zero lint/runtime/layout/motion findings; 51/51 contrast checks                    |
-| PASS    | `check:visual` against final lesson data | 71 painted-bounds samples, semantic reveals and repeatable backward seeks                        |
-| PASS    | Release negative check                   | `ready` exits 1 for missing human narration, approvals and current human review evidence         |
-| PASS    | Encoded output contract                  | Expected dimensions, frame rate, H.264, pixel format and timeline duration                       |
-| PASS    | Source/render signature                  | Export verification and browser audit match the final episode/config/schema/renderer fingerprint |
-| PASS    | Studio handoff                           | Background preview status verified and local HTTP 200 on port 3004                               |
-| PASS    | Encoded visual review                    | 31 extracted frames, including scene seams, contractions, quiz before/after and final frame      |
-| PASS    | Mobile review                            | 360×640 decoded comparison, contraction, quiz, subject substitution and ending frames inspected  |
-| NOT RUN | Human-audio QA                           | Narration has not been recorded; synchronization, delivery speed, AAC and loudness are untested  |
-| NOT RUN | Physical-device/platform review          | Editorial safe zones are not a guarantee about current platform overlays                         |
-| NOT RUN | Remote CI/publication                    | No commit, push, deployment or upload                                                            |
+| Status  | Check                                  | Result                                                                                                                      |
+| ------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| PASS    | `npm run validate`                     | Formatting, syntax, schema/reference/timeline contracts and 33 test groups                                                  |
+| PASS    | Full preserved/fixture regression      | Zero lint/runtime/layout/motion findings; contrast 52/52, 52/52 and 35/35                                                   |
+| PASS    | Revised lesson HyperFrames check       | Nine layout samples, zero lint/runtime/layout/motion findings; contrast 54/54                                               |
+| PASS    | Draft render gate and ffprobe          | All checks passed; encoded vertical format and duration match source                                                        |
+| PASS    | `check:visual`                         | 155 painted-bounds samples, semantic reveals, exact authored deadlines and repeatable backward seeks                        |
+| PASS    | Script consistency                     | All spoken words covered in order by provisional captions and recording copy; stage directions excluded                     |
+| PASS    | Quiz timing                            | Exactly 117.5–120.5 seconds of thinking; answer hidden and no narration captions during that interval                       |
+| PASS    | Release negative check                 | Missing narration, approvals and human review evidence still reject final release                                           |
+| PASS    | Encoded visual review                  | 49 decoded full-size frames/contact sheets, including sequential comparison, replacements, quiz before/after and last frame |
+| PASS    | Phone-scale review                     | 360×640 present-meaning, contraction, quiz, subject-substitution and ending frames inspected                                |
+| PASS    | Source signatures                      | Browser evidence and rendered MP4 verification match final source fingerprint                                               |
+| PASS    | Studio preview                         | Persistent server on port 3004; status verified and HTTP 200                                                                |
+| PASS    | Preservation                           | Shared design/renderers/schemas, fixtures, assets and dependency lock unchanged                                             |
+| NOT RUN | Audible human narration / AAC QA       | No owner recording supplied; actual synchronization, delivery and loudness remain unverified                                |
+| NOT RUN | Physical phone/platform overlay review | Desktop phone-size inspection does not verify changing platform UI                                                          |
+| NOT RUN | Remote CI or external upload           | No push, publication or updated Drive upload in this revision                                                               |
 
-## Visual findings
+## Long-cut verification repair
 
-The lesson uses progressive subject/verb patterns, highlighted present forms,
-three full-form/contraction replacements, a three-second quiz thinking interval,
-and a short branded ending. Each scene has a learner-facing label; no component
-implementation names appear in the lesson. The original component-name fallback
-is preserved for existing fixtures.
+The first full check failed 11 appearsBy assertions despite correct visible frames.
+Installed HyperFrames 0.8.184 source confirmed its motion sweep is capped at 300
+points; 150 seconds therefore gives observations about 0.502 seconds apart, missing
+some original 0.333-second entrance deadlines. This was an observation-grid mismatch,
+not permission to ignore motion failures.
 
-An initial phrase replacement left too much space between They and are. That scene
-was changed to the existing sentence builder with its compact typography preset,
-then inspected again before rendering. It now changes the subject while keeping
-the verb are explicit. The longer first subject uses a second line for outside;
-content stays within the reserved region and captions remain separate.
+`sampledMotionDeadline` aligns generated long-cut sidecar deadlines to the next
+observable sample. Short-cut deadlines remain unchanged. The browser audit now
+also tests every entrance and quiz answer at its original, unsnapped deadline.
+The repaired full check and all 155 exact/semantic/bounds samples pass. Animation
+and scene times were not retimed by the repair, and release gates were not changed.
+Revisit this compatibility code when upgrading the locked CLI.
 
-Reviewed encoded frames show readable mobile type, consistent brand/title anchors,
-clear apostrophes, purposeful fades/underlines, no observed clipping or content/
-caption collisions, and a final branded hold through the last frame. Brief low-
-opacity scene seams are intentional fades, not missing scene mounts. The quiz
-answer is hidden throughout **51.8–54.8 seconds**; captions are absent during that
-thinking interval. The answer is readable after the transition settles.
+Failure evidence: `expanded-check-before-fix.log` beside the output. Regression tests
+cover short-cut compatibility and the 150-second sampling grid. No dependency or
+installed package source was patched.
 
-Full-size PNGs/contact sheet and their timestamp map are in
-`renders/u001-p01-am-is-are/decoded-frames/`; phone copies are in `mobile-frames/`.
-The browser report is `visual-audit.json`; the render log is `render.log`.
-All generated evidence remains local and ignored.
+## Visual observations and limits
 
-## Remaining review
+The added explanations use brief successive visual scenes rather than paragraphs.
+Examples distinguish a current feeling from a generally true identity, identify
+She as a subject, then match subject groups to be forms and positive statements.
+Contractions keep their meaning; the plural practice changes My classmates to They
+while retaining are. The recap and Unit 1 · Part 1/3 branding hold to the last frame.
 
-The script and all caption cues are provisional. Record the owner at a comfortable
-pace, then adjust timings to the selected recording. The grammar patterns were
-cross-checked against the linked British Council reference in README; a person
-still needs to approve teaching accuracy and delivery. This draft is not eligible
-for final export or publication. Use the canonical production workflow for script,
-recording, transcript/caption approval, current review evidence and final-output QA.
+Reviewed frames show readable mobile type, separate caption/content regions, clear
+apostrophes, consistent anchors, and no observed clipping or content collisions.
+Long subject groups wrap deliberately within the safe region. Scene and replacement
+fades include brief low-opacity transition frames; no missing scene mounts were
+observed. This is visual evidence, not proof of natural spoken pacing.
+
+Evidence: `decoded-expanded-v02/` (full-resolution PNGs, timestamp map and contact
+sheets), `mobile-expanded-v02/` (360×640 copies), `visual-audit.json`, and
+`expanded-render.log`. All are ignored local artifacts.
+
+Record the owner's narration at a comfortable pace, then realign scene boundaries,
+cues and the total to that audio. Preserve the three-second thinking interval.
+Approve script, actual transcript and captions through the canonical workflow;
+no approval, publication metadata or production-ready status was fabricated.

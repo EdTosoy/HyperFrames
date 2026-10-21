@@ -11,11 +11,11 @@
   "learningObjective": "Choose am, is or are for a subject in a positive present statement, recognize common contractions, and complete one plural-subject example.",
   "learnerLevel": "A1",
   "hook": "I am excited. She is excited. They are excited. Why different verbs?",
-  "script": "Listen to these three sentences.\nI am excited.\nShe is excited.\nThey are excited.\nWhy do we use three different words?\n\nAm, is, and are are forms of the verb be in the present.\nThe word we choose depends on the subject.\nWith I, we use am.\nWith he, she, and it, we use is.\nAnd with you, we, and they, we use are.\n\nIn everyday English, we often shorten these expressions.\nI am becomes I'm.\nShe is becomes she's.\nAnd they are becomes they're.\n\nNow, your turn!\nMy classmates ___ outside.\nIs it am, is, or are?\n[Pause for three seconds. Do not read the blank aloud.]\nThe answer is are!\nMy classmates are outside.\nBecause my classmates means they.\n\nRemember:\nI am.\nHe, she, it — is.\nYou, we, they — are.\nSee you in Part 2!",
+  "script": "Listen to these three sentences.\nI am excited.\nShe is excited.\nThey are excited.\nAll three sentences describe the same feeling. So why do we use am, is, and are?\n\nFirst, let's understand what these words mean.\nAm, is, and are are three forms of the same verb: be.\nWe use this verb to describe someone or something.\nFor example, how someone feels, who they are, or where they are.\nIn this lesson, we're using the present tense.\nThat means we're talking about something that's true now, or something that's generally true.\nFor example:\n\"She is happy.\" That's how she feels now.\n\"She is a teacher.\" That's something generally true about her.\n\nNow, here's the important part.\nThe word we use depends on the subject.\nWhat's a subject?\nIt's the person or thing we're talking about.\nWhen the subject is I, we use am.\n\"I am happy.\"\nWhen the subject is he, she, or it, we use is.\n\"She is happy.\"\nAnd when the subject is you, we, or they, we use are.\n\"They are happy.\"\nSo remember, the subject tells us which form to use.\n\nIn everyday English, we often make these expressions shorter.\nThese are called contractions.\n\"I am\" becomes \"I'm.\"\n\"She is\" becomes \"She's.\"\nAnd \"They are\" becomes \"They're.\"\nThe meaning stays the same. We're simply using shorter forms.\n\nNow, let's try one.\n\"My classmates ___ outside.\"\nShould we use am, is, or are?\n[Pause for three seconds. Do not read the blank aloud.]\nThe answer is are!\n\"My classmates are outside.\"\nWhy?\nBecause \"my classmates\" refers to more than one person.\nWe can replace it with they.\nAnd we already know that \"they\" goes with \"are\".\n\nLet's review.\nI — am.\nHe, she, it — is.\nYou, we, they — are.\nAnd that's how we choose between am, is, and are.\nSee you in Part 2!",
   "rules": [
     {
       "id": "present-be",
-      "explanation": "Am, is and are are present forms of be. In this lesson they describe a feeling or location."
+      "explanation": "Am, is and are are present forms of be. Positive statements can describe a feeling, identity or location, true now or generally true."
     },
     {
       "id": "subject-agreement",
@@ -80,6 +80,78 @@
         }
       ],
       "explanation": "They takes are."
+    },
+    {
+      "id": "happy-i",
+      "tokens": [
+        {
+          "text": "I",
+          "highlight": false
+        },
+        {
+          "text": "am",
+          "highlight": true
+        },
+        {
+          "text": "happy.",
+          "highlight": false
+        }
+      ],
+      "explanation": "The subject I takes am."
+    },
+    {
+      "id": "happy-she",
+      "tokens": [
+        {
+          "text": "She",
+          "highlight": false
+        },
+        {
+          "text": "is",
+          "highlight": true
+        },
+        {
+          "text": "happy.",
+          "highlight": false
+        }
+      ],
+      "explanation": "The subject She takes is."
+    },
+    {
+      "id": "happy-they",
+      "tokens": [
+        {
+          "text": "They",
+          "highlight": false
+        },
+        {
+          "text": "are",
+          "highlight": true
+        },
+        {
+          "text": "happy.",
+          "highlight": false
+        }
+      ],
+      "explanation": "The subject They takes are."
+    },
+    {
+      "id": "teacher-she",
+      "tokens": [
+        {
+          "text": "She",
+          "highlight": false
+        },
+        {
+          "text": "is",
+          "highlight": true
+        },
+        {
+          "text": "a teacher.",
+          "highlight": false
+        }
+      ],
+      "explanation": "A present statement can describe an identity that is generally true."
     }
   ],
   "quizzes": [
@@ -94,8 +166,8 @@
   ],
   "profile": "vertical",
   "safeArea": "social-conservative",
-  "durationSeconds": 74,
-  "durationReason": "Estimated owner narration with a three-second thinking pause; real audio will determine final timing.",
+  "durationSeconds": 150,
+  "durationReason": "Expanded user-supplied script needs meaning, present-tense and subject explanations. Estimated 150-second human delivery includes a three-second thinking pause; align to the actual recording later.",
   "scenes": [
     {
       "id": "u1-listen",
@@ -117,7 +189,7 @@
       "purpose": "real-life-example",
       "component": "sentence-builder",
       "start": 2.5,
-      "duration": 8,
+      "duration": 6.5,
       "heading": "Same feeling. Different subject.",
       "label": "Listen and notice",
       "body": "",
@@ -148,7 +220,7 @@
           },
           {
             "label": "ONE PERSON / SHE",
-            "at": 2.8,
+            "at": 2.3,
             "groups": [
               {
                 "text": "She",
@@ -169,7 +241,7 @@
           },
           {
             "label": "MORE THAN ONE / THEY",
-            "at": 5.2,
+            "at": 4.3,
             "groups": [
               {
                 "text": "They",
@@ -195,8 +267,8 @@
       "id": "u1-notice",
       "purpose": "visual-explanation",
       "component": "comparison",
-      "start": 10.5,
-      "duration": 3.5,
+      "start": 9,
+      "duration": 7,
       "heading": "Why different verbs?",
       "label": "Notice the change",
       "body": "",
@@ -221,14 +293,36 @@
       }
     },
     {
+      "id": "u1-meaning",
+      "purpose": "visual-explanation",
+      "component": "phrase-focus",
+      "start": 16,
+      "duration": 4,
+      "heading": "Let's understand be.",
+      "label": "Meaning first",
+      "body": "",
+      "ruleIds": ["present-be"],
+      "highlightAt": 0.4,
+      "visual": {
+        "tokens": [
+          {
+            "text": "be",
+            "at": 0.4,
+            "emphasis": "both"
+          }
+        ],
+        "note": "What does this verb mean?"
+      }
+    },
+    {
       "id": "u1-be",
       "purpose": "visual-explanation",
       "component": "phrase-focus",
-      "start": 14,
-      "duration": 8,
+      "start": 20,
+      "duration": 6,
       "heading": "One verb: be",
       "label": "Present forms",
-      "body": "Present forms of be",
+      "body": "",
       "ruleIds": ["present-be"],
       "highlightAt": 0.4,
       "visual": {
@@ -240,12 +334,177 @@
           },
           {
             "text": "is",
-            "at": 2,
+            "at": 1.4,
             "emphasis": "both"
           },
           {
             "text": "are",
-            "at": 3.5,
+            "at": 2.3,
+            "emphasis": "both"
+          }
+        ],
+        "note": "Three forms of the same verb."
+      }
+    },
+    {
+      "id": "u1-describe",
+      "purpose": "visual-explanation",
+      "component": "sentence-builder",
+      "start": 26,
+      "duration": 10,
+      "heading": "Describe someone or something.",
+      "label": "Feelings, identity, location",
+      "body": "",
+      "ruleIds": ["present-be"],
+      "highlightAt": 0.4,
+      "visual": {
+        "states": [
+          {
+            "label": "HOW SOMEONE FEELS",
+            "at": 0.4,
+            "groups": [
+              {
+                "text": "She",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "happy.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "WHO SOMEONE IS",
+            "at": 6.2,
+            "groups": [
+              {
+                "text": "She",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "a teacher.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "WHERE PEOPLE ARE",
+            "at": 8,
+            "groups": [
+              {
+                "text": "They",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "are",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "outside.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u1-present",
+      "purpose": "visual-explanation",
+      "component": "phrase-focus",
+      "start": 36,
+      "duration": 10,
+      "heading": "The present tense.",
+      "label": "Now or generally true",
+      "body": "",
+      "ruleIds": ["present-be"],
+      "highlightAt": 0.4,
+      "visual": {
+        "tokens": [
+          {
+            "text": "now",
+            "at": 4.3,
+            "emphasis": "both"
+          },
+          {
+            "text": "/",
+            "at": 0.4,
+            "emphasis": "none"
+          },
+          {
+            "text": "generally true",
+            "at": 7,
+            "emphasis": "both"
+          }
+        ],
+        "note": "Present does not mean only this moment."
+      }
+    },
+    {
+      "id": "u1-present-examples",
+      "purpose": "visual-explanation",
+      "component": "comparison",
+      "start": 46,
+      "duration": 7,
+      "heading": "Two present meanings.",
+      "label": "Feelings and identity",
+      "body": "",
+      "ruleIds": ["present-be"],
+      "highlightAt": 0.4,
+      "visual": {
+        "layout": "sequential",
+        "secondAt": 3.3,
+        "items": [
+          {
+            "label": "TRUE NOW",
+            "text": "She is happy.",
+            "emphasis": "happy",
+            "verdict": "different",
+            "note": "How she feels now."
+          },
+          {
+            "label": "GENERALLY TRUE",
+            "text": "She is a teacher.",
+            "emphasis": "a teacher",
+            "verdict": "different",
+            "note": "Who she is. Not only this moment."
+          }
+        ]
+      }
+    },
+    {
+      "id": "u1-subject",
+      "purpose": "grammar-breakdown",
+      "component": "phrase-focus",
+      "start": 53,
+      "duration": 7,
+      "heading": "Start with the subject.",
+      "label": "Why does the verb change?",
+      "body": "",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "tokens": [
+          {
+            "text": "subject",
+            "at": 3,
             "emphasis": "both"
           }
         ],
@@ -253,12 +512,49 @@
       }
     },
     {
+      "id": "u1-definition",
+      "purpose": "grammar-breakdown",
+      "component": "sentence-builder",
+      "start": 60,
+      "duration": 6,
+      "heading": "What's a subject?",
+      "label": "Who or what?",
+      "body": "The person or thing we're talking about.",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "states": [
+          {
+            "label": "WHO WE'RE TALKING ABOUT",
+            "at": 2,
+            "groups": [
+              {
+                "text": "She",
+                "role": "subject",
+                "emphasis": "both"
+              },
+              {
+                "text": "is",
+                "role": "verb",
+                "emphasis": "none"
+              },
+              {
+                "text": "happy.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "u1-match",
       "purpose": "grammar-breakdown",
       "component": "sentence-builder",
-      "start": 22,
-      "duration": 10,
-      "heading": "Match the subject.",
+      "start": 66,
+      "duration": 6,
+      "heading": "I → am.",
       "label": "Choose the form",
       "body": "",
       "ruleIds": ["subject-agreement"],
@@ -266,7 +562,7 @@
       "visual": {
         "states": [
           {
-            "label": "WITH I",
+            "label": "I → AM",
             "at": 0.4,
             "groups": [
               {
@@ -282,8 +578,45 @@
             ]
           },
           {
-            "label": "WITH HE, SHE OR IT",
-            "at": 3.3,
+            "label": "POSITIVE STATEMENT",
+            "at": 3.4,
+            "groups": [
+              {
+                "text": "I",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "am",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "happy.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u1-match-she",
+      "purpose": "grammar-breakdown",
+      "component": "sentence-builder",
+      "start": 72,
+      "duration": 7,
+      "heading": "He, she, it → is.",
+      "label": "Choose the form",
+      "body": "",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "states": [
+          {
+            "label": "HE / SHE / IT",
+            "at": 0.4,
             "groups": [
               {
                 "text": "he / she / it",
@@ -298,8 +631,45 @@
             ]
           },
           {
-            "label": "WITH YOU, WE OR THEY",
-            "at": 6.8,
+            "label": "POSITIVE STATEMENT",
+            "at": 4.4,
+            "groups": [
+              {
+                "text": "She",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "happy.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u1-match-they",
+      "purpose": "grammar-breakdown",
+      "component": "sentence-builder",
+      "start": 79,
+      "duration": 7,
+      "heading": "You, we, they → are.",
+      "label": "Choose the form",
+      "body": "",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "states": [
+          {
+            "label": "YOU / WE / THEY",
+            "at": 0.4,
             "groups": [
               {
                 "text": "you / we / they",
@@ -312,17 +682,93 @@
                 "emphasis": "both"
               }
             ]
+          },
+          {
+            "label": "POSITIVE STATEMENT",
+            "at": 4.4,
+            "groups": [
+              {
+                "text": "They",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "are",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "happy.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
           }
         ]
+      }
+    },
+    {
+      "id": "u1-subject-rule",
+      "purpose": "grammar-breakdown",
+      "component": "phrase-focus",
+      "start": 86,
+      "duration": 4,
+      "heading": "Let the subject guide you.",
+      "label": "Choose the form",
+      "body": "",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "tokens": [
+          {
+            "text": "subject",
+            "at": 0.4,
+            "emphasis": "underline"
+          },
+          {
+            "text": "→",
+            "at": 0.8,
+            "emphasis": "none"
+          },
+          {
+            "text": "am / is / are",
+            "at": 1.1,
+            "emphasis": "both"
+          }
+        ],
+        "note": "Choose the form for the subject."
+      },
+      "typography": "compact"
+    },
+    {
+      "id": "u1-short-forms",
+      "purpose": "grammar-breakdown",
+      "component": "phrase-focus",
+      "start": 90,
+      "duration": 6,
+      "heading": "Shorter forms. Same meaning.",
+      "label": "Everyday English",
+      "body": "",
+      "ruleIds": ["contractions"],
+      "highlightAt": 0.4,
+      "visual": {
+        "tokens": [
+          {
+            "text": "contractions",
+            "at": 4.5,
+            "emphasis": "both"
+          }
+        ],
+        "note": "A contraction is a shorter form."
       }
     },
     {
       "id": "u1-contract-i",
       "purpose": "grammar-breakdown",
       "component": "phrase-focus",
-      "start": 32,
-      "duration": 7,
-      "heading": "Make it shorter.",
+      "start": 96,
+      "duration": 3.5,
+      "heading": "I am → I'm",
       "label": "Everyday English",
       "body": "",
       "ruleIds": ["contractions"],
@@ -331,11 +777,11 @@
         "tokens": [
           {
             "text": "I am",
-            "at": 3.5,
+            "at": 0.4,
             "emphasis": "both",
             "replacement": {
               "text": "I'm",
-              "at": 5
+              "at": 1.4
             }
           }
         ],
@@ -346,8 +792,8 @@
       "id": "u1-contract-she",
       "purpose": "grammar-breakdown",
       "component": "phrase-focus",
-      "start": 39,
-      "duration": 4,
+      "start": 99.5,
+      "duration": 3.5,
       "heading": "Same meaning. Shorter form.",
       "label": "Contractions",
       "body": "",
@@ -361,7 +807,7 @@
             "emphasis": "both",
             "replacement": {
               "text": "She's",
-              "at": 1.6
+              "at": 1.4
             }
           }
         ],
@@ -372,8 +818,8 @@
       "id": "u1-contract-they",
       "purpose": "grammar-breakdown",
       "component": "phrase-focus",
-      "start": 43,
-      "duration": 4,
+      "start": 103,
+      "duration": 3.5,
       "heading": "Same meaning. Shorter form.",
       "label": "Contractions",
       "body": "",
@@ -387,7 +833,7 @@
             "emphasis": "both",
             "replacement": {
               "text": "They're",
-              "at": 1.6
+              "at": 1.4
             }
           }
         ],
@@ -395,11 +841,40 @@
       }
     },
     {
+      "id": "u1-same-meaning",
+      "purpose": "grammar-breakdown",
+      "component": "comparison",
+      "start": 106.5,
+      "duration": 4.5,
+      "heading": "The meaning stays the same.",
+      "label": "Full form and short form",
+      "body": "",
+      "ruleIds": ["contractions"],
+      "highlightAt": 0.4,
+      "visual": {
+        "layout": "columns",
+        "items": [
+          {
+            "label": "FULL FORM",
+            "text": "They are happy.",
+            "emphasis": "are",
+            "verdict": "different"
+          },
+          {
+            "label": "SHORT FORM",
+            "text": "They're happy.",
+            "emphasis": "They're",
+            "verdict": "different"
+          }
+        ]
+      }
+    },
+    {
       "id": "u1-practice",
       "purpose": "guided-practice",
       "component": "quiz",
-      "start": 47,
-      "duration": 13,
+      "start": 111,
+      "duration": 14,
       "heading": "Your turn!",
       "label": "Choose am, is or are",
       "body": "",
@@ -407,20 +882,43 @@
       "highlightAt": 0.4,
       "visual": {
         "thinkingLabel": "Think for 3 seconds.",
-        "thinkingFrom": 4.8
+        "thinkingFrom": 6.5
       },
       "quizId": "classmates-outside",
-      "answerAt": 7.8
+      "answerAt": 9.5
     },
     {
       "id": "u1-why",
       "purpose": "guided-practice",
-      "component": "sentence-builder",
-      "start": 60,
-      "duration": 4,
-      "heading": "Classmates → they.",
+      "component": "phrase-focus",
+      "start": 125,
+      "duration": 6,
+      "heading": "More than one person.",
       "label": "Why are?",
-      "body": "More than one classmate → they.",
+      "body": "",
+      "ruleIds": ["subject-agreement"],
+      "highlightAt": 0.4,
+      "visual": {
+        "tokens": [
+          {
+            "text": "My classmates",
+            "at": 1,
+            "emphasis": "both"
+          }
+        ],
+        "note": "Plural: more than one classmate."
+      },
+      "typography": "compact"
+    },
+    {
+      "id": "u1-replace",
+      "purpose": "guided-practice",
+      "component": "sentence-builder",
+      "start": 131,
+      "duration": 6,
+      "heading": "Classmates → they.",
+      "label": "Same subject group, same verb",
+      "body": "",
       "ruleIds": ["subject-agreement"],
       "highlightAt": 0.4,
       "visual": {
@@ -447,8 +945,8 @@
             ]
           },
           {
-            "label": "SAME VERB: ARE",
-            "at": 1.6,
+            "label": "THEY → ARE",
+            "at": 2.6,
             "groups": [
               {
                 "text": "They",
@@ -475,8 +973,8 @@
       "id": "u1-remember",
       "purpose": "recap",
       "component": "sentence-builder",
-      "start": 64,
-      "duration": 7.5,
+      "start": 137,
+      "duration": 8,
       "heading": "Remember the match.",
       "label": "Your three patterns",
       "body": "",
@@ -486,7 +984,7 @@
         "states": [
           {
             "label": "I",
-            "at": 0.4,
+            "at": 0.6,
             "groups": [
               {
                 "text": "I",
@@ -502,7 +1000,7 @@
           },
           {
             "label": "HE / SHE / IT",
-            "at": 2.6,
+            "at": 2.5,
             "groups": [
               {
                 "text": "he / she / it",
@@ -518,7 +1016,7 @@
           },
           {
             "label": "YOU / WE / THEY",
-            "at": 4.8,
+            "at": 5,
             "groups": [
               {
                 "text": "you / we / they",
@@ -539,8 +1037,8 @@
       "id": "u1-ending",
       "purpose": "recap",
       "component": "recap",
-      "start": 71.5,
-      "duration": 2.5,
+      "start": 145,
+      "duration": 5,
       "heading": "You know the pattern.",
       "label": "Unit 1 · Part 1/3",
       "body": "",
@@ -567,151 +1065,319 @@
     {
       "id": "u1-cap-02",
       "start": 2.9,
-      "end": 5,
+      "end": 4.6,
       "text": "I am excited."
     },
     {
       "id": "u1-cap-03",
-      "start": 5.5,
-      "end": 7.7,
+      "start": 4.9,
+      "end": 6.6,
       "text": "She is excited."
     },
     {
       "id": "u1-cap-04",
-      "start": 8,
-      "end": 10.4,
+      "start": 6.9,
+      "end": 8.8,
       "text": "They are excited."
     },
     {
       "id": "u1-cap-05",
-      "start": 10.7,
-      "end": 13.9,
-      "text": "Why do we use three different words?"
+      "start": 9.2,
+      "end": 12.5,
+      "text": "All three sentences describe the same feeling."
     },
     {
       "id": "u1-cap-06",
-      "start": 14.2,
-      "end": 17.7,
-      "text": "Am, is, and are are forms of the verb be"
+      "start": 12.5,
+      "end": 15.9,
+      "text": "So why do we use am, is, and are?"
     },
     {
       "id": "u1-cap-07",
-      "start": 17.7,
-      "end": 19.2,
-      "text": "in the present."
+      "start": 16.2,
+      "end": 19.8,
+      "text": "First, let's understand what these words mean."
     },
     {
       "id": "u1-cap-08",
-      "start": 19.2,
-      "end": 22,
-      "text": "The word we choose depends on the subject."
+      "start": 20.2,
+      "end": 23.9,
+      "text": "Am, is, and are are three forms"
     },
     {
       "id": "u1-cap-09",
-      "start": 22.4,
-      "end": 25.2,
-      "text": "With I, we use am."
+      "start": 23.9,
+      "end": 25.9,
+      "text": "of the same verb: be."
     },
     {
       "id": "u1-cap-10",
-      "start": 25.6,
-      "end": 28.6,
-      "text": "With he, she, and it, we use is."
+      "start": 26.2,
+      "end": 30.4,
+      "text": "We use this verb to describe someone or something."
     },
     {
       "id": "u1-cap-11",
-      "start": 29,
-      "end": 31.9,
-      "text": "And with you, we, and they, we use are."
+      "start": 30.5,
+      "end": 32.3,
+      "text": "For example, how someone feels,"
     },
     {
       "id": "u1-cap-12",
-      "start": 32.2,
-      "end": 35.7,
-      "text": "In everyday English, we often shorten these expressions."
+      "start": 32.3,
+      "end": 33.9,
+      "text": "who they are,"
     },
     {
       "id": "u1-cap-13",
-      "start": 35.8,
-      "end": 38.8,
-      "text": "I am becomes I'm."
+      "start": 33.9,
+      "end": 35.9,
+      "text": "or where they are."
     },
     {
       "id": "u1-cap-14",
-      "start": 39.3,
-      "end": 42.8,
-      "text": "She is becomes she's."
+      "start": 36.2,
+      "end": 40,
+      "text": "In this lesson, we're using the present tense."
     },
     {
       "id": "u1-cap-15",
-      "start": 43.3,
-      "end": 46.8,
-      "text": "And they are becomes they're."
+      "start": 40,
+      "end": 43.4,
+      "text": "That means we're talking about something that's true now,"
     },
     {
       "id": "u1-cap-16",
-      "start": 47.2,
-      "end": 48.7,
-      "text": "Now, your turn!"
+      "start": 43.4,
+      "end": 45.9,
+      "text": "or something that's generally true."
     },
     {
       "id": "u1-cap-17",
-      "start": 48.8,
-      "end": 50.5,
-      "text": "My classmates ___ outside."
+      "start": 46.1,
+      "end": 46.8,
+      "text": "For example:"
     },
     {
       "id": "u1-cap-18",
-      "start": 50.5,
-      "end": 51.8,
-      "text": "Is it am, is, or are?"
+      "start": 46.8,
+      "end": 48,
+      "text": "\"She is happy.\""
     },
     {
       "id": "u1-cap-19",
-      "start": 55,
-      "end": 56.5,
-      "text": "The answer is are!"
+      "start": 48,
+      "end": 49.3,
+      "text": "That's how she feels now."
     },
     {
       "id": "u1-cap-20",
-      "start": 56.5,
-      "end": 59.3,
-      "text": "My classmates are outside."
+      "start": 49.3,
+      "end": 50.8,
+      "text": "\"She is a teacher.\""
     },
     {
       "id": "u1-cap-21",
-      "start": 59.4,
-      "end": 63.8,
-      "text": "Because my classmates means they."
+      "start": 50.8,
+      "end": 52.9,
+      "text": "That's something generally true about her."
     },
     {
       "id": "u1-cap-22",
-      "start": 64.1,
-      "end": 65.2,
-      "text": "Remember:"
+      "start": 53.2,
+      "end": 55.7,
+      "text": "Now, here's the important part."
     },
     {
       "id": "u1-cap-23",
-      "start": 65.2,
-      "end": 66.2,
-      "text": "I am."
+      "start": 55.7,
+      "end": 59.9,
+      "text": "The word we use depends on the subject."
     },
     {
       "id": "u1-cap-24",
-      "start": 66.8,
-      "end": 68.5,
-      "text": "He, she, it — is."
+      "start": 60.2,
+      "end": 61.7,
+      "text": "What's a subject?"
     },
     {
       "id": "u1-cap-25",
-      "start": 69,
-      "end": 71.4,
-      "text": "You, we, they — are."
+      "start": 61.7,
+      "end": 65.9,
+      "text": "It's the person or thing we're talking about."
     },
     {
       "id": "u1-cap-26",
-      "start": 71.6,
-      "end": 73.9,
+      "start": 66.2,
+      "end": 69.4,
+      "text": "When the subject is I, we use am."
+    },
+    {
+      "id": "u1-cap-27",
+      "start": 69.4,
+      "end": 71.9,
+      "text": "\"I am happy.\""
+    },
+    {
+      "id": "u1-cap-28",
+      "start": 72.2,
+      "end": 76.2,
+      "text": "When the subject is he, she, or it, we use is."
+    },
+    {
+      "id": "u1-cap-29",
+      "start": 76.2,
+      "end": 78.9,
+      "text": "\"She is happy.\""
+    },
+    {
+      "id": "u1-cap-30",
+      "start": 79.2,
+      "end": 83.2,
+      "text": "And when the subject is you, we, or they, we use are."
+    },
+    {
+      "id": "u1-cap-31",
+      "start": 83.2,
+      "end": 85.9,
+      "text": "\"They are happy.\""
+    },
+    {
+      "id": "u1-cap-32",
+      "start": 86.1,
+      "end": 89.9,
+      "text": "So remember, the subject tells us which form to use."
+    },
+    {
+      "id": "u1-cap-33",
+      "start": 90.2,
+      "end": 94,
+      "text": "In everyday English, we often make these expressions shorter."
+    },
+    {
+      "id": "u1-cap-34",
+      "start": 94,
+      "end": 95.9,
+      "text": "These are called contractions."
+    },
+    {
+      "id": "u1-cap-35",
+      "start": 96.2,
+      "end": 99.3,
+      "text": "\"I am\" becomes \"I'm.\""
+    },
+    {
+      "id": "u1-cap-36",
+      "start": 99.7,
+      "end": 102.8,
+      "text": "\"She is\" becomes \"She's.\""
+    },
+    {
+      "id": "u1-cap-37",
+      "start": 103.2,
+      "end": 106.3,
+      "text": "And \"They are\" becomes \"They're.\""
+    },
+    {
+      "id": "u1-cap-38",
+      "start": 106.7,
+      "end": 108.5,
+      "text": "The meaning stays the same."
+    },
+    {
+      "id": "u1-cap-39",
+      "start": 108.5,
+      "end": 110.9,
+      "text": "We're simply using shorter forms."
+    },
+    {
+      "id": "u1-cap-40",
+      "start": 111.2,
+      "end": 113.1,
+      "text": "Now, let's try one."
+    },
+    {
+      "id": "u1-cap-41",
+      "start": 113.1,
+      "end": 115,
+      "text": "\"My classmates ___ outside.\""
+    },
+    {
+      "id": "u1-cap-42",
+      "start": 115,
+      "end": 117.5,
+      "text": "Should we use am, is, or are?"
+    },
+    {
+      "id": "u1-cap-43",
+      "start": 121,
+      "end": 122.4,
+      "text": "The answer is are!"
+    },
+    {
+      "id": "u1-cap-44",
+      "start": 122.4,
+      "end": 124.9,
+      "text": "\"My classmates are outside.\""
+    },
+    {
+      "id": "u1-cap-45",
+      "start": 125.2,
+      "end": 126,
+      "text": "Why?"
+    },
+    {
+      "id": "u1-cap-46",
+      "start": 126,
+      "end": 130.9,
+      "text": "Because \"my classmates\" refers to more than one person."
+    },
+    {
+      "id": "u1-cap-47",
+      "start": 131.2,
+      "end": 133.7,
+      "text": "We can replace it with they."
+    },
+    {
+      "id": "u1-cap-48",
+      "start": 133.7,
+      "end": 136.9,
+      "text": "And we already know that \"they\" goes with \"are\"."
+    },
+    {
+      "id": "u1-cap-49",
+      "start": 137.2,
+      "end": 138,
+      "text": "Let's review."
+    },
+    {
+      "id": "u1-cap-50",
+      "start": 138,
+      "end": 139.4,
+      "text": "I — am."
+    },
+    {
+      "id": "u1-cap-51",
+      "start": 139.6,
+      "end": 141.8,
+      "text": "He, she, it — is."
+    },
+    {
+      "id": "u1-cap-52",
+      "start": 142,
+      "end": 144.8,
+      "text": "You, we, they — are."
+    },
+    {
+      "id": "u1-cap-53",
+      "start": 145.1,
+      "end": 148.3,
+      "text": "And that's how we choose between am, is, and are."
+    },
+    {
+      "id": "u1-cap-54",
+      "start": 148.4,
+      "end": 149.9,
       "text": "See you in Part 2!"
     }
   ],

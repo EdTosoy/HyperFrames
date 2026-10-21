@@ -4,7 +4,10 @@ Episode ID: `u001-p01-am-is-are`. Real lesson draft for local visual evaluation;
 not approved for release. Original teaching material based on the requested topic,
 not copied textbook content. Only Part 1 exists.
 
-The 74-second silent preview uses estimated narration timing. `episode.json` owns
+The expanded 150-second silent preview uses estimated narration timing. It follows
+the six-scene script supplied in the conversation, with shorter visual scenes
+inside each chapter. The full script takes priority over the original 60–75-second
+target; narration must not be rushed to fit that earlier cut. `episode.json` owns
 content, scenes and provisional captions. `SCRIPT.md` is a recording copy of its
 editable `script` field; synchronize both after script feedback. No transcript is
 approved and no audio, music or generated voice is present. Draft watermark and
@@ -12,26 +15,27 @@ all production-readiness checks remain active.
 
 ## Visual plan
 
-| Time     | Teaching beat                                        | Shared component                               |
-| -------- | ---------------------------------------------------- | ---------------------------------------------- |
-| 0–2.5    | Introduce the three forms; invite listening          | Title                                          |
-| 2.5–10.5 | I am / She is / They are excited                     | Sentence builder; successive highlighted verbs |
-| 10.5–14  | Why different verbs?                                 | Two valid structures, grammar comparison       |
-| 14–22    | Present forms of be; choose for the subject          | Phrase highlighting                            |
-| 22–32    | Match one subject group at a time                    | Sentence builder                               |
-| 32–39    | I am → I'm                                           | Phrase replacement                             |
-| 39–43    | She is → She's                                       | Phrase replacement                             |
-| 43–47    | They are → They're                                   | Phrase replacement                             |
-| 47–60    | Classmates quiz, choices, three-second pause, answer | Guided quiz                                    |
-| 60–64    | My classmates → They; keep are                       | Sentence builder transformation                |
-| 64–71.5  | Sequential subject/verb patterns                     | Sentence builder                               |
-| 71.5–74  | Branded final hold, Unit 1 · Part 1/3                | Recap                                          |
+| Time    | Script chapter                | Shared visuals                                                         |
+| ------- | ----------------------------- | ---------------------------------------------------------------------- |
+| 0–16    | 1 · Hook                      | Title, successive sentence forms, comparison                           |
+| 16–53   | 2 · Understanding the meaning | Three forms of be, feeling/identity/location, present meanings         |
+| 53–90   | 3 · Why does the verb change? | Subject definition, subject/verb matching, positive examples           |
+| 90–111  | 4 · Short forms               | Contractions, three transformations, unchanged meaning                 |
+| 111–137 | 5 · Practice                  | Quiz, three-second thinking pause, plural explanation and substitution |
+| 137–150 | 6 · Recap                     | Sequential rule groups and short branded ending                        |
 
-The quiz thinking interval is exactly **51.8–54.8 seconds**. No narration captions
-appear during that interval. The answer begins its reveal at 54.8 seconds; the
-shared transition settles by 55.3. Do not shorten the thinking interval after
-recording. Text-only diagrams are deliberate: subject grouping and substitution
-carry the meaning without decorative imagery or a mascot.
+There are 24 generated visual scenes, using the existing component library. The
+quiz thinking interval is exactly **117.5–120.5 seconds**. No narration captions
+appear during that interval. The answer begins its reveal at 120.5 seconds and
+settles by 121. Do not shorten this interval after recording.
+
+The earlier 74-second MP4, source specification and verification are preserved in
+`renders/u001-p01-am-is-are/versions/v01-74s/`. No previous export was deleted.
+The previously uploaded Drive copy still contains that earlier version.
+
+Text-only explanations remain deliberate: subject grouping and substitution carry
+the meaning without decorative imagery or a mascot. `durationReason` explains the
+longer educational draft; final timing will follow the owner's actual recording.
 
 The grammar scope is positive present statements with be. `She's` means `she is`
 in these examples; other uses are outside this episode. Accuracy cross-check:
