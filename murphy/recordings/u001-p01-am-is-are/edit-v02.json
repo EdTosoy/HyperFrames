@@ -1,0 +1,41 @@
+{
+  "source": "2.mp3",
+  "sourceSha256": "b01f69448dcd84025a07faf6bfdfae9d7b3169fef24b2dab1d1b8f9155595d06",
+  "sourceDurationSeconds": 122.72,
+  "workingDurationSeconds": 126.3,
+  "edits": [
+    {
+      "operation": "insert-silence",
+      "sourceTimeSeconds": 97.0,
+      "durationSeconds": 3,
+      "reason": "Restore the required quiz thinking hold; boundary estimated from known script and detected speech pauses."
+    },
+    {
+      "operation": "pad-end",
+      "outputEndSeconds": 126.3,
+      "reason": "Frame alignment and a short final hold."
+    },
+    {
+      "operation": "resample-normalize",
+      "sampleRate": 48000,
+      "channels": 1,
+      "sampleFormat": "PCM 24-bit",
+      "targetLufs": -16,
+      "targetTruePeakDb": -1.5
+    }
+  ],
+  "normalization": {
+    "input_i": "-16.34",
+    "input_tp": "-1.47",
+    "input_lra": "2.50",
+    "input_thresh": "-26.80",
+    "output_i": "-16.16",
+    "output_tp": "-1.50",
+    "output_lra": "2.50",
+    "output_thresh": "-26.62",
+    "normalization_type": "dynamic",
+    "target_offset": "0.16"
+  },
+  "alignmentMethod": "Known-script sentence sequence and local silence-duration matching; not speech recognition; wording and exact synchronization unapproved.",
+  "speechSpeedChanged": false
+}

@@ -15,12 +15,13 @@ text logs remain trackable. Large dependencies under assets/local declare
 local-required provenance and must be restored locally. CI uses no private media.
 Never use `git add -f` to bypass privacy exclusions.
 
-Existing renders, thumbnails and some .hyperframes state were already tracked.
-Ignore rules do not untrack them. Phase 1 preserves all files/index entries.
-Proposed later cleanup: back up valuable evidence/history, review exact generated
-paths, then obtain authorization for scoped `git rm --cached` (files stay local).
-This does not erase history. If private reference files are discovered, follow
-ASSET_POLICY.md before distribution/history migration.
+Generated `.hyperframes/` state, `.thumbnails/` and `renders/` are untracked and
+ignored, including the older artifacts originally committed with the project.
+The cleanup retained their local files and historical Git versions; it did not
+rewrite history. Do not add regenerated output back to Git. Keep verification
+summaries in episode review notes and canonical docs; local frame/audio evidence
+stays under renders/. Preserve useful local history and independently back up
+irreplaceable recordings before removing working files.
 
 Git LFS is not enabled: assets are small, no large required source audio is
 committed, and remote LFS support is unverified. Do not add filters or migrate

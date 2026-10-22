@@ -3,8 +3,9 @@
 Expanded user-supplied script. Owner-recorded English narration only.
 
 `episode.json` → `script` is authoritative; this is its recording copy.
-Bracketed directions are not spoken. Read naturally: the 150-second animation
-and caption timings are estimates, to be aligned to your recording afterward.
+Bracketed directions are not spoken. The current draft uses take 2 (`2.mp3`) and runs 126.3 seconds, including a
+three-second thinking hold. Caption alignment and the candidate transcript still
+need listening review against the recording.
 
 ### Scene 1 — Hook
 

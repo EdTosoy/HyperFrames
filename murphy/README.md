@@ -2,7 +2,7 @@
 
 Production foundation for **English, Made Clear.**: original English teaching
 videos with the owner's recorded voice. Phases 1–2 supply the production foundation, a reusable visual library, and labeled
-infrastructure fixtures. The first curriculum episode is a silent local draft:
+infrastructure fixtures. The first curriculum episode is an owner-narrated local draft:
 [`u001-p01-am-is-are`](episodes/u001-p01-am-is-are/README.md).
 
 ## Quick start

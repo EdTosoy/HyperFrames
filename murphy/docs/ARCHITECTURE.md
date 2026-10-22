@@ -21,7 +21,7 @@ murphy/
 ├── tests/                       # deterministic production contracts
 ├── docs/                        # canonical operating policies and ADR
 ├── .hyperframes-build/          # ignored generated per-episode HyperFrames project
-├── renders/                     # ignored new outputs; existing tracked evidence retained
+├── renders/                     # ignored exports and local verification evidence
 └── index.html                   # preserved sample entry point
 ```
 

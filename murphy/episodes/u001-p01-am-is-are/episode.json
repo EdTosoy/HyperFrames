@@ -166,15 +166,15 @@
   ],
   "profile": "vertical",
   "safeArea": "social-conservative",
-  "durationSeconds": 150,
-  "durationReason": "Expanded user-supplied script needs meaning, present-tense and subject explanations. Estimated 150-second human delivery includes a three-second thinking pause; align to the actual recording later.",
+  "durationSeconds": 126.3,
+  "durationReason": "Owner-provided take 2 (122.72-second MP3); working edit adds three seconds at the quiz and a short ending hold. Script/pauses guide provisional captions pending listening review.",
   "scenes": [
     {
       "id": "u1-listen",
       "purpose": "hook",
       "component": "title",
-      "start": 0,
-      "duration": 2.5,
+      "start": 0.0,
+      "duration": 2.0,
       "heading": "am · is · are",
       "label": "Listen",
       "body": "Positive statements",
@@ -188,8 +188,8 @@
       "id": "u1-examples",
       "purpose": "real-life-example",
       "component": "sentence-builder",
-      "start": 2.5,
-      "duration": 6.5,
+      "start": 2.0,
+      "duration": 4.7,
       "heading": "Same feeling. Different subject.",
       "label": "Listen and notice",
       "body": "",
@@ -199,7 +199,7 @@
         "states": [
           {
             "label": "ONE PERSON / I",
-            "at": 0.4,
+            "at": 0.3,
             "groups": [
               {
                 "text": "I",
@@ -220,7 +220,7 @@
           },
           {
             "label": "ONE PERSON / SHE",
-            "at": 2.3,
+            "at": 1.4,
             "groups": [
               {
                 "text": "She",
@@ -241,7 +241,7 @@
           },
           {
             "label": "MORE THAN ONE / THEY",
-            "at": 4.3,
+            "at": 2.8,
             "groups": [
               {
                 "text": "They",
@@ -267,8 +267,8 @@
       "id": "u1-notice",
       "purpose": "visual-explanation",
       "component": "comparison",
-      "start": 9,
-      "duration": 7,
+      "start": 6.7,
+      "duration": 6.4,
       "heading": "Why different verbs?",
       "label": "Notice the change",
       "body": "",
@@ -296,8 +296,8 @@
       "id": "u1-meaning",
       "purpose": "visual-explanation",
       "component": "phrase-focus",
-      "start": 16,
-      "duration": 4,
+      "start": 13.1,
+      "duration": 3.033333333333333,
       "heading": "Let's understand be.",
       "label": "Meaning first",
       "body": "",
@@ -318,8 +318,8 @@
       "id": "u1-be",
       "purpose": "visual-explanation",
       "component": "phrase-focus",
-      "start": 20,
-      "duration": 6,
+      "start": 16.133333333333333,
+      "duration": 5.066666666666666,
       "heading": "One verb: be",
       "label": "Present forms",
       "body": "",
@@ -329,17 +329,17 @@
         "tokens": [
           {
             "text": "am",
-            "at": 0.5,
+            "at": 0.4,
             "emphasis": "both"
           },
           {
             "text": "is",
-            "at": 1.4,
+            "at": 1.1,
             "emphasis": "both"
           },
           {
             "text": "are",
-            "at": 2.3,
+            "at": 1.8,
             "emphasis": "both"
           }
         ],
@@ -350,8 +350,8 @@
       "id": "u1-describe",
       "purpose": "visual-explanation",
       "component": "sentence-builder",
-      "start": 26,
-      "duration": 10,
+      "start": 21.2,
+      "duration": 7.4,
       "heading": "Describe someone or something.",
       "label": "Feelings, identity, location",
       "body": "",
@@ -382,7 +382,7 @@
           },
           {
             "label": "WHO SOMEONE IS",
-            "at": 6.2,
+            "at": 4,
             "groups": [
               {
                 "text": "She",
@@ -403,7 +403,7 @@
           },
           {
             "label": "WHERE PEOPLE ARE",
-            "at": 8,
+            "at": 5.5,
             "groups": [
               {
                 "text": "They",
@@ -429,8 +429,8 @@
       "id": "u1-present",
       "purpose": "visual-explanation",
       "component": "phrase-focus",
-      "start": 36,
-      "duration": 10,
+      "start": 28.6,
+      "duration": 7.6,
       "heading": "The present tense.",
       "label": "Now or generally true",
       "body": "",
@@ -440,7 +440,7 @@
         "tokens": [
           {
             "text": "now",
-            "at": 4.3,
+            "at": 4,
             "emphasis": "both"
           },
           {
@@ -450,7 +450,7 @@
           },
           {
             "text": "generally true",
-            "at": 7,
+            "at": 6,
             "emphasis": "both"
           }
         ],
@@ -461,8 +461,8 @@
       "id": "u1-present-examples",
       "purpose": "visual-explanation",
       "component": "comparison",
-      "start": 46,
-      "duration": 7,
+      "start": 36.2,
+      "duration": 7.933333333333334,
       "heading": "Two present meanings.",
       "label": "Feelings and identity",
       "body": "",
@@ -470,7 +470,7 @@
       "highlightAt": 0.4,
       "visual": {
         "layout": "sequential",
-        "secondAt": 3.3,
+        "secondAt": 4,
         "items": [
           {
             "label": "TRUE NOW",
@@ -493,8 +493,8 @@
       "id": "u1-subject",
       "purpose": "grammar-breakdown",
       "component": "phrase-focus",
-      "start": 53,
-      "duration": 7,
+      "start": 44.13333333333333,
+      "duration": 6.166666666666667,
       "heading": "Start with the subject.",
       "label": "Why does the verb change?",
       "body": "",
@@ -504,7 +504,7 @@
         "tokens": [
           {
             "text": "subject",
-            "at": 3,
+            "at": 3.6,
             "emphasis": "both"
           }
         ],
@@ -515,8 +515,8 @@
       "id": "u1-definition",
       "purpose": "grammar-breakdown",
       "component": "sentence-builder",
-      "start": 60,
-      "duration": 6,
+      "start": 50.3,
+      "duration": 2.533333333333333,
       "heading": "What's a subject?",
       "label": "Who or what?",
       "body": "The person or thing we're talking about.",
@@ -526,7 +526,7 @@
         "states": [
           {
             "label": "WHO WE'RE TALKING ABOUT",
-            "at": 2,
+            "at": 0.3,
             "groups": [
               {
                 "text": "She",
@@ -552,8 +552,8 @@
       "id": "u1-match",
       "purpose": "grammar-breakdown",
       "component": "sentence-builder",
-      "start": 66,
-      "duration": 6,
+      "start": 52.833333333333336,
+      "duration": 4.533333333333333,
       "heading": "I → am.",
       "label": "Choose the form",
       "body": "",
@@ -563,7 +563,7 @@
         "states": [
           {
             "label": "I → AM",
-            "at": 0.4,
+            "at": 0.3,
             "groups": [
               {
                 "text": "I",
@@ -579,7 +579,7 @@
           },
           {
             "label": "POSITIVE STATEMENT",
-            "at": 3.4,
+            "at": 3.1,
             "groups": [
               {
                 "text": "I",
@@ -605,8 +605,8 @@
       "id": "u1-match-she",
       "purpose": "grammar-breakdown",
       "component": "sentence-builder",
-      "start": 72,
-      "duration": 7,
+      "start": 57.36666666666667,
+      "duration": 5.666666666666667,
       "heading": "He, she, it → is.",
       "label": "Choose the form",
       "body": "",
@@ -616,7 +616,7 @@
         "states": [
           {
             "label": "HE / SHE / IT",
-            "at": 0.4,
+            "at": 0.3,
             "groups": [
               {
                 "text": "he / she / it",
@@ -632,7 +632,7 @@
           },
           {
             "label": "POSITIVE STATEMENT",
-            "at": 4.4,
+            "at": 4.1,
             "groups": [
               {
                 "text": "She",
@@ -658,8 +658,8 @@
       "id": "u1-match-they",
       "purpose": "grammar-breakdown",
       "component": "sentence-builder",
-      "start": 79,
-      "duration": 7,
+      "start": 63.03333333333333,
+      "duration": 5.8,
       "heading": "You, we, they → are.",
       "label": "Choose the form",
       "body": "",
@@ -669,7 +669,7 @@
         "states": [
           {
             "label": "YOU / WE / THEY",
-            "at": 0.4,
+            "at": 0.3,
             "groups": [
               {
                 "text": "you / we / they",
@@ -685,7 +685,7 @@
           },
           {
             "label": "POSITIVE STATEMENT",
-            "at": 4.4,
+            "at": 4.2,
             "groups": [
               {
                 "text": "They",
@@ -711,8 +711,8 @@
       "id": "u1-subject-rule",
       "purpose": "grammar-breakdown",
       "component": "phrase-focus",
-      "start": 86,
-      "duration": 4,
+      "start": 68.83333333333333,
+      "duration": 3.933333333333333,
       "heading": "Let the subject guide you.",
       "label": "Choose the form",
       "body": "",
@@ -722,17 +722,17 @@
         "tokens": [
           {
             "text": "subject",
-            "at": 0.4,
+            "at": 0.3,
             "emphasis": "underline"
           },
           {
             "text": "→",
-            "at": 0.8,
+            "at": 0.7,
             "emphasis": "none"
           },
           {
             "text": "am / is / are",
-            "at": 1.1,
+            "at": 1,
             "emphasis": "both"
           }
         ],
@@ -744,8 +744,8 @@
       "id": "u1-short-forms",
       "purpose": "grammar-breakdown",
       "component": "phrase-focus",
-      "start": 90,
-      "duration": 6,
+      "start": 72.76666666666667,
+      "duration": 5.366666666666666,
       "heading": "Shorter forms. Same meaning.",
       "label": "Everyday English",
       "body": "",
@@ -755,7 +755,7 @@
         "tokens": [
           {
             "text": "contractions",
-            "at": 4.5,
+            "at": 3.7,
             "emphasis": "both"
           }
         ],
@@ -766,8 +766,8 @@
       "id": "u1-contract-i",
       "purpose": "grammar-breakdown",
       "component": "phrase-focus",
-      "start": 96,
-      "duration": 3.5,
+      "start": 78.13333333333334,
+      "duration": 2.3666666666666667,
       "heading": "I am → I'm",
       "label": "Everyday English",
       "body": "",
@@ -777,11 +777,11 @@
         "tokens": [
           {
             "text": "I am",
-            "at": 0.4,
+            "at": 0.3,
             "emphasis": "both",
             "replacement": {
               "text": "I'm",
-              "at": 1.4
+              "at": 1.1
             }
           }
         ],
@@ -792,8 +792,8 @@
       "id": "u1-contract-she",
       "purpose": "grammar-breakdown",
       "component": "phrase-focus",
-      "start": 99.5,
-      "duration": 3.5,
+      "start": 80.5,
+      "duration": 2.533333333333333,
       "heading": "Same meaning. Shorter form.",
       "label": "Contractions",
       "body": "",
@@ -803,11 +803,11 @@
         "tokens": [
           {
             "text": "She is",
-            "at": 0.4,
+            "at": 0.3,
             "emphasis": "both",
             "replacement": {
               "text": "She's",
-              "at": 1.4
+              "at": 1.2
             }
           }
         ],
@@ -818,8 +818,8 @@
       "id": "u1-contract-they",
       "purpose": "grammar-breakdown",
       "component": "phrase-focus",
-      "start": 103,
-      "duration": 3.5,
+      "start": 83.03333333333333,
+      "duration": 2.6666666666666665,
       "heading": "Same meaning. Shorter form.",
       "label": "Contractions",
       "body": "",
@@ -829,11 +829,11 @@
         "tokens": [
           {
             "text": "They are",
-            "at": 0.4,
+            "at": 0.3,
             "emphasis": "both",
             "replacement": {
               "text": "They're",
-              "at": 1.4
+              "at": 1.2
             }
           }
         ],
@@ -844,8 +844,8 @@
       "id": "u1-same-meaning",
       "purpose": "grammar-breakdown",
       "component": "comparison",
-      "start": 106.5,
-      "duration": 4.5,
+      "start": 85.7,
+      "duration": 3.9,
       "heading": "The meaning stays the same.",
       "label": "Full form and short form",
       "body": "",
@@ -873,8 +873,8 @@
       "id": "u1-practice",
       "purpose": "guided-practice",
       "component": "quiz",
-      "start": 111,
-      "duration": 14,
+      "start": 89.6,
+      "duration": 14.2,
       "heading": "Your turn!",
       "label": "Choose am, is or are",
       "body": "",
@@ -882,17 +882,17 @@
       "highlightAt": 0.4,
       "visual": {
         "thinkingLabel": "Think for 3 seconds.",
-        "thinkingFrom": 6.5
+        "thinkingFrom": 7.4
       },
       "quizId": "classmates-outside",
-      "answerAt": 9.5
+      "answerAt": 10.4
     },
     {
       "id": "u1-why",
       "purpose": "guided-practice",
       "component": "phrase-focus",
-      "start": 125,
-      "duration": 6,
+      "start": 103.8,
+      "duration": 4.1,
       "heading": "More than one person.",
       "label": "Why are?",
       "body": "",
@@ -902,7 +902,7 @@
         "tokens": [
           {
             "text": "My classmates",
-            "at": 1,
+            "at": 0.6,
             "emphasis": "both"
           }
         ],
@@ -914,8 +914,8 @@
       "id": "u1-replace",
       "purpose": "guided-practice",
       "component": "sentence-builder",
-      "start": 131,
-      "duration": 6,
+      "start": 107.9,
+      "duration": 4.766666666666667,
       "heading": "Classmates → they.",
       "label": "Same subject group, same verb",
       "body": "",
@@ -925,7 +925,7 @@
         "states": [
           {
             "label": "MY CLASSMATES = THEY",
-            "at": 0.4,
+            "at": 0.3,
             "groups": [
               {
                 "text": "My classmates",
@@ -946,7 +946,7 @@
           },
           {
             "label": "THEY → ARE",
-            "at": 2.6,
+            "at": 2,
             "groups": [
               {
                 "text": "They",
@@ -973,8 +973,8 @@
       "id": "u1-remember",
       "purpose": "recap",
       "component": "sentence-builder",
-      "start": 137,
-      "duration": 8,
+      "start": 112.66666666666667,
+      "duration": 8.066666666666666,
       "heading": "Remember the match.",
       "label": "Your three patterns",
       "body": "",
@@ -1000,7 +1000,7 @@
           },
           {
             "label": "HE / SHE / IT",
-            "at": 2.5,
+            "at": 2.8,
             "groups": [
               {
                 "text": "he / she / it",
@@ -1016,7 +1016,7 @@
           },
           {
             "label": "YOU / WE / THEY",
-            "at": 5,
+            "at": 5.4,
             "groups": [
               {
                 "text": "you / we / they",
@@ -1037,8 +1037,8 @@
       "id": "u1-ending",
       "purpose": "recap",
       "component": "recap",
-      "start": 145,
-      "duration": 5,
+      "start": 120.73333333333333,
+      "duration": 5.566666666666666,
       "heading": "You know the pattern.",
       "label": "Unit 1 · Part 1/3",
       "body": "",
@@ -1052,332 +1052,371 @@
       }
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "id": "voice-u001-p01-source-02",
+      "type": "audio",
+      "path": "recordings/u001-p01-am-is-are/take-02-original.mp3",
+      "creator": "Series owner; user-provided narration",
+      "source": "Local 2.mp3 supplied by the owner for this episode.",
+      "license": {
+        "name": "Owner-provided recording; authorized series use",
+        "source": "Owner authorization in project conversation",
+        "redistributionAllowed": true
+      },
+      "attribution": "Owner narration for English, Made Clear.",
+      "intendedUsage": "Immutable original MP3; provenance/master reference, not placed on the timeline. MP3 is not a lossless recording master.",
+      "distribution": "local-required"
+    },
+    {
+      "id": "voice-u001-p01-edit-v02",
+      "type": "audio",
+      "path": "recordings/u001-p01-am-is-are/edit-v02.wav",
+      "creator": "Series owner; user-provided narration",
+      "source": "Local 2.mp3 supplied by the owner for this episode.",
+      "license": {
+        "name": "Owner-provided recording; authorized series use",
+        "source": "Owner authorization in project conversation",
+        "redistributionAllowed": true
+      },
+      "attribution": "Owner narration for English, Made Clear.",
+      "intendedUsage": "48 kHz mono normalized working narration; a three-second quiz pause and final padding, with speech speed unchanged.",
+      "distribution": "local-required"
+    }
+  ],
   "mediaAssetIds": [],
-  "narration": null,
+  "narration": {
+    "performer": "human-owner",
+    "masterAssetId": "voice-u001-p01-source-02",
+    "editAssetId": "voice-u001-p01-edit-v02",
+    "transcriptPath": "episodes/u001-p01-am-is-are/transcript.txt",
+    "durationSeconds": 126.3,
+    "transcriptApproved": false,
+    "captionsApproved": false
+  },
   "captions": [
     {
       "id": "u1-cap-01",
-      "start": 0.2,
-      "end": 2.5,
+      "start": 0,
+      "end": 2.0176,
       "text": "Listen to these three sentences."
     },
     {
       "id": "u1-cap-02",
-      "start": 2.9,
-      "end": 4.6,
+      "start": 2.2134,
+      "end": 3.2467,
       "text": "I am excited."
     },
     {
       "id": "u1-cap-03",
-      "start": 4.9,
-      "end": 6.6,
+      "start": 3.4187,
+      "end": 4.73,
       "text": "She is excited."
     },
     {
       "id": "u1-cap-04",
-      "start": 6.9,
-      "end": 8.8,
+      "start": 4.9129,
+      "end": 6.4831,
       "text": "They are excited."
     },
     {
       "id": "u1-cap-05",
-      "start": 9.2,
-      "end": 12.5,
+      "start": 6.8662,
+      "end": 9.5446,
       "text": "All three sentences describe the same feeling."
     },
     {
       "id": "u1-cap-06",
-      "start": 12.5,
-      "end": 15.9,
+      "start": 9.7974,
+      "end": 12.8968,
       "text": "So why do we use am, is, and are?"
     },
     {
       "id": "u1-cap-07",
-      "start": 16.2,
-      "end": 19.8,
+      "start": 13.3169,
+      "end": 15.9616,
       "text": "First, let's understand what these words mean."
     },
     {
       "id": "u1-cap-08",
-      "start": 20.2,
-      "end": 23.9,
+      "start": 16.3795,
+      "end": 18.8786,
       "text": "Am, is, and are are three forms"
     },
     {
       "id": "u1-cap-09",
-      "start": 23.9,
-      "end": 25.9,
+      "start": 18.8786,
+      "end": 21.0365,
       "text": "of the same verb: be."
     },
     {
       "id": "u1-cap-10",
-      "start": 26.2,
-      "end": 30.4,
+      "start": 21.4518,
+      "end": 24.0444,
       "text": "We use this verb to describe someone or something."
     },
     {
       "id": "u1-cap-11",
-      "start": 30.5,
-      "end": 32.3,
+      "start": 24.2127,
+      "end": 26.0277,
       "text": "For example, how someone feels,"
     },
     {
       "id": "u1-cap-12",
-      "start": 32.3,
-      "end": 33.9,
+      "start": 26.0277,
+      "end": 27.1641,
       "text": "who they are,"
     },
     {
       "id": "u1-cap-13",
-      "start": 33.9,
-      "end": 35.9,
+      "start": 27.1641,
+      "end": 28.4637,
       "text": "or where they are."
     },
     {
       "id": "u1-cap-14",
-      "start": 36.2,
-      "end": 40,
+      "start": 28.8266,
+      "end": 31.3561,
       "text": "In this lesson, we're using the present tense."
     },
     {
       "id": "u1-cap-15",
-      "start": 40,
-      "end": 43.4,
+      "start": 31.5067,
+      "end": 34.1992,
       "text": "That means we're talking about something that's true now,"
     },
     {
       "id": "u1-cap-16",
-      "start": 43.4,
-      "end": 45.9,
+      "start": 34.1992,
+      "end": 36.0657,
       "text": "or something that's generally true."
     },
     {
       "id": "u1-cap-17",
-      "start": 46.1,
-      "end": 46.8,
+      "start": 36.3625,
+      "end": 37.5919,
       "text": "For example:"
     },
     {
       "id": "u1-cap-18",
-      "start": 46.8,
-      "end": 48,
+      "start": 37.5919,
+      "end": 38.4342,
       "text": "\"She is happy.\""
     },
     {
       "id": "u1-cap-19",
-      "start": 48,
-      "end": 49.3,
+      "start": 38.696,
+      "end": 39.9323,
       "text": "That's how she feels now."
     },
     {
       "id": "u1-cap-20",
-      "start": 49.3,
-      "end": 50.8,
+      "start": 40.358,
+      "end": 41.6637,
       "text": "\"She is a teacher.\""
     },
     {
       "id": "u1-cap-21",
-      "start": 50.8,
-      "end": 52.9,
+      "start": 41.9457,
+      "end": 43.9427,
       "text": "That's something generally true about her."
     },
     {
       "id": "u1-cap-22",
-      "start": 53.2,
-      "end": 55.7,
+      "start": 44.35,
+      "end": 46.1122,
       "text": "Now, here's the important part."
     },
     {
       "id": "u1-cap-23",
-      "start": 55.7,
-      "end": 59.9,
+      "start": 46.3481,
+      "end": 48.896,
       "text": "The word we use depends on the subject."
     },
     {
       "id": "u1-cap-24",
-      "start": 60.2,
-      "end": 61.7,
+      "start": 49.2348,
+      "end": 50.2259,
       "text": "What's a subject?"
     },
     {
       "id": "u1-cap-25",
-      "start": 61.7,
-      "end": 65.9,
+      "start": 50.3961,
+      "end": 52.6929,
       "text": "It's the person or thing we're talking about."
     },
     {
       "id": "u1-cap-26",
-      "start": 66.2,
-      "end": 69.4,
+      "start": 53.0412,
+      "end": 55.7912,
       "text": "When the subject is I, we use am."
     },
     {
       "id": "u1-cap-27",
-      "start": 69.4,
-      "end": 71.9,
+      "start": 56.0541,
+      "end": 57.1878,
       "text": "\"I am happy.\""
     },
     {
       "id": "u1-cap-28",
-      "start": 72.2,
-      "end": 76.2,
+      "start": 57.5637,
+      "end": 61.5515,
       "text": "When the subject is he, she, or it, we use is."
     },
     {
       "id": "u1-cap-29",
-      "start": 76.2,
-      "end": 78.9,
+      "start": 61.6587,
+      "end": 62.8765,
       "text": "\"She is happy.\""
     },
     {
       "id": "u1-cap-30",
-      "start": 79.2,
-      "end": 83.2,
+      "start": 63.2256,
+      "end": 67.2949,
       "text": "And when the subject is you, we, or they, we use are."
     },
     {
       "id": "u1-cap-31",
-      "start": 83.2,
-      "end": 85.9,
+      "start": 67.5013,
+      "end": 68.6773,
       "text": "\"They are happy.\""
     },
     {
       "id": "u1-cap-32",
-      "start": 86.1,
-      "end": 89.9,
+      "start": 69.075,
+      "end": 72.6419,
       "text": "So remember, the subject tells us which form to use."
     },
     {
       "id": "u1-cap-33",
-      "start": 90.2,
-      "end": 94,
+      "start": 72.9126,
+      "end": 76.0613,
       "text": "In everyday English, we often make these expressions shorter."
     },
     {
       "id": "u1-cap-34",
-      "start": 94,
-      "end": 95.9,
+      "start": 76.2685,
+      "end": 78.0649,
       "text": "These are called contractions."
     },
     {
       "id": "u1-cap-35",
-      "start": 96.2,
-      "end": 99.3,
+      "start": 78.2905,
+      "end": 80.4197,
       "text": "\"I am\" becomes \"I'm.\""
     },
     {
       "id": "u1-cap-36",
-      "start": 99.7,
-      "end": 102.8,
+      "start": 80.6146,
+      "end": 83.0223,
       "text": "\"She is\" becomes \"She's.\""
     },
     {
       "id": "u1-cap-37",
-      "start": 103.2,
-      "end": 106.3,
+      "start": 83.1576,
+      "end": 85.5936,
       "text": "And \"They are\" becomes \"They're.\""
     },
     {
       "id": "u1-cap-38",
-      "start": 106.7,
-      "end": 108.5,
+      "start": 85.8693,
+      "end": 87.3736,
       "text": "The meaning stays the same."
     },
     {
       "id": "u1-cap-39",
-      "start": 108.5,
-      "end": 110.9,
+      "start": 87.5528,
+      "end": 89.4541,
       "text": "We're simply using shorter forms."
     },
     {
       "id": "u1-cap-40",
-      "start": 111.2,
-      "end": 113.1,
+      "start": 89.8054,
+      "end": 91.0937,
       "text": "Now, let's try one."
     },
     {
       "id": "u1-cap-41",
-      "start": 113.1,
-      "end": 115,
+      "start": 91.4849,
+      "end": 93.6737,
       "text": "\"My classmates ___ outside.\""
     },
     {
       "id": "u1-cap-42",
-      "start": 115,
-      "end": 117.5,
+      "start": 93.9712,
+      "end": 96.6417,
       "text": "Should we use am, is, or are?"
     },
     {
       "id": "u1-cap-43",
-      "start": 121,
-      "end": 122.4,
+      "start": 100.1023,
+      "end": 101.649,
       "text": "The answer is are!"
     },
     {
       "id": "u1-cap-44",
-      "start": 122.4,
-      "end": 124.9,
+      "start": 101.748,
+      "end": 103.726,
       "text": "\"My classmates are outside.\""
     },
     {
       "id": "u1-cap-45",
-      "start": 125.2,
-      "end": 126,
+      "start": 103.9653,
+      "end": 104.5571,
       "text": "Why?"
     },
     {
       "id": "u1-cap-46",
-      "start": 126,
-      "end": 130.9,
+      "start": 104.7254,
+      "end": 107.8293,
       "text": "Because \"my classmates\" refers to more than one person."
     },
     {
       "id": "u1-cap-47",
-      "start": 131.2,
-      "end": 133.7,
+      "start": 107.9595,
+      "end": 109.6195,
       "text": "We can replace it with they."
     },
     {
       "id": "u1-cap-48",
-      "start": 133.7,
-      "end": 136.9,
+      "start": 109.7928,
+      "end": 112.495,
       "text": "And we already know that \"they\" goes with \"are\"."
     },
     {
       "id": "u1-cap-49",
-      "start": 137.2,
-      "end": 138,
+      "start": 112.8605,
+      "end": 113.6685,
       "text": "Let's review."
     },
     {
       "id": "u1-cap-50",
-      "start": 138,
-      "end": 139.4,
+      "start": 113.9785,
+      "end": 115.2288,
       "text": "I — am."
     },
     {
       "id": "u1-cap-51",
-      "start": 139.6,
-      "end": 141.8,
+      "start": 115.4912,
+      "end": 117.9494,
       "text": "He, she, it — is."
     },
     {
       "id": "u1-cap-52",
-      "start": 142,
-      "end": 144.8,
+      "start": 118.1044,
+      "end": 120.6649,
       "text": "You, we, they — are."
     },
     {
       "id": "u1-cap-53",
-      "start": 145.1,
-      "end": 148.3,
+      "start": 120.8792,
+      "end": 124.1439,
       "text": "And that's how we choose between am, is, and are."
     },
     {
       "id": "u1-cap-54",
-      "start": 148.4,
-      "end": 149.9,
+      "start": 124.3712,
+      "end": 125.87,
       "text": "See you in Part 2!"
     }
   ],

@@ -11,16 +11,24 @@ import {
 import { renderScene, renderComposition } from "../compositions/factory/layout.mjs";
 import { sampledMotionDeadline } from "../scripts/build.mjs";
 
-test("lesson draft preserves the six teaching phases and blocks silent release", () => {
+test("narrated lesson draft uses the selected edit and still blocks silent release", () => {
   const episode = loadEpisode("u001-p01-am-is-are");
-  assert.deepEqual(validateEpisode(episode), []);
+  assert.deepEqual(validateEpisode(episode, { checkLocalMedia: false }), []);
   assert.equal(episode.kind, "lesson");
   assert.equal(episode.status, "draft");
-  assert.equal(episode.narration, null);
-  const errors = readinessErrors(episode).join("\n");
+  assert.equal(episode.narration.performer, "human-owner");
+  assert.equal(episode.narration.transcriptApproved, false);
+  assert.equal(episode.narration.captionsApproved, false);
+  const html = renderComposition(episode, config, assetMap(episode));
+  assert.match(html, /<audio[^>]*id="narration"/);
+  assert.match(html, /edit-v02\.wav/);
+  assert.doesNotMatch(html, /take-02-original\.mp3|edit-v01\.wav/);
+  const silent = structuredClone(episode);
+  silent.narration = null;
+  const errors = readinessErrors(silent).join("\n");
   assert.match(errors, /human narration|recording/i);
   assert.doesNotMatch(errors, /six teaching phases/);
-  assert.doesNotMatch(renderComposition(episode, config, assetMap(episode)), /<audio\b/);
+  assert.doesNotMatch(renderComposition(silent, config, assetMap(silent)), /<audio\b/);
 });
 
 test("lesson quiz reserves three silent seconds before the correct plural answer", () => {

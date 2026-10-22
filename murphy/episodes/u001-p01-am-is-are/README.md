@@ -4,38 +4,38 @@ Episode ID: `u001-p01-am-is-are`. Real lesson draft for local visual evaluation;
 not approved for release. Original teaching material based on the requested topic,
 not copied textbook content. Only Part 1 exists.
 
-The expanded 150-second silent preview uses estimated narration timing. It follows
-the six-scene script supplied in the conversation, with shorter visual scenes
-inside each chapter. The full script takes priority over the original 60–75-second
-target; narration must not be rushed to fit that earlier cut. `episode.json` owns
-content, scenes and provisional captions. `SCRIPT.md` is a recording copy of its
-editable `script` field; synchronize both after script feedback. No transcript is
-approved and no audio, music or generated voice is present. Draft watermark and
-all production-readiness checks remain active.
+The current **126.3-second narration draft** uses the supplied `2.mp3`,
+stored as `recordings/u001-p01-am-is-are/take-02-original.mp3`.
+The original file remains unchanged; a separate 48 kHz WAV edit provides normalized
+audio, a three-second inserted quiz hold and a short final hold. No AI voice or
+music was added. See [the recording log](../../recordings/u001-p01-am-is-are/README.md).
+
+`episode.json` owns scenes, narration references and captions. `SCRIPT.md` is the
+recording-script copy. `transcript.txt` is a **candidate**, based on the known
+script; it has not been checked against the spoken words. Timing uses detected
+speech pauses and script-duration estimates rather than a speech recognizer.
+Transcript/caption approval remains false, status remains draft, and release gates
+are intact. Watch and listen through the draft to confirm the alignment.
 
 ## Visual plan
 
-| Time    | Script chapter                | Shared visuals                                                         |
-| ------- | ----------------------------- | ---------------------------------------------------------------------- |
-| 0–16    | 1 · Hook                      | Title, successive sentence forms, comparison                           |
-| 16–53   | 2 · Understanding the meaning | Three forms of be, feeling/identity/location, present meanings         |
-| 53–90   | 3 · Why does the verb change? | Subject definition, subject/verb matching, positive examples           |
-| 90–111  | 4 · Short forms               | Contractions, three transformations, unchanged meaning                 |
-| 111–137 | 5 · Practice                  | Quiz, three-second thinking pause, plural explanation and substitution |
-| 137–150 | 6 · Recap                     | Sequential rule groups and short branded ending                        |
+| Time          | Script chapter            | Shared visuals                                             |
+| ------------- | ------------------------- | ---------------------------------------------------------- |
+| 0–13.10       | Hook                      | Title, highlighted statements and comparison               |
+| 13.10–44.13   | Understanding the meaning | Forms of be, feelings/identity/location, present meanings  |
+| 44.13–72.77   | Why does the verb change? | Subject definition, subject groups and positive statements |
+| 72.77–89.60   | Short forms               | Three contractions and meaning comparison                  |
+| 89.60–112.67  | Practice                  | Quiz, thinking hold, plural explanation and substitution   |
+| 112.67–126.30 | Recap                     | Sequential subject/verb patterns and branded ending        |
 
-There are 24 generated visual scenes, using the existing component library. The
-quiz thinking interval is exactly **117.5–120.5 seconds**. No narration captions
-appear during that interval. The answer begins its reveal at 120.5 seconds and
-settles by 121. Do not shorten this interval after recording.
+The thinking timer covers exactly **97.0–100.0 seconds**; no narration captions
+appear in that interval. An extra three seconds of silence was inserted at source
+97.0 seconds in the working audio. That editorial boundary was inferred from the
+script and quiet gaps and must be confirmed by listening.
 
-The earlier 74-second MP4, source specification and verification are preserved in
-`renders/u001-p01-am-is-are/versions/v01-74s/`. No previous export was deleted.
-The previously uploaded Drive copy still contains that earlier version.
-
-Text-only explanations remain deliberate: subject grouping and substitution carry
-the meaning without decorative imagery or a mascot. `durationReason` explains the
-longer educational draft; final timing will follow the owner's actual recording.
+The earlier exports, episode sources and evidence are preserved in
+`renders/u001-p01-am-is-are/versions/v01-74s/` and `versions/v02-150s/`.
+Previously uploaded Drive copies remain those silent versions.
 
 The grammar scope is positive present statements with be. `She's` means `she is`
 in these examples; other uses are outside this episode. Accuracy cross-check:
@@ -60,14 +60,17 @@ ignored. Change source JSON, then rebuild/re-preview and rerender; generated HTM
 is disposable. A preview already open may need refreshing after the rebuild.
 Stop the server after review with `npm run preview:stop -- u001-p01-am-is-are`.
 
-## After recording
+## Review the narration draft
 
-Follow [the production workflow](../../docs/PRODUCTION_WORKFLOW.md): preserve and
-back up 48 kHz WAV takes, select an edited recording, register its master/edit asset
-IDs, approve the actual transcript, then align scene boundaries and captions to
-that recording on the 30 FPS grid. Preserve the quiz pause. Estimated cues and
-`SCRIPT.md` are not evidence of spoken synchronization. Keep status draft until
-human script approval; record no fabricated review evidence. Final release still
-requires approved audio/captions, current review evidence and encoded-output QA.
+Listen to the actual encoded MP4, checking spoken wording, scene boundaries,
+caption cues and the quiz pause. Correct `transcript.txt` to the delivered words
+and align episode JSON manually where needed. Do not approve the estimates merely
+because an automated check passes.
 
-Local verification findings are recorded in `REVIEW.md` after rendering.
+The source MP3 remains the declared original; the converted working WAV is not
+presented as a lossless original recording. Final export still requires the
+canonical recording-master standard, human script/transcript/caption approval,
+current review evidence and final encoded-audio QA. Follow
+[the production workflow](../../docs/PRODUCTION_WORKFLOW.md).
+
+Local measured results and review limits are recorded in `REVIEW.md`.

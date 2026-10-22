@@ -1,84 +1,68 @@
-# Expanded-script silent draft — 2026-10-22
+# Take 2 narrated draft — 2026-10-22
 
-Episode: `u001-p01-am-is-are`. This revision uses the six-chapter script supplied
-in the conversation, including the meaning of be, present meanings and the subject
-definition. The earlier 74-second draft and its source/review evidence are preserved
-in `renders/u001-p01-am-is-are/versions/v01-74s/`.
+Episode `u001-p01-am-is-are` now uses the owner's `2.mp3`. Take 1 preparation was
+superseded and archived locally; both original takes are retained unchanged under
+`recordings/u001-p01-am-is-are/`. The expanded
+lesson script and shared components remain intact. Status is draft: transcript
+and captions are unapproved, with no fabricated human QA evidence.
 
-Status remains **draft**. These are implementation observations, not human approval
-or production review evidence. The longer script takes priority over the original
-60–75-second target. Delivery and caption timing remain estimates until recording.
+## Export and checks
 
-## Output
+- `renders/u001-p01-am-is-are/draft.mp4`: 126.300000 seconds, 3,789 frames,
+  8,498,754 bytes; H.264/yuv420p, 1080×1920, 30 FPS; mono AAC, 48 kHz.
+- PASS: `npm run validate` — formatting, syntax, schemas, assets and all 33 tests.
+- PASS: selected lesson's full HyperFrames render gate — no lint/runtime/layout/
+  motion errors or warnings, nine layout samples, 39/39 contrast checks.
+- PASS: `check:visual` — 155 painted safe-area/text samples, semantic reveals,
+  original motion deadlines and deterministic backward seeks.
+- PASS: final ffprobe/output contract. Automatic probe is `draft.verification.json`.
+- PASS: final encoded loudness -16.37 LUFS, -1.13 dBTP. The working WAV measures
+  -16.34 LUFS, -1.47 dBTP. See `take-02-audio-verification.json`.
+- PASS: three-second thinking timer at 97–100 seconds; no captions during it.
+  Measured encoded audio maximum is -91 dB over its interior (97.05–99.95).
+- PASS: 38 decoded full-resolution frames/contact sheets plus 360×640 quiz and
+  ending review. No observed clipping, collisions or unreadable text. Frames
+  include sentence states, contraction transitions, quiz pause/reveal and branding.
+- PASS: Studio and its actual narration asset URL both return HTTP 200; persistent
+  preview remains on port 3004. Original take 2 and stored source hashes match.
+- PASS: final readiness rejects draft status, unapproved transcript/captions and
+  missing named, dated human review evidence.
+- NOT RUN: audible wording/delivery/caption synchronization review; no listening
+  tool was available. Caption estimates use known script and detected quiet gaps,
+  not a verified transcription. The pause insertion boundary also needs listening.
+- NOT RUN: physical phone/platform-overlay review, remote CI, upload or publication.
 
-- File: `renders/u001-p01-am-is-are/draft.mp4` (ignored).
-- MP4, H.264, yuv420p, 1080×1920, 9:16, 30/1 FPS.
-- Duration: **150.000000 seconds**, **4,500 frames**, **6013648 bytes**.
-- Audio streams: **0**, intentionally. No generated voice, music or sound effects.
-- Input fingerprint: `206e33f2ab8e69764d40395e7abbc68d16fbfc94abb8339085de5ec9c5ddc870`.
-- Automatic ffprobe evidence: `draft.verification.json` beside the MP4.
-- Render log: `expanded-render.log`. Renderer summary: 161.6 seconds, screenshot
-  capture, hardware GPU. Internal BeginFrame traces do not establish a faster path.
+Earlier silent exports and evidence remain under `versions/v01-74s/` and
+`versions/v02-150s/`. New frame evidence is `decoded-take-02/` and
+`mobile-take-02/`; render/audit logs have the `take-02-` prefix.
 
-## Executed checks
+## Local audio finishing
 
-| Status  | Check                                  | Result                                                                                                                      |
-| ------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| PASS    | `npm run validate`                     | Formatting, syntax, schema/reference/timeline contracts and 33 test groups                                                  |
-| PASS    | Full preserved/fixture regression      | Zero lint/runtime/layout/motion findings; contrast 52/52, 52/52 and 35/35                                                   |
-| PASS    | Revised lesson HyperFrames check       | Nine layout samples, zero lint/runtime/layout/motion findings; contrast 54/54                                               |
-| PASS    | Draft render gate and ffprobe          | All checks passed; encoded vertical format and duration match source                                                        |
-| PASS    | `check:visual`                         | 155 painted-bounds samples, semantic reveals, exact authored deadlines and repeatable backward seeks                        |
-| PASS    | Script consistency                     | All spoken words covered in order by provisional captions and recording copy; stage directions excluded                     |
-| PASS    | Quiz timing                            | Exactly 117.5–120.5 seconds of thinking; answer hidden and no narration captions during that interval                       |
-| PASS    | Release negative check                 | Missing narration, approvals and human review evidence still reject final release                                           |
-| PASS    | Encoded visual review                  | 49 decoded full-size frames/contact sheets, including sequential comparison, replacements, quiz before/after and last frame |
-| PASS    | Phone-scale review                     | 360×640 present-meaning, contraction, quiz, subject-substitution and ending frames inspected                                |
-| PASS    | Source signatures                      | Browser evidence and rendered MP4 verification match final source fingerprint                                               |
-| PASS    | Studio preview                         | Persistent server on port 3004; status verified and HTTP 200                                                                |
-| PASS    | Preservation                           | Shared design/renderers/schemas, fixtures, assets and dependency lock unchanged                                             |
-| NOT RUN | Audible human narration / AAC QA       | No owner recording supplied; actual synchronization, delivery and loudness remain unverified                                |
-| NOT RUN | Physical phone/platform overlay review | Desktop phone-size inspection does not verify changing platform UI                                                          |
-| NOT RUN | Remote CI or external upload           | No push, publication or updated Drive upload in this revision                                                               |
+The locked HyperFrames renderer duplicated mono narration into stereo, giving
+-13.36 integrated LUFS. Its unmodified result is preserved as
+`take-02-hyperframes-stereo.mp4`. Final audio was encoded directly from the
+normalized working WAV as mono AAC; H.264 packets were copied unchanged (verified
+by matching SHA-256 packet hashes). No video was rerendered by this audio step.
+The final MP4 passes the existing media contract and measured audio targets.
 
-## Long-cut verification repair
+Reproduce after the usual `npm run render:draft -- u001-p01-am-is-are`:
 
-The first full check failed 11 appearsBy assertions despite correct visible frames.
-Installed HyperFrames 0.8.184 source confirmed its motion sweep is capped at 300
-points; 150 seconds therefore gives observations about 0.502 seconds apart, missing
-some original 0.333-second entrance deadlines. This was an observation-grid mismatch,
-not permission to ignore motion failures.
+```bash
+ffmpeg -y -i renders/u001-p01-am-is-are/draft.mp4 \
+  -i recordings/u001-p01-am-is-are/edit-v02.wav \
+  -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -ar 48000 -ac 1 -b:a 192k \
+  -t 126.3 -movflags +faststart renders/u001-p01-am-is-are/draft-mono.mp4
+mv renders/u001-p01-am-is-are/draft-mono.mp4 renders/u001-p01-am-is-are/draft.mp4
+ffprobe -v error -show_streams -show_format renders/u001-p01-am-is-are/draft.mp4
+```
 
-`sampledMotionDeadline` aligns generated long-cut sidecar deadlines to the next
-observable sample. Short-cut deadlines remain unchanged. The browser audit now
-also tests every entrance and quiz answer at its original, unsnapped deadline.
-The repaired full check and all 155 exact/semantic/bounds samples pass. Animation
-and scene times were not retimed by the repair, and release gates were not changed.
-Revisit this compatibility code when upgrading the locked CLI.
+Remeasure final audio after any new encode; a future plain factory render uses the
+locked renderer's stereo behavior again. Its automatic probe describes that new
+encode, so regenerate final finishing evidence before relying on it. Revisit the
+renderer channel handling before production automation. Current final probe and
+audio report describe the finished mono version.
 
-Failure evidence: `expanded-check-before-fix.log` beside the output. Regression tests
-cover short-cut compatibility and the 150-second sampling grid. No dependency or
-installed package source was patched.
-
-## Visual observations and limits
-
-The added explanations use brief successive visual scenes rather than paragraphs.
-Examples distinguish a current feeling from a generally true identity, identify
-She as a subject, then match subject groups to be forms and positive statements.
-Contractions keep their meaning; the plural practice changes My classmates to They
-while retaining are. The recap and Unit 1 · Part 1/3 branding hold to the last frame.
-
-Reviewed frames show readable mobile type, separate caption/content regions, clear
-apostrophes, consistent anchors, and no observed clipping or content collisions.
-Long subject groups wrap deliberately within the safe region. Scene and replacement
-fades include brief low-opacity transition frames; no missing scene mounts were
-observed. This is visual evidence, not proof of natural spoken pacing.
-
-Evidence: `decoded-expanded-v02/` (full-resolution PNGs, timestamp map and contact
-sheets), `mobile-expanded-v02/` (360×640 copies), `visual-audit.json`, and
-`expanded-render.log`. All are ignored local artifacts.
-
-Record the owner's narration at a comfortable pace, then realign scene boundaries,
-cues and the total to that audio. Preserve the three-second thinking interval.
-Approve script, actual transcript and captions through the canonical workflow;
-no approval, publication metadata or production-ready status was fabricated.
+The supplied original is MP3, not a lossless recording master. Resampling cannot
+recover lost detail; the canonical final master-format gate remains unchanged.
+Back up ignored originals and edits independently of Git. Human approval still
+requires listening through actual words, caption boundaries, pause and final AAC.
