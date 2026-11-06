@@ -24,6 +24,17 @@ export function visualErrors(episode, config) {
     if (!v) continue;
     if (scene.duration < 2)
       error(scene, "educational components need at least two seconds");
+    if (scene.component === "visual-context") {
+      let last = -1;
+      for (const state of v.states) {
+        validateAt(scene, state.at, "context.at", 1);
+        if (state.at < last + 1)
+          error(scene, "context states need separate reading holds");
+        if (!episode.mediaAssetIds.includes(state.assetId))
+          error(scene, "context asset must be declared in mediaAssetIds");
+        last = state.at;
+      }
+    }
     if (scene.component === "sentence-builder") {
       let lastEnd = 0;
       v.states.forEach((state, i) => {

@@ -1,4 +1,31 @@
-# Take 2 narrated draft — 2026-10-22
+# Unit 1 review history
+
+## Silent visual archive — 2026-11-06
+
+Owner requested silent versions for all units and video backups to the removable
+SSD and Google Drive. Created `u001-p01-am-is-are-silent-v03-126s.mp4` from the
+current `draft.mp4` by copying its video stream and removing audio. The source
+fingerprint matches the existing export evidence. Original narration, source
+episode JSON and previous exports are preserved; human review status remains draft.
+
+- PASS: ffprobe reports one H.264/yuv420p video stream, zero audio streams,
+  1080×1920, 30 FPS, 126.3 seconds and 3,789 frames.
+- PASS: SHA-256 packet data/timing comparison matches the source video exactly;
+  FFmpeg decoded the entire silent export successfully.
+- PASS: SSD copy at
+  `/mnt/storage/hyperframes/murphy/u001-p01-am-is-are-silent-v03-126s.mp4`
+  matches the local SHA-256 checksum.
+- PASS: uploaded to Google Drive `hyperframes/murphy`; folder readback confirms
+  the filename, video MIME type and 5,940,898-byte size.
+  [Open silent video](https://drive.google.com/file/d/1kMek7In4J5UpYW8BUWqUKtSOTv9ufFPZ/view?usp=drivesdk).
+- SHA-256: `35b4d0524766ed8af0b1ba620285ff47e67a427154636cb2472fb5cb2783e285`.
+- Verification report remains in local renders and on the SSD. Automatic approval
+  review rejected uploading the additional report to Drive because video copying
+  authorization did not extend to the report's local metadata.
+- NOT RUN: new human visual/phone acceptance. Picture packets are unchanged from
+  the previously reviewed export; this backup is not a production approval.
+
+## Take 2 narrated draft — 2026-10-22
 
 Episode `u001-p01-am-is-are` now uses the owner's `2.mp3`. Take 1 preparation was
 superseded and archived locally; both original takes are retained unchanged under

@@ -334,6 +334,23 @@
             "if": {
               "properties": {
                 "component": {
+                  "const": "visual-context"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "visual": {
+                  "$ref": "visual.schema.json#/definitions/visual-context"
+                }
+              },
+              "required": ["visual"]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "component": {
                   "const": "title"
                 }
               }
@@ -478,7 +495,8 @@
                       "dialogue",
                       "phrase-focus",
                       "recap",
-                      "quiz"
+                      "quiz",
+                      "visual-context"
                     ]
                   }
                 }

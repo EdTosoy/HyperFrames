@@ -201,3 +201,13 @@ To extend: use an existing component first; add one concrete schema definition,
 registry descriptor and render/animate implementation only for a new teaching need.
 Keep token/style/motion helpers shared. Add failure-case tests and a fixture proof,
 then repeat the visual loop. Generated HTML is disposable; edit source data/code.
+
+## Context demonstration
+
+`visual-context` uses one or two ordered `states` with declared image `assetId`,
+short sentence `text`, and scene-local `at`. Images and corresponding statements
+reveal together, with a crossfade between changed situations. Assets must appear
+in episode `mediaAssetIds`; timings must leave reading holds. It reuses the
+shared image height, typography, motion helpers and safe areas. The complete
+Unit 1 lesson demonstrates people, a door changing state, pointing, noticing a
+cat, and offering a notebook. All artwork provenance is in its episode manifest.

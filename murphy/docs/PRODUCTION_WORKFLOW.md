@@ -1,5 +1,38 @@
 # Production workflow
 
+## Current working mode — silent units
+
+Owner direction, 2026-11-06: work through all units as silent visual versions for
+now. New lesson drafts use `narration: null` and contain no audio tracks. Recording
+and narration alignment resume only when the owner requests them. Existing
+recordings and narrated versions are preserved.
+
+Each video covers one complete unit, targeting 115 videos for the owner's
+115-unit curriculum. Use sections within the video for subtopics; do not create
+separate Part 1/2/3 lesson videos. Redo Unit 1 to cover its full unit scope before
+continuing to Unit 2. The existing `u001-p01-am-is-are` episode and archived video
+cover the earlier partial lesson and are not the completed whole-unit replacement.
+The owner will delete unwanted earlier exports manually; do not delete them.
+
+After each finished visual version, save a versioned silent MP4 to both:
+
+- Removable USB SSD: `/mnt/storage/hyperframes/murphy/` (volume `storage`).
+  Confirm the SSD is mounted before writing; do not create a fallback directory
+  when it is disconnected. Verify the copy against the local file's checksum.
+- Google Drive: `hyperframes/murphy`, folder ID
+  `1SbqYvGc6-uhdbMZDFTCO5vee0kukU0S7` ([open folder](https://drive.google.com/drive/folders/1SbqYvGc6-uhdbMZDFTCO5vee0kukU0S7)).
+  Upload the video and verify its metadata in the destination folder. The owner
+  has authorized these video backups; preserve existing sharing settings.
+
+Use names such as `u001-am-is-are-silent-v04.mp4` for complete-unit exports; keep
+earlier versions unless the owner deletes them. Existing `p01` filenames are
+historical; the current schema/scaffold still uses part metadata internally.
+Verify zero audio streams, expected dimensions/FPS/duration and successful decode.
+For an existing matching export, remove audio using FFmpeg video stream copy to
+preserve the rendered picture. Keep verification reports local unless separately
+authorized for Drive upload. Silent visual completion does not establish narrated
+production readiness; the release requirements below still apply.
+
 ## Lifecycle
 
 `draft → script-approved → voiceover-ready → visual-review → QA-approved → published`

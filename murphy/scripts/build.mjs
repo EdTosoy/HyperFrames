@@ -8,7 +8,9 @@ import {
   requiredAssetIds,
   sourcePath,
   fingerprint,
+  readinessErrors,
 } from "./project.mjs";
+import { narrationErrors } from "./media.mjs";
 import { renderComposition, renderScene } from "../compositions/factory/layout.mjs";
 
 // HyperFrames 0.8.184 samples motion at 20 Hz, capped at 300 points. On long
@@ -24,7 +26,8 @@ export function sampledMotionDeadline(deadline, duration, fps = 30) {
 }
 
 export function buildEpisode(episode, { draft = true } = {}) {
-  const errors = validateEpisode(episode);
+  const errors = draft ? validateEpisode(episode) : readinessErrors(episode);
+  if (!draft && !errors.length) errors.push(...narrationErrors(episode));
   if (errors.length) throw new Error(errors.join("\n"));
   const destination = resolve(root, ".hyperframes-build", episode.id);
   mkdirSync(destination, { recursive: true });

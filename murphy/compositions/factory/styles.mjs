@@ -1,6 +1,7 @@
 export function libraryStyles(config) {
   const { typography: t, spacing: s, surface: f, layout: l } = config;
   return `
+.context-stack{display:grid}.context-state{grid-area:1/1;display:flex;flex-direction:column;gap:20px}.context-state .illustration{width:100%;object-fit:contain}.context-sentence{font-size:${t.body}px;line-height:1.3;font-weight:800;color:var(--grammar)}
 .library .component-stage{display:flex;flex-direction:column;gap:${s.md}px;min-height:0}
 .library .support{font-size:${t.compact}px;line-height:1.32;font-weight:500;overflow-wrap:anywhere}
 .library .component-stage>.support:last-child{color:var(--muted)}

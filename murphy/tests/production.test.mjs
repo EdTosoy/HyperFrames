@@ -255,3 +255,10 @@ test("portable CI validates local-required declarations without requiring privat
     /Required source missing/,
   );
 });
+
+test("unapproved builds cannot remove the draft watermark", () => {
+  assert.throws(
+    () => buildEpisode(fixture(), { draft: false }),
+    /Fixtures cannot be released|QA-approved/,
+  );
+});

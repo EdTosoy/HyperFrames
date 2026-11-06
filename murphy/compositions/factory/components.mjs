@@ -1,3 +1,4 @@
+import { reveal, hide } from "./motion.mjs";
 import { escapeHtml } from "./primitives.mjs";
 import { educational, renderQuiz, animateQuiz } from "./educational.mjs";
 export { escapeHtml } from "./primitives.mjs";
@@ -25,6 +26,21 @@ export const components = Object.freeze({
     ]),
   ),
   ...educational,
+  "visual-context": {
+    file: "compositions/factory/components.mjs",
+    render: (scene, episode, assets) =>
+      `<div class="context-stack">${scene.visual.states.map((state, i) => `<div id="${scene.id}-context-${i}" class="context-state"><img class="illustration" src="${escapeHtml(assets.get(state.assetId).path)}" alt="${escapeHtml(state.text)}"><p class="context-sentence">${escapeHtml(state.text)}</p></div>`).join("")}</div>`,
+    animate: (scene, config, episode) =>
+      scene.visual.states
+        .map(
+          (
+            state,
+            i,
+          ) => `${i ? hide(`#${scene.id}-context-${i - 1}`, state.at, config, episode) : ""}
+${reveal(`#${scene.id}-context-${i}`, state.at + (i ? config.motion.replaceSeconds : 0), config, episode, "fade")}`,
+        )
+        .join("\n"),
+  },
   quiz: {
     file: "compositions/factory/components.mjs",
     render: quiz,

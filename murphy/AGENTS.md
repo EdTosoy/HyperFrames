@@ -11,6 +11,13 @@
 - New lessons are versioned episode JSON; reuse compositions/factory and central
   config. Generated .hyperframes-build HTML is disposable. Translate Studio edits
   back to data/components; do not create competing lesson renderers.
+- Current owner direction (2026-11-06): make silent visual versions for all units
+  until narration is requested again. Archive each finished visual version to the
+  mounted removable SSD and Google Drive under hyperframes/murphy; use versioned
+  filenames and verify copies. See docs/PRODUCTION_WORKFLOW.md for destinations.
+- Make one complete textbook unit per video: the owner's curriculum has 115 units,
+  targeting 115 lesson videos. Do not split units into separate part videos.
+  Unit 1 needs a complete-unit remake; the owner will delete prior exports manually.
 - Prefer the component catalog/contracts in docs/VISUAL_SYSTEM.md before adding
   visuals. Preserve fixture compatibility; use shared styles/motion and run painted
   safe-area/backward-seek checks for library changes.

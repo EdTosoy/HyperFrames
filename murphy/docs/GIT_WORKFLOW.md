@@ -37,3 +37,6 @@ Use `npm ci`; update dependencies intentionally at exact versions and review the
 lockfile. HyperFrames registry hashes describe snippets, not npm dependencies;
 do not rewrite them for unrelated changes. Formatting excludes preserved creative
 HTML and generated/private assets. CI is at the Git root, not inside murphy/.github.
+
+For restoring older lessons and preserving ignored source media/toolchains, see
+[episode reproducibility](REPRODUCIBILITY.md). MP4 backups alone are insufficient.

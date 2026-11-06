@@ -29,3 +29,14 @@ No private/copyrighted reference files were found tracked in the initial invento
 If found later, stop distribution, identify affected history/remotes and propose an
 authorized migration. Removing an index entry does not erase history. Do not rewrite
 history or delete originals automatically. See GIT_WORKFLOW.md.
+
+## Visual teaching and sourcing
+
+Choose typography for form, diagrams for relationships, and context imagery for
+meaning. Show a useful situation before explaining its rule; reveal information
+progressively. Original SVGs and licensed photos/icons may be combined. Every
+visual must teach; no mascot or decorative image quota. Verify reuse and
+attribution rights before downloading external media, store it locally, and record
+source, author and license in the shared or episode asset manifest. Avoid
+watermarks, weak resolution and runtime hotlinks. If no suitable licensed asset
+is available, use an original illustration and continue production.

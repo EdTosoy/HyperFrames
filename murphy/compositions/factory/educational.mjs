@@ -9,7 +9,7 @@ const title = (scene, episode) => {
   return `<div class="title-lockup"><p class="unit-tag">${unit === null ? "LIBRARY DEMO" : `UNIT ${String(unit).padStart(2, "0")}`} / PART ${String(part).padStart(2, "0")}</p>${scene.visual.subtitle ? `<p class="title-subtitle">${h(scene.visual.subtitle)}</p>` : ""}<div class="title-rule"></div>${support(scene)}</div>`;
 };
 const builder = (scene) =>
-  `<div class="state-stack">${scene.visual.states.map((state, i) => `<div id="${scene.id}-state-${i}" class="builder-state"><p class="state-label">${h(state.label)}</p><div class="word-groups">${state.groups.map((group, j) => `<div id="${scene.id}-group-${i}-${j}" class="word-group"><span class="role-label">${h(group.role)}</span><span class="group-text mark" id="${scene.id}-mark-${i}-${j}">${h(group.text)}</span></div>`).join("")}</div></div>`).join("")}</div>${support(scene)}`;
+  `<div class="state-stack">${scene.visual.states.map((state, i) => `<div id="${scene.id}-state-${i}" class="builder-state"><p class="state-label">${h(state.label)}</p><div class="word-groups">${state.groups.map((group, j) => `<div id="${scene.id}-group-${i}-${j}" class="word-group"><span class="role-label">${h({ complement: "description", phrase: "words" }[group.role] || group.role)}</span><span class="group-text mark" id="${scene.id}-mark-${i}-${j}">${h(group.text)}</span></div>`).join("")}</div></div>`).join("")}</div>${support(scene)}`;
 const animateBuilder = (scene, config, episode) =>
   scene.visual.states
     .map((state, i) => {

@@ -101,6 +101,21 @@ try {
     times.add(scene.start + scene.duration - 0.4);
     const v = scene.visual;
     if (!v) continue;
+    if (scene.component === "visual-context") {
+      for (const [i, state] of v.states.entries()) {
+        const time =
+          scene.start +
+          state.at +
+          config.motion.replaceSeconds +
+          config.motion.enterSeconds +
+          0.1;
+        times.add(time);
+        assert.equal(await visible(`#${scene.id}-context-${i}`, time), true);
+        for (let j = 0; j < v.states.length; j++)
+          if (j !== i)
+            assert.equal(await visible(`#${scene.id}-context-${j}`, time), false);
+      }
+    }
     if (scene.component === "sentence-builder")
       for (const [i, state] of v.states.entries()) {
         const time =
@@ -232,7 +247,7 @@ try {
           bottom: p.height - safe.bottom,
         };
         for (const element of document.querySelectorAll(
-          ".library p,.library h1,.library .word-group,.library .speech,.library .event-line,.library .event-point,.library .comparison-card,.library .recap-pattern,.caption-copy",
+          ".library .context-state .illustration,.library p,.library h1,.library .word-group,.library .speech,.library .event-line,.library .event-point,.library .comparison-card,.library .recap-pattern,.caption-copy",
         )) {
           if (!isVisible(element)) continue;
           const r = element.getBoundingClientRect();
