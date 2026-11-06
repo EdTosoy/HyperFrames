@@ -24,6 +24,11 @@
 - Published teaching is original. Keep textbook screenshots private; never copy
   pages, illustrations, exercises or substantial passages. The owner records all
   narration: no generated/cloned voice or required Whisper.
+- Prefer suitable licensed provider assets before custom illustration: Lucide for
+  icons, unDraw for illustrations and Unsplash for contextual photography. Verify
+  each asset's terms, download locally, record provenance and preserve source bytes
+  for rerenders. Custom SVGs/diagrams are for unmet teaching needs or precise
+  animation. Follow docs/ASSET_POLICY.md; no unnecessary asset dependencies.
 - Use npm, exact dependencies and the lockfile. Add dependencies only for concrete
   needs. Check version-matched CLI help for unfamiliar flags. No system changes,
   global packages, backend, database or automatic publishing.

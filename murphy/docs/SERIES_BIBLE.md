@@ -26,7 +26,9 @@ to show a grammatical relationship. Give learners time to read, think and respon
 before quiz answers appear. Repeat visual anchors while varying illustrations or
 practice types.
 
-Explanations, examples, exercises, diagrams and illustrations must be original.
+Teaching explanations, examples and exercises must be independently written.
+Use suitable licensed provider visuals before custom illustrations; custom
+diagrams and artwork must be original. Never copy textbook visuals or layouts.
 Follow [teaching standards](TEACHING_STANDARDS.md), [visual system](VISUAL_SYSTEM.md)
 and [asset policy](ASSET_POLICY.md). The existing lesson is a historical sample;
 the factory fixture is an infrastructure test and can never be published.

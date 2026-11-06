@@ -204,6 +204,12 @@ then repeat the visual loop. Generated HTML is disposable; edit source data/code
 
 ## Context demonstration
 
+Select suitable licensed imagery before creating custom illustrations: prefer
+Lucide for meaningful icons, unDraw for illustrations and Unsplash for contextual
+photography. Use custom SVGs or diagrams when existing assets cannot explain the
+concept clearly or need precise animation. Verify individual licenses and retain
+local source files/provenance as required by [asset policy](ASSET_POLICY.md).
+
 `visual-context` uses one or two ordered `states` with declared image `assetId`,
 short sentence `text`, and scene-local `at`. Images and corresponding statements
 reveal together, with a crossfade between changed situations. Assets must appear
