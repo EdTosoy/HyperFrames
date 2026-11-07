@@ -123,8 +123,13 @@ The enhanced quiz is selected by adding visual thinking-pause options to the
 existing quiz scene. Multiple-choice questions retain choices/answerIndex. A
 fill-blank question uses `kind: fill-blank`, a prompt containing `___`, and `answer`.
 The timer is a visual reading/thinking cue, not an interactive control. Validation
-requires at least one second of thinking and one second of readable answer hold.
-Actual lessons should allow longer pauses when appropriate.
+requires five seconds of thinking in silent lessons, starting at `thinkingFrom`
+after the complete question/choices entrance and prompt captions. The thinking
+cue is fully visible when the progress bar starts. Question and choices stay
+visible; the answer and its explanation reveal only after the pause. Captions
+must not overlap the thinking interval. Preserve at least one second of readable
+answer hold. Short infrastructure fixtures and the historical recorded draft
+retain their existing timing for compatibility and audio alignment.
 
 Captions retain the Phase 1 timing source and human-recording workflow. Text appears
 only during its cue interval, on an opaque panel in the caption band. Emphasis
@@ -217,3 +222,35 @@ in episode `mediaAssetIds`; timings must leave reading holds. It reuses the
 shared image height, typography, motion helpers and safe areas. The complete
 Unit 1 lesson demonstrates people, a door changing state, pointing, noticing a
 cat, and offering a notebook. All artwork provenance is in its episode manifest.
+
+For precise object demonstrations, optional `visual.layers` overlays up to four
+local image assets on the same 720×320 illustration coordinates. Each declares
+`assetId`, `x`, `y`, `width`, `height`, a scene-local `at` and `duration`, and explicit
+`from`/`to` poses containing `x`, `y` offsets and `scaleX`. Motion stays on the same
+paused timeline; reduced mode changes the pose instantly at its cue. Both poses
+must fit the illustration and leave a final reading hold. Use this only when
+continuous object identity teaches meaning, such as a hinged door closing or a
+notebook moving between people. Keep wording in the existing context states and
+record all layer assets in `mediaAssetIds`. The visual audit checks endpoint poses,
+painted bounds and backward seeks alongside the existing state visibility checks.
+
+### Finite action cycles
+
+Visual-context layers may set optional `cycles` to an odd count from 1 to 15.
+Each cycle lasts `duration` seconds; alternate cycles return toward the starting
+pose. The final odd cycle ends at `to`, preserving final-pose audit semantics.
+Validation reserves the entire duration times cycles plus a reading hold. Reduced
+motion goes directly to the final pose without repeats. Used for instructional
+pen, spoon, stride, brush, ball and rain movement in Unit 3.
+
+Set `yoyo: false` on a layer when each repeat must travel in the same direction
+(such as falling rain), returning immediately to its start between cycles.
+
+### Routed object movement
+
+A visual-context layer may supply one `via` pose using the same x/y/scaleX shape
+as from/to. The shared timeline moves through that pose in two equal-duration
+segments. Use it to route swapping word tiles into separate upper and lower
+lanes so their text remains readable. Only a single cycle is supported with via;
+all three poses must fit the illustration bounds. Reduced motion sets the final
+pose at the authored cue with no travel. Existing layers are unchanged.

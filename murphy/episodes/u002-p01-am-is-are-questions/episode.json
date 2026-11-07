@@ -1,0 +1,2223 @@
+{
+  "schemaVersion": 1,
+  "id": "u002-p01-am-is-are-questions",
+  "kind": "lesson",
+  "curriculum": {
+    "reference": "Essential Grammar in Use — Unit 2; original teaching based on owner scope",
+    "unit": 2,
+    "part": 1
+  },
+  "title": "am / is / are — questions",
+  "learningObjective": "Build standard questions with be, ask for information with question words, and give natural short answers.",
+  "learnerLevel": "A1",
+  "hook": "She is ready. Is she ready? The same words can tell or ask.",
+  "script": "Welcome back. In Unit 1, we described people and things with am, is and are. She is ready tells us something. Is she ready asks us to check. Today we will build questions and answer them.\n\nThe subject is who or what we mean: here, she. In the statement, is follows she. In the standard question, is comes before she. The words keep their jobs, but their order changes. We also use a question mark.\n\nWatch is move in front of she. She moves into the second position. Ready stays at the end. Now read the question: is she ready? Use this movement when you change a statement into a question.\n\nThe bus is late becomes is the bus late? The subject is the whole phrase, the bus. Move is before that whole phrase. Keep the bus together.\n\nAre your neighbours home? Your neighbours means they, so we use are. The subject can be several words. Put are before the whole subject, not inside it.\n\nWith I, use am: am I late? With he or she, use is: is he ready? Is she here? We keep the same verb choice from Unit 1 and change its position.\n\nWith you, we and they, use are. Are you ready? Are we late? Are they home? You takes are whether we speak to one listener or several.\n\nFor a thing we call it, use is. Is it open? We ask about the door. A yes or no answer can tell us whether our idea is right.\n\nWhat asks for a thing or information. What is your favourite food? Rice. The answer names the food, rather than saying yes or no.\n\nWho asks for a person. Who is that person? My teacher. We want to know which person this is.\n\nWhere asks for a place. Where are my glasses? On the table. Imagine you cannot find your glasses. You need their location.\n\nHow asks for a condition or detail. How old is your brother? Twelve. How old asks about age. How are you asks how you feel. The words after how help show which detail we want.\n\nWhy asks for a reason. Why are you worried? My bus is late. The reply gives a reason for the feeling.\n\nAre you here asks for yes or no. Where are you asks for a place. Start with where, then are, then you. The question word comes first, and be still comes before the subject.\n\nYou already know that contractions join words. What’s means What is. What’s your name? It means what is your name.\n\nYou already know that contractions join words. Who’s means Who is. Who’s that? It means who is that.\n\nYou already know that contractions join words. Where’s means Where is. Where’s my bag? It means where is my bag.\n\nYou already know that contractions join words. How’s means How is. How’s your sister? It means how is your sister.\n\nMaya asks Omar: are you a student? Omar answers: yes, I am. Maya calls Omar you. Omar calls himself I. The person has not changed; the speaker has. With I, he uses am.\n\nA short answer avoids repeating the whole description. Yes, I am means yes, I am a student. Say yes, he is; yes, she is; or yes, it is. With you, we and they, say yes, you are; yes, we are; yes, they are.\n\nFor no, keep the negative. No, I’m not. No, he isn’t; no, she isn’t; no, it isn’t. With you, we and they, use aren’t: no, you aren’t; no, we aren’t; no, they aren’t.\n\nNo, she isn’t and no, she’s not mean the same thing. Both are natural. The negative word not is still there. The short form changes, but the meaning stays the same.\n\nNo, we aren’t and no, we’re not are both natural. You and they can follow the same two patterns: you aren’t or you’re not; they aren’t or they’re not.\n\nFor a positive short answer, keep the full verb at the end. Say yes, I am. Yes, I’m sounds unfinished on its own. You can say I’m ready when the description follows, but our short answer ends with am.\n\nThe same idea applies to is. Say yes, she is, not yes, she’s on its own. With are, say yes, they are. Negative answers can use contractions because not is part of the answer.\n\nYou may hear you are ready with a questioning voice, for example to check surprising news. For the standard neutral question we are learning, put are first: are you ready?\n\nStart with where, but do not forget the next step. Put are before you: where are you? The question word does not replace the verb.\n\nYour parents means they: more than one person. Use are, not is. Are your parents home? Choose the verb for the whole subject, even when it is not a pronoun.\n\nChange: They are home. [Pause five seconds.] Are they home?. Move are before they; keep the place at the end.\n\n___ I early? [Pause five seconds.] Am. I takes am. In a question, am comes first.\n\n___ your sister ready? [Pause five seconds.] Is. Your sister means she, so use is before the subject.\n\n___ your friends here? [Pause five seconds.] Are. Your friends means they; use are.\n\nArrange: you / are / where [Pause five seconds.] Where are you?. Where comes first, then are, then the subject you.\n\nAsk for a place: ___ is my bag? [Pause five seconds.] Where. Where asks for location, so the reply names a place.\n\nAsk for a reason: ___ are you sad? [Pause five seconds.] Why. Why asks for the reason for a feeling.\n\nOmar asks you: Are you ready? Say yes. [Pause five seconds.] Yes, I am.. You speak about yourself as I; keep the full am.\n\nIs she at home? Say no. [Pause five seconds.] No, she isn’t.. She takes is. No, she’s not is also natural.\n\nPut am, is or are before the subject in a standard question. Put a question word first when you want information. Choose be to match the subject. Use full verbs in positive short answers, and keep not in negative ones. Ask someone near you: are you ready? Then answer for yourself: yes, I am, or no, I’m not.",
+  "rules": [],
+  "examples": [],
+  "quizzes": [
+    {
+      "id": "u2-q1",
+      "question": "Change: They are home.",
+      "choices": ["Are they home?", "Is they home?"],
+      "answerIndex": 0,
+      "explanation": "Move are before they; keep the place at the end."
+    },
+    {
+      "id": "u2-q2",
+      "question": "___ I early?",
+      "choices": ["Are", "Am", "Is"],
+      "answerIndex": 1,
+      "explanation": "I takes am. In a question, am comes first."
+    },
+    {
+      "id": "u2-q3",
+      "question": "___ your sister ready?",
+      "choices": ["Is", "Are", "Am"],
+      "answerIndex": 0,
+      "explanation": "Your sister means she, so use is before the subject."
+    },
+    {
+      "id": "u2-q4",
+      "question": "___ your friends here?",
+      "choices": ["Is", "Am", "Are"],
+      "answerIndex": 2,
+      "explanation": "Your friends means they; use are."
+    },
+    {
+      "id": "u2-q5",
+      "question": "Arrange: you / are / where",
+      "choices": ["Where you are?", "Where are you?"],
+      "answerIndex": 1,
+      "explanation": "Where comes first, then are, then the subject you."
+    },
+    {
+      "id": "u2-q6",
+      "question": "Ask for a place: ___ is my bag?",
+      "choices": ["Who", "Where", "Why"],
+      "answerIndex": 1,
+      "explanation": "Where asks for location, so the reply names a place."
+    },
+    {
+      "id": "u2-q7",
+      "question": "Ask for a reason: ___ are you sad?",
+      "choices": ["Why", "Who", "What"],
+      "answerIndex": 0,
+      "explanation": "Why asks for the reason for a feeling."
+    },
+    {
+      "id": "u2-q8",
+      "question": "Omar asks you: Are you ready? Say yes.",
+      "choices": ["Yes, I’m.", "Yes, I am."],
+      "answerIndex": 1,
+      "explanation": "You speak about yourself as I; keep the full am."
+    },
+    {
+      "id": "u2-q9",
+      "question": "Is she at home? Say no.",
+      "choices": ["No, she isn’t.", "No, she aren’t."],
+      "answerIndex": 0,
+      "explanation": "She takes is. No, she’s not is also natural."
+    }
+  ],
+  "profile": "vertical",
+  "safeArea": "social-conservative",
+  "durationSeconds": 889,
+  "durationReason": "Complete unit with progressive explanations and seven-second practice pauses; provisional owner voice-over timing.",
+  "scenes": [
+    {
+      "id": "u2-01",
+      "component": "visual-context",
+      "purpose": "hook",
+      "start": 0,
+      "duration": 24,
+      "heading": "Tell or ask?",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u001-v02-student",
+            "text": "She is ready. → Is she ready?",
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-02",
+      "component": "sentence-builder",
+      "purpose": "grammar-breakdown",
+      "start": 24,
+      "duration": 28,
+      "heading": "Move be to the front",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "states": [
+          {
+            "label": "Statement",
+            "at": 0.5,
+            "groups": [
+              {
+                "text": "She",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "ready.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "Question",
+            "at": 14.0,
+            "groups": [
+              {
+                "text": "Is",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "she",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "ready?",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-03",
+      "component": "visual-context",
+      "purpose": "visual-explanation",
+      "start": 52,
+      "duration": 22,
+      "heading": "Watch the words move",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u002-slots",
+            "text": "Statement → standard question",
+            "at": 0.5
+          }
+        ],
+        "layers": [
+          {
+            "assetId": "u002-subject",
+            "x": 40,
+            "y": 75,
+            "width": 150,
+            "height": 130,
+            "at": 7,
+            "duration": 1.5,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": 180,
+              "y": 0,
+              "scaleX": 1
+            }
+          },
+          {
+            "assetId": "u002-be",
+            "x": 220,
+            "y": 75,
+            "width": 150,
+            "height": 130,
+            "at": 7,
+            "duration": 1.5,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": -180,
+              "y": 0,
+              "scaleX": 1
+            }
+          },
+          {
+            "assetId": "u002-rest",
+            "x": 400,
+            "y": 75,
+            "width": 300,
+            "height": 130,
+            "at": 7,
+            "duration": 1.5,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-04",
+      "component": "sentence-builder",
+      "purpose": "grammar-breakdown",
+      "start": 74,
+      "duration": 22,
+      "heading": "A longer subject",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "states": [
+          {
+            "label": "Statement",
+            "at": 0.5,
+            "groups": [
+              {
+                "text": "The bus",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "late.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "Question",
+            "at": 11.0,
+            "groups": [
+              {
+                "text": "Is",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "the bus",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "late?",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-05",
+      "component": "sentence-builder",
+      "purpose": "grammar-breakdown",
+      "start": 96,
+      "duration": 22,
+      "heading": "More than one person",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "states": [
+          {
+            "label": "Statement",
+            "at": 0.5,
+            "groups": [
+              {
+                "text": "Your neighbours",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "are",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "home.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "Question",
+            "at": 11.0,
+            "groups": [
+              {
+                "text": "Are",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "your neighbours",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "home?",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-06",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 118,
+      "duration": 24,
+      "heading": "Questions with am and is",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "tokens": [
+          {
+            "text": "Am I late?",
+            "emphasis": "underline",
+            "at": 0.5
+          },
+          {
+            "text": "Is he ready?",
+            "emphasis": "underline",
+            "at": 5.5
+          },
+          {
+            "text": "Is she here?",
+            "emphasis": "underline",
+            "at": 10.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-07",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 142,
+      "duration": 24,
+      "heading": "Questions with are",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "tokens": [
+          {
+            "text": "Are you ready?",
+            "emphasis": "underline",
+            "at": 0.5
+          },
+          {
+            "text": "Are we late?",
+            "emphasis": "underline",
+            "at": 5.5
+          },
+          {
+            "text": "Are they home?",
+            "emphasis": "underline",
+            "at": 10.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-08",
+      "component": "visual-context",
+      "purpose": "real-life-example",
+      "start": 166,
+      "duration": 18,
+      "heading": "Ask about a thing",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u001-v02-door-context",
+            "text": "Is it open?",
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-09",
+      "component": "dialogue",
+      "purpose": "visual-explanation",
+      "start": 184,
+      "duration": 25,
+      "heading": "What asks for information",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "speakers": [
+          {
+            "id": "maya",
+            "name": "Maya",
+            "side": "left"
+          },
+          {
+            "id": "omar",
+            "name": "Omar",
+            "side": "right"
+          }
+        ],
+        "messages": [
+          {
+            "speakerId": "maya",
+            "text": "What is your favourite food?",
+            "at": 0.5
+          },
+          {
+            "speakerId": "omar",
+            "text": "Rice.",
+            "at": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-10",
+      "component": "dialogue",
+      "purpose": "visual-explanation",
+      "start": 209,
+      "duration": 25,
+      "heading": "Who asks for a person",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "speakers": [
+          {
+            "id": "maya",
+            "name": "Maya",
+            "side": "left"
+          },
+          {
+            "id": "omar",
+            "name": "Omar",
+            "side": "right"
+          }
+        ],
+        "messages": [
+          {
+            "speakerId": "maya",
+            "text": "Who is that person?",
+            "at": 0.5
+          },
+          {
+            "speakerId": "omar",
+            "text": "My teacher.",
+            "at": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-11",
+      "component": "dialogue",
+      "purpose": "visual-explanation",
+      "start": 234,
+      "duration": 25,
+      "heading": "Where asks for a place",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "speakers": [
+          {
+            "id": "maya",
+            "name": "Maya",
+            "side": "left"
+          },
+          {
+            "id": "omar",
+            "name": "Omar",
+            "side": "right"
+          }
+        ],
+        "messages": [
+          {
+            "speakerId": "maya",
+            "text": "Where are my glasses?",
+            "at": 0.5
+          },
+          {
+            "speakerId": "omar",
+            "text": "On the table.",
+            "at": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-12",
+      "component": "dialogue",
+      "purpose": "visual-explanation",
+      "start": 259,
+      "duration": 25,
+      "heading": "How asks for a condition or detail",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "speakers": [
+          {
+            "id": "maya",
+            "name": "Maya",
+            "side": "left"
+          },
+          {
+            "id": "omar",
+            "name": "Omar",
+            "side": "right"
+          }
+        ],
+        "messages": [
+          {
+            "speakerId": "maya",
+            "text": "How old is your brother?",
+            "at": 0.5
+          },
+          {
+            "speakerId": "omar",
+            "text": "Twelve.",
+            "at": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-13",
+      "component": "dialogue",
+      "purpose": "visual-explanation",
+      "start": 284,
+      "duration": 25,
+      "heading": "Why asks for a reason",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "speakers": [
+          {
+            "id": "maya",
+            "name": "Maya",
+            "side": "left"
+          },
+          {
+            "id": "omar",
+            "name": "Omar",
+            "side": "right"
+          }
+        ],
+        "messages": [
+          {
+            "speakerId": "maya",
+            "text": "Why are you worried?",
+            "at": 0.5
+          },
+          {
+            "speakerId": "omar",
+            "text": "My bus is late.",
+            "at": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-14",
+      "component": "sentence-builder",
+      "purpose": "grammar-breakdown",
+      "start": 309,
+      "duration": 25,
+      "heading": "Put the question word first",
+      "body": "Question word → be → subject → rest",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "states": [
+          {
+            "label": "Yes or no",
+            "at": 0.5,
+            "groups": [
+              {
+                "text": "Are",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "you",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "here?",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "Ask for a place",
+            "at": 12.5,
+            "groups": [
+              {
+                "text": "Where",
+                "role": "phrase",
+                "emphasis": "none"
+              },
+              {
+                "text": "are",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "you?",
+                "role": "subject",
+                "emphasis": "none"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-15",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 334,
+      "duration": 18,
+      "heading": "What’s = What is",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "tokens": [
+          {
+            "text": "What is",
+            "emphasis": "both",
+            "at": 0.5,
+            "replacement": {
+              "text": "What’s",
+              "at": 8
+            }
+          }
+        ],
+        "note": "The apostrophe marks missing letters."
+      }
+    },
+    {
+      "id": "u2-16",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 352,
+      "duration": 18,
+      "heading": "Who’s = Who is",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "tokens": [
+          {
+            "text": "Who is",
+            "emphasis": "both",
+            "at": 0.5,
+            "replacement": {
+              "text": "Who’s",
+              "at": 8
+            }
+          }
+        ],
+        "note": "The apostrophe marks missing letters."
+      }
+    },
+    {
+      "id": "u2-17",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 370,
+      "duration": 18,
+      "heading": "Where’s = Where is",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "tokens": [
+          {
+            "text": "Where is",
+            "emphasis": "both",
+            "at": 0.5,
+            "replacement": {
+              "text": "Where’s",
+              "at": 8
+            }
+          }
+        ],
+        "note": "The apostrophe marks missing letters."
+      }
+    },
+    {
+      "id": "u2-18",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 388,
+      "duration": 18,
+      "heading": "How’s = How is",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "tokens": [
+          {
+            "text": "How is",
+            "emphasis": "both",
+            "at": 0.5,
+            "replacement": {
+              "text": "How’s",
+              "at": 8
+            }
+          }
+        ],
+        "note": "The apostrophe marks missing letters."
+      }
+    },
+    {
+      "id": "u2-19",
+      "component": "dialogue",
+      "purpose": "visual-explanation",
+      "start": 406,
+      "duration": 28,
+      "heading": "You in the question → I in the reply",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "speakers": [
+          {
+            "id": "maya",
+            "name": "Maya",
+            "side": "left"
+          },
+          {
+            "id": "omar",
+            "name": "Omar",
+            "side": "right"
+          }
+        ],
+        "messages": [
+          {
+            "speakerId": "maya",
+            "text": "Are you a student?",
+            "at": 0.5
+          },
+          {
+            "speakerId": "omar",
+            "text": "Yes, I am.",
+            "at": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-20",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 434,
+      "duration": 30,
+      "heading": "Positive short answers",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "tokens": [
+          {
+            "text": "Yes, I am.",
+            "emphasis": "underline",
+            "at": 0.5
+          },
+          {
+            "text": "Yes, she is.",
+            "emphasis": "underline",
+            "at": 6.5
+          },
+          {
+            "text": "Yes, they are.",
+            "emphasis": "underline",
+            "at": 12.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-21",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 464,
+      "duration": 30,
+      "heading": "Negative short answers",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "tokens": [
+          {
+            "text": "No, I’m not.",
+            "emphasis": "underline",
+            "at": 0.5
+          },
+          {
+            "text": "No, she isn’t.",
+            "emphasis": "underline",
+            "at": 6.5
+          },
+          {
+            "text": "No, they aren’t.",
+            "emphasis": "underline",
+            "at": 12.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-22",
+      "component": "comparison",
+      "purpose": "grammar-breakdown",
+      "start": 494,
+      "duration": 22,
+      "heading": "Two natural negative answers",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "layout": "sequential",
+        "secondAt": 11.0,
+        "items": [
+          {
+            "label": "ONE WAY",
+            "text": "No, she isn’t.",
+            "verdict": "different"
+          },
+          {
+            "label": "ANOTHER WAY",
+            "text": "No, she’s not.",
+            "verdict": "correct"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-23",
+      "component": "comparison",
+      "purpose": "grammar-breakdown",
+      "start": 516,
+      "duration": 22,
+      "heading": "With we, too",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "layout": "sequential",
+        "secondAt": 11.0,
+        "items": [
+          {
+            "label": "ONE WAY",
+            "text": "No, we aren’t.",
+            "verdict": "different"
+          },
+          {
+            "label": "ANOTHER WAY",
+            "text": "No, we’re not.",
+            "verdict": "correct"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-24",
+      "component": "comparison",
+      "purpose": "grammar-breakdown",
+      "start": 538,
+      "duration": 25,
+      "heading": "Keep the verb at the end",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "layout": "sequential",
+        "secondAt": 12.5,
+        "items": [
+          {
+            "label": "REVISE",
+            "text": "Yes, I’m.",
+            "verdict": "incorrect"
+          },
+          {
+            "label": "STANDARD",
+            "text": "Yes, I am.",
+            "verdict": "correct"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-25",
+      "component": "comparison",
+      "purpose": "grammar-breakdown",
+      "start": 563,
+      "duration": 22,
+      "heading": "She is, not she’s",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "layout": "sequential",
+        "secondAt": 11.0,
+        "items": [
+          {
+            "label": "REVISE",
+            "text": "Yes, she’s.",
+            "verdict": "incorrect"
+          },
+          {
+            "label": "STANDARD",
+            "text": "Yes, she is.",
+            "verdict": "correct"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-26",
+      "component": "comparison",
+      "purpose": "grammar-breakdown",
+      "start": 585,
+      "duration": 25,
+      "heading": "The standard question pattern",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "layout": "sequential",
+        "secondAt": 12.5,
+        "items": [
+          {
+            "label": "CHECKING / SURPRISE",
+            "text": "You are ready?",
+            "verdict": "different"
+          },
+          {
+            "label": "STANDARD",
+            "text": "Are you ready?",
+            "verdict": "correct"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-27",
+      "component": "comparison",
+      "purpose": "grammar-breakdown",
+      "start": 610,
+      "duration": 20,
+      "heading": "After where, keep be",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "layout": "sequential",
+        "secondAt": 10.0,
+        "items": [
+          {
+            "label": "REVISE",
+            "text": "Where you are?",
+            "verdict": "incorrect"
+          },
+          {
+            "label": "STANDARD",
+            "text": "Where are you?",
+            "verdict": "correct"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-28",
+      "component": "comparison",
+      "purpose": "grammar-breakdown",
+      "start": 630,
+      "duration": 22,
+      "heading": "Match the whole subject",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "layout": "sequential",
+        "secondAt": 11.0,
+        "items": [
+          {
+            "label": "REVISE",
+            "text": "Is your parents home?",
+            "verdict": "incorrect"
+          },
+          {
+            "label": "STANDARD",
+            "text": "Are your parents home?",
+            "verdict": "correct"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u2-29",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 652,
+      "duration": 23,
+      "heading": "Your turn",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 3
+      },
+      "quizId": "u2-q1",
+      "answerAt": 8
+    },
+    {
+      "id": "u2-30",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 675,
+      "duration": 23,
+      "heading": "Your turn",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 3
+      },
+      "quizId": "u2-q2",
+      "answerAt": 8
+    },
+    {
+      "id": "u2-31",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 698,
+      "duration": 23,
+      "heading": "Your turn",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 3
+      },
+      "quizId": "u2-q3",
+      "answerAt": 8
+    },
+    {
+      "id": "u2-32",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 721,
+      "duration": 23,
+      "heading": "Your turn",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 3
+      },
+      "quizId": "u2-q4",
+      "answerAt": 8
+    },
+    {
+      "id": "u2-33",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 744,
+      "duration": 23,
+      "heading": "Your turn",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 3
+      },
+      "quizId": "u2-q5",
+      "answerAt": 8
+    },
+    {
+      "id": "u2-34",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 767,
+      "duration": 23,
+      "heading": "Your turn",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 3
+      },
+      "quizId": "u2-q6",
+      "answerAt": 8
+    },
+    {
+      "id": "u2-35",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 790,
+      "duration": 23,
+      "heading": "Your turn",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 3
+      },
+      "quizId": "u2-q7",
+      "answerAt": 8
+    },
+    {
+      "id": "u2-36",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 813,
+      "duration": 23,
+      "heading": "Your turn",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 3
+      },
+      "quizId": "u2-q8",
+      "answerAt": 8
+    },
+    {
+      "id": "u2-37",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 836,
+      "duration": 23,
+      "heading": "Your turn",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 3
+      },
+      "quizId": "u2-q9",
+      "answerAt": 8
+    },
+    {
+      "id": "u2-38",
+      "component": "recap",
+      "purpose": "recap",
+      "start": 859,
+      "duration": 30,
+      "heading": "Ask, then answer",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 2 / questions",
+      "visual": {
+        "pattern": "Be → subject → rest?",
+        "takeaways": [
+          "Where → are → you?",
+          "Yes, I am. / No, I’m not.",
+          "Parents = they → Are…?"
+        ],
+        "reminder": "Make one question about someone near you."
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "u001-v02-student",
+      "type": "image",
+      "path": "episodes/u001-p01-am-is-are-complete/assets/u001-v02-student.svg",
+      "creator": "English, Made Clear (original teaching layout); Lucide Contributors and Cole Bemis (selected icon geometry)",
+      "source": "Composition of Lucide 0.468.0 icons (smile, book-open) and original teaching layout. Original geometry for a precise instructional situation; no textbook source.",
+      "license": {
+        "name": "ISC and MIT (Lucide/Feather icon portions); original project layout",
+        "source": "episodes/u001-p01-am-is-are-complete/assets/lucide/LICENSE",
+        "redistributionAllowed": true
+      },
+      "attribution": "Lucide Contributors; Cole Bemis (Feather). Full notices retained with local source files.",
+      "intendedUsage": "A fictional student supplies an identity example.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u002-slots",
+      "type": "image",
+      "path": "episodes/u002-p01-am-is-are-questions/assets/u002-slots.svg",
+      "creator": "English, Made Clear",
+      "source": "Original precise grammar diagram; no textbook imagery",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u002-p01-am-is-are-questions/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Show be crossing before its subject with deterministic movement",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u002-subject",
+      "type": "image",
+      "path": "episodes/u002-p01-am-is-are-questions/assets/u002-subject.svg",
+      "creator": "English, Made Clear",
+      "source": "Original precise grammar diagram; no textbook imagery",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u002-p01-am-is-are-questions/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Show be crossing before its subject with deterministic movement",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u002-be",
+      "type": "image",
+      "path": "episodes/u002-p01-am-is-are-questions/assets/u002-be.svg",
+      "creator": "English, Made Clear",
+      "source": "Original precise grammar diagram; no textbook imagery",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u002-p01-am-is-are-questions/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Show be crossing before its subject with deterministic movement",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u002-rest",
+      "type": "image",
+      "path": "episodes/u002-p01-am-is-are-questions/assets/u002-rest.svg",
+      "creator": "English, Made Clear",
+      "source": "Original precise grammar diagram; no textbook imagery",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u002-p01-am-is-are-questions/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Show be crossing before its subject with deterministic movement",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u001-v02-door-context",
+      "type": "image",
+      "path": "episodes/u001-p01-am-is-are-complete/assets/u001-v02-door-context.svg",
+      "creator": "English, Made Clear (original teaching layout); Lucide Contributors and Cole Bemis (selected icon geometry)",
+      "source": "Composition of Lucide 0.468.0 icons (door-open) and original teaching layout. Original geometry for a precise instructional situation; no textbook source.",
+      "license": {
+        "name": "ISC and MIT (Lucide/Feather icon portions); original project layout",
+        "source": "episodes/u001-p01-am-is-are-complete/assets/lucide/LICENSE",
+        "redistributionAllowed": true
+      },
+      "attribution": "Lucide Contributors; Cole Bemis (Feather). Full notices retained with local source files.",
+      "intendedUsage": "An open door illustrates a condition.",
+      "distribution": "tracked"
+    }
+  ],
+  "mediaAssetIds": [
+    "u001-v02-student",
+    "u002-slots",
+    "u002-subject",
+    "u002-be",
+    "u002-rest",
+    "u001-v02-door-context"
+  ],
+  "narration": null,
+  "captions": [
+    {
+      "id": "u2-01-c0",
+      "start": 0.6,
+      "end": 2.22,
+      "text": "Welcome back."
+    },
+    {
+      "id": "u2-01-c1",
+      "start": 2.253,
+      "end": 9.978,
+      "text": "In Unit 1, we described people and things with am, is and are."
+    },
+    {
+      "id": "u2-01-c2",
+      "start": 10.011,
+      "end": 13.998,
+      "text": "She is ready tells us something."
+    },
+    {
+      "id": "u2-01-c3",
+      "start": 14.031,
+      "end": 17.769,
+      "text": "Is she ready asks us to check."
+    },
+    {
+      "id": "u2-01-c4",
+      "start": 17.802,
+      "end": 23.5,
+      "text": "Today we will build questions and answer them."
+    },
+    {
+      "id": "u2-02-c0",
+      "start": 24.6,
+      "end": 30.643,
+      "text": "The subject is who or what we mean: here, she."
+    },
+    {
+      "id": "u2-02-c1",
+      "start": 30.676,
+      "end": 35.011,
+      "text": "In the statement, is follows she."
+    },
+    {
+      "id": "u2-02-c2",
+      "start": 35.044,
+      "end": 41.087,
+      "text": "In the standard question, is comes before she."
+    },
+    {
+      "id": "u2-02-c3",
+      "start": 41.12,
+      "end": 47.82,
+      "text": "The words keep their jobs, but their order changes."
+    },
+    {
+      "id": "u2-02-c4",
+      "start": 47.853,
+      "end": 51.5,
+      "text": "We also use a question mark."
+    },
+    {
+      "id": "u2-03-c0",
+      "start": 52.6,
+      "end": 55.955,
+      "text": "Watch is move in front of she."
+    },
+    {
+      "id": "u2-03-c1",
+      "start": 55.988,
+      "end": 59.902,
+      "text": "She moves into the second position."
+    },
+    {
+      "id": "u2-03-c2",
+      "start": 59.935,
+      "end": 62.507,
+      "text": "Ready stays at the end."
+    },
+    {
+      "id": "u2-03-c3",
+      "start": 62.54,
+      "end": 66.566,
+      "text": "Now read the question: is she ready?"
+    },
+    {
+      "id": "u2-03-c4",
+      "start": 66.599,
+      "end": 73.5,
+      "text": "Use this movement when you change a statement into a question."
+    },
+    {
+      "id": "u2-04-c0",
+      "start": 74.6,
+      "end": 80.718,
+      "text": "The bus is late becomes is the bus late?"
+    },
+    {
+      "id": "u2-04-c1",
+      "start": 80.751,
+      "end": 87.022,
+      "text": "The subject is the whole phrase, the bus."
+    },
+    {
+      "id": "u2-04-c2",
+      "start": 87.055,
+      "end": 92.102,
+      "text": "Move is before that whole phrase."
+    },
+    {
+      "id": "u2-04-c3",
+      "start": 92.135,
+      "end": 95.5,
+      "text": "Keep the bus together."
+    },
+    {
+      "id": "u2-05-c0",
+      "start": 96.6,
+      "end": 100.114,
+      "text": "Are your neighbours home?"
+    },
+    {
+      "id": "u2-05-c1",
+      "start": 100.147,
+      "end": 106.05,
+      "text": "Your neighbours means they, so we use are."
+    },
+    {
+      "id": "u2-05-c2",
+      "start": 106.083,
+      "end": 110.721,
+      "text": "The subject can be several words."
+    },
+    {
+      "id": "u2-05-c3",
+      "start": 110.754,
+      "end": 117.5,
+      "text": "Put are before the whole subject, not inside it."
+    },
+    {
+      "id": "u2-06-c0",
+      "start": 118.6,
+      "end": 122.865,
+      "text": "With I, use am: am I late?"
+    },
+    {
+      "id": "u2-06-c1",
+      "start": 122.898,
+      "end": 128.803,
+      "text": "With he or she, use is: is he ready?"
+    },
+    {
+      "id": "u2-06-c2",
+      "start": 128.836,
+      "end": 130.804,
+      "text": "Is she here?"
+    },
+    {
+      "id": "u2-06-c3",
+      "start": 130.837,
+      "end": 141.5,
+      "text": "We keep the same verb choice from Unit 1 and change its position."
+    },
+    {
+      "id": "u2-07-c0",
+      "start": 142.6,
+      "end": 148.079,
+      "text": "With you, we and they, use are."
+    },
+    {
+      "id": "u2-07-c1",
+      "start": 148.112,
+      "end": 150.586,
+      "text": "Are you ready?"
+    },
+    {
+      "id": "u2-07-c2",
+      "start": 150.619,
+      "end": 152.74,
+      "text": "Are we late?"
+    },
+    {
+      "id": "u2-07-c3",
+      "start": 152.773,
+      "end": 155.247,
+      "text": "Are they home?"
+    },
+    {
+      "id": "u2-07-c4",
+      "start": 155.28,
+      "end": 165.5,
+      "text": "You takes are whether we speak to one listener or several."
+    },
+    {
+      "id": "u2-08-c0",
+      "start": 166.6,
+      "end": 170.904,
+      "text": "For a thing we call it, use is."
+    },
+    {
+      "id": "u2-08-c1",
+      "start": 170.937,
+      "end": 172.464,
+      "text": "Is it open?"
+    },
+    {
+      "id": "u2-08-c2",
+      "start": 172.497,
+      "end": 175.552,
+      "text": "We ask about the door."
+    },
+    {
+      "id": "u2-08-c3",
+      "start": 175.585,
+      "end": 183.5,
+      "text": "A yes or no answer can tell us whether our idea is right."
+    },
+    {
+      "id": "u2-09-c0",
+      "start": 184.6,
+      "end": 191.589,
+      "text": "What asks for a thing or information."
+    },
+    {
+      "id": "u2-09-c1",
+      "start": 191.622,
+      "end": 196.911,
+      "text": "What is your favourite food?"
+    },
+    {
+      "id": "u2-09-c2",
+      "start": 196.944,
+      "end": 197.888,
+      "text": "Rice."
+    },
+    {
+      "id": "u2-09-c3",
+      "start": 197.921,
+      "end": 208.5,
+      "text": "The answer names the food, rather than saying yes or no."
+    },
+    {
+      "id": "u2-10-c0",
+      "start": 209.6,
+      "end": 215.483,
+      "text": "Who asks for a person."
+    },
+    {
+      "id": "u2-10-c1",
+      "start": 215.516,
+      "end": 220.597,
+      "text": "Who is that person?"
+    },
+    {
+      "id": "u2-10-c2",
+      "start": 220.63,
+      "end": 223.572,
+      "text": "My teacher."
+    },
+    {
+      "id": "u2-10-c3",
+      "start": 223.605,
+      "end": 233.5,
+      "text": "We want to know which person this is."
+    },
+    {
+      "id": "u2-11-c0",
+      "start": 234.6,
+      "end": 239.239,
+      "text": "Where asks for a place."
+    },
+    {
+      "id": "u2-11-c1",
+      "start": 239.272,
+      "end": 243.508,
+      "text": "Where are my glasses?"
+    },
+    {
+      "id": "u2-11-c2",
+      "start": 243.541,
+      "end": 246.163,
+      "text": "On the table."
+    },
+    {
+      "id": "u2-11-c3",
+      "start": 246.196,
+      "end": 253.659,
+      "text": "Imagine you cannot find your glasses."
+    },
+    {
+      "id": "u2-11-c4",
+      "start": 253.692,
+      "end": 258.5,
+      "text": "You need their location."
+    },
+    {
+      "id": "u2-12-c0",
+      "start": 259.6,
+      "end": 264.5,
+      "text": "How asks for a condition or detail."
+    },
+    {
+      "id": "u2-12-c1",
+      "start": 264.533,
+      "end": 267.893,
+      "text": "How old is your brother?"
+    },
+    {
+      "id": "u2-12-c2",
+      "start": 267.926,
+      "end": 268.906,
+      "text": "Twelve."
+    },
+    {
+      "id": "u2-12-c3",
+      "start": 268.939,
+      "end": 272.159,
+      "text": "How old asks about age."
+    },
+    {
+      "id": "u2-12-c4",
+      "start": 272.192,
+      "end": 276.392,
+      "text": "How are you asks how you feel."
+    },
+    {
+      "id": "u2-12-c5",
+      "start": 276.425,
+      "end": 283.5,
+      "text": "The words after how help show which detail we want."
+    },
+    {
+      "id": "u2-13-c0",
+      "start": 284.6,
+      "end": 289.943,
+      "text": "Why asks for a reason."
+    },
+    {
+      "id": "u2-13-c1",
+      "start": 289.976,
+      "end": 294.833,
+      "text": "Why are you worried?"
+    },
+    {
+      "id": "u2-13-c2",
+      "start": 294.866,
+      "end": 298.509,
+      "text": "My bus is late."
+    },
+    {
+      "id": "u2-13-c3",
+      "start": 298.542,
+      "end": 308.5,
+      "text": "The reply gives a reason for the feeling."
+    },
+    {
+      "id": "u2-14-c0",
+      "start": 309.6,
+      "end": 314.107,
+      "text": "Are you here asks for yes or no."
+    },
+    {
+      "id": "u2-14-c1",
+      "start": 314.14,
+      "end": 318.506,
+      "text": "Where are you asks for a place."
+    },
+    {
+      "id": "u2-14-c2",
+      "start": 318.539,
+      "end": 323.75,
+      "text": "Start with where, then are, then you."
+    },
+    {
+      "id": "u2-14-c3",
+      "start": 323.783,
+      "end": 333.5,
+      "text": "The question word comes first, and be still comes before the subject."
+    },
+    {
+      "id": "u2-15-c0",
+      "start": 334.6,
+      "end": 341.562,
+      "text": "You already know that contractions join words."
+    },
+    {
+      "id": "u2-15-c1",
+      "start": 341.595,
+      "end": 344.773,
+      "text": "What’s means What is."
+    },
+    {
+      "id": "u2-15-c2",
+      "start": 344.806,
+      "end": 347.379,
+      "text": "What’s your name?"
+    },
+    {
+      "id": "u2-15-c3",
+      "start": 347.412,
+      "end": 351.5,
+      "text": "It means what is your name."
+    },
+    {
+      "id": "u2-16-c0",
+      "start": 352.6,
+      "end": 360.567,
+      "text": "You already know that contractions join words."
+    },
+    {
+      "id": "u2-16-c1",
+      "start": 360.6,
+      "end": 363.891,
+      "text": "Who’s means Who is."
+    },
+    {
+      "id": "u2-16-c2",
+      "start": 363.924,
+      "end": 365.829,
+      "text": "Who’s that?"
+    },
+    {
+      "id": "u2-16-c3",
+      "start": 365.862,
+      "end": 369.5,
+      "text": "It means who is that."
+    },
+    {
+      "id": "u2-17-c0",
+      "start": 370.6,
+      "end": 377.69,
+      "text": "You already know that contractions join words."
+    },
+    {
+      "id": "u2-17-c1",
+      "start": 377.723,
+      "end": 381.268,
+      "text": "Where’s means Where is."
+    },
+    {
+      "id": "u2-17-c2",
+      "start": 381.301,
+      "end": 383.613,
+      "text": "Where’s my bag?"
+    },
+    {
+      "id": "u2-17-c3",
+      "start": 383.646,
+      "end": 387.5,
+      "text": "It means where is my bag."
+    },
+    {
+      "id": "u2-18-c0",
+      "start": 388.6,
+      "end": 395.562,
+      "text": "You already know that contractions join words."
+    },
+    {
+      "id": "u2-18-c1",
+      "start": 395.595,
+      "end": 398.471,
+      "text": "How’s means How is."
+    },
+    {
+      "id": "u2-18-c2",
+      "start": 398.504,
+      "end": 401.228,
+      "text": "How’s your sister?"
+    },
+    {
+      "id": "u2-18-c3",
+      "start": 401.261,
+      "end": 405.5,
+      "text": "It means how is your sister."
+    },
+    {
+      "id": "u2-19-c0",
+      "start": 406.6,
+      "end": 412.225,
+      "text": "Maya asks Omar: are you a student?"
+    },
+    {
+      "id": "u2-19-c1",
+      "start": 412.258,
+      "end": 416.228,
+      "text": "Omar answers: yes, I am."
+    },
+    {
+      "id": "u2-19-c2",
+      "start": 416.261,
+      "end": 419.57,
+      "text": "Maya calls Omar you."
+    },
+    {
+      "id": "u2-19-c3",
+      "start": 419.603,
+      "end": 423.077,
+      "text": "Omar calls himself I."
+    },
+    {
+      "id": "u2-19-c4",
+      "start": 423.11,
+      "end": 430.389,
+      "text": "The person has not changed; the speaker has."
+    },
+    {
+      "id": "u2-19-c5",
+      "start": 430.422,
+      "end": 433.5,
+      "text": "With I, he uses am."
+    },
+    {
+      "id": "u2-20-c0",
+      "start": 434.6,
+      "end": 442.337,
+      "text": "A short answer avoids repeating the whole description."
+    },
+    {
+      "id": "u2-20-c1",
+      "start": 442.37,
+      "end": 447.528,
+      "text": "Yes, I am means yes, I am a student."
+    },
+    {
+      "id": "u2-20-c2",
+      "start": 447.561,
+      "end": 453.722,
+      "text": "Say yes, he is; yes, she is; or yes, it is."
+    },
+    {
+      "id": "u2-20-c3",
+      "start": 453.755,
+      "end": 463.5,
+      "text": "With you, we and they, say yes, you are; yes, we are; yes, they are."
+    },
+    {
+      "id": "u2-21-c0",
+      "start": 464.6,
+      "end": 469.222,
+      "text": "For no, keep the negative."
+    },
+    {
+      "id": "u2-21-c1",
+      "start": 469.255,
+      "end": 471.388,
+      "text": "No, I’m not."
+    },
+    {
+      "id": "u2-21-c2",
+      "start": 471.421,
+      "end": 478.888,
+      "text": "No, he isn’t; no, she isn’t; no, it isn’t."
+    },
+    {
+      "id": "u2-21-c3",
+      "start": 478.921,
+      "end": 493.5,
+      "text": "With you, we and they, use aren’t: no, you aren’t; no, we aren’t; no, they aren’t."
+    },
+    {
+      "id": "u2-22-c0",
+      "start": 494.6,
+      "end": 501.318,
+      "text": "No, she isn’t and no, she’s not mean the same thing."
+    },
+    {
+      "id": "u2-22-c1",
+      "start": 501.351,
+      "end": 503.547,
+      "text": "Both are natural."
+    },
+    {
+      "id": "u2-22-c2",
+      "start": 503.58,
+      "end": 508.36,
+      "text": "The negative word not is still there."
+    },
+    {
+      "id": "u2-22-c3",
+      "start": 508.393,
+      "end": 515.5,
+      "text": "The short form changes, but the meaning stays the same."
+    },
+    {
+      "id": "u2-23-c0",
+      "start": 516.6,
+      "end": 523.44,
+      "text": "No, we aren’t and no, we’re not are both natural."
+    },
+    {
+      "id": "u2-23-c1",
+      "start": 523.473,
+      "end": 537.5,
+      "text": "You and they can follow the same two patterns: you aren’t or you’re not; they aren’t or they’re not."
+    },
+    {
+      "id": "u2-24-c0",
+      "start": 538.6,
+      "end": 545.728,
+      "text": "For a positive short answer, keep the full verb at the end."
+    },
+    {
+      "id": "u2-24-c1",
+      "start": 545.761,
+      "end": 547.452,
+      "text": "Say yes, I am."
+    },
+    {
+      "id": "u2-24-c2",
+      "start": 547.485,
+      "end": 552.076,
+      "text": "Yes, I’m sounds unfinished on its own."
+    },
+    {
+      "id": "u2-24-c3",
+      "start": 552.109,
+      "end": 562.5,
+      "text": "You can say I’m ready when the description follows, but our short answer ends with am."
+    },
+    {
+      "id": "u2-25-c0",
+      "start": 563.6,
+      "end": 567.006,
+      "text": "The same idea applies to is."
+    },
+    {
+      "id": "u2-25-c1",
+      "start": 567.039,
+      "end": 572.269,
+      "text": "Say yes, she is, not yes, she’s on its own."
+    },
+    {
+      "id": "u2-25-c2",
+      "start": 572.302,
+      "end": 575.708,
+      "text": "With are, say yes, they are."
+    },
+    {
+      "id": "u2-25-c3",
+      "start": 575.741,
+      "end": 584.5,
+      "text": "Negative answers can use contractions because not is part of the answer."
+    },
+    {
+      "id": "u2-26-c0",
+      "start": 585.6,
+      "end": 598.2,
+      "text": "You may hear you are ready with a questioning voice, for example to check surprising news."
+    },
+    {
+      "id": "u2-26-c1",
+      "start": 598.233,
+      "end": 609.5,
+      "text": "For the standard neutral question we are learning, put are first: are you ready?"
+    },
+    {
+      "id": "u2-27-c0",
+      "start": 610.6,
+      "end": 617.944,
+      "text": "Start with where, but do not forget the next step."
+    },
+    {
+      "id": "u2-27-c1",
+      "start": 617.977,
+      "end": 622.971,
+      "text": "Put are before you: where are you?"
+    },
+    {
+      "id": "u2-27-c2",
+      "start": 623.004,
+      "end": 629.5,
+      "text": "The question word does not replace the verb."
+    },
+    {
+      "id": "u2-28-c0",
+      "start": 630.6,
+      "end": 636.854,
+      "text": "Your parents means they: more than one person."
+    },
+    {
+      "id": "u2-28-c1",
+      "start": 636.887,
+      "end": 639.062,
+      "text": "Use are, not is."
+    },
+    {
+      "id": "u2-28-c2",
+      "start": 639.095,
+      "end": 642.086,
+      "text": "Are your parents home?"
+    },
+    {
+      "id": "u2-28-c3",
+      "start": 642.119,
+      "end": 651.5,
+      "text": "Choose the verb for the whole subject, even when it is not a pronoun."
+    },
+    {
+      "id": "u2-29-prompt",
+      "start": 652.6,
+      "end": 655,
+      "text": "Choose the answer. Think for five seconds."
+    },
+    {
+      "id": "u2-29-replycue",
+      "start": 660.5,
+      "end": 672.5,
+      "text": "Are they home? Move are before they; keep the place at the end."
+    },
+    {
+      "id": "u2-30-prompt",
+      "start": 675.6,
+      "end": 678,
+      "text": "Choose the answer. Think for five seconds."
+    },
+    {
+      "id": "u2-30-replycue",
+      "start": 683.5,
+      "end": 695.5,
+      "text": "Am I takes am. In a question, am comes first."
+    },
+    {
+      "id": "u2-31-prompt",
+      "start": 698.6,
+      "end": 701,
+      "text": "Choose the answer. Think for five seconds."
+    },
+    {
+      "id": "u2-31-replycue",
+      "start": 706.5,
+      "end": 718.5,
+      "text": "Is Your sister means she, so use is before the subject."
+    },
+    {
+      "id": "u2-32-prompt",
+      "start": 721.6,
+      "end": 724,
+      "text": "Choose the answer. Think for five seconds."
+    },
+    {
+      "id": "u2-32-replycue",
+      "start": 729.5,
+      "end": 741.5,
+      "text": "Are Your friends means they; use are."
+    },
+    {
+      "id": "u2-33-prompt",
+      "start": 744.6,
+      "end": 747,
+      "text": "Choose the answer. Think for five seconds."
+    },
+    {
+      "id": "u2-33-replycue",
+      "start": 752.5,
+      "end": 764.5,
+      "text": "Where are you? Where comes first, then are, then the subject you."
+    },
+    {
+      "id": "u2-34-prompt",
+      "start": 767.6,
+      "end": 770,
+      "text": "Choose the answer. Think for five seconds."
+    },
+    {
+      "id": "u2-34-replycue",
+      "start": 775.5,
+      "end": 787.5,
+      "text": "Where Where asks for location, so the reply names a place."
+    },
+    {
+      "id": "u2-35-prompt",
+      "start": 790.6,
+      "end": 793,
+      "text": "Choose the answer. Think for five seconds."
+    },
+    {
+      "id": "u2-35-replycue",
+      "start": 798.5,
+      "end": 810.5,
+      "text": "Why Why asks for the reason for a feeling."
+    },
+    {
+      "id": "u2-36-prompt",
+      "start": 813.6,
+      "end": 816,
+      "text": "Choose the answer. Think for five seconds."
+    },
+    {
+      "id": "u2-36-replycue",
+      "start": 821.5,
+      "end": 833.5,
+      "text": "Yes, I am. You speak about yourself as I; keep the full am."
+    },
+    {
+      "id": "u2-37-prompt",
+      "start": 836.6,
+      "end": 839,
+      "text": "Choose the answer. Think for five seconds."
+    },
+    {
+      "id": "u2-37-replycue",
+      "start": 844.5,
+      "end": 856.5,
+      "text": "No, she isn’t. She takes is. No, she’s not is also natural."
+    },
+    {
+      "id": "u2-38-c0",
+      "start": 859.6,
+      "end": 865.303,
+      "text": "Put am, is or are before the subject in a standard question."
+    },
+    {
+      "id": "u2-38-c1",
+      "start": 865.336,
+      "end": 870.279,
+      "text": "Put a question word first when you want information."
+    },
+    {
+      "id": "u2-38-c2",
+      "start": 870.312,
+      "end": 873.259,
+      "text": "Choose be to match the subject."
+    },
+    {
+      "id": "u2-38-c3",
+      "start": 873.292,
+      "end": 880.136,
+      "text": "Use full verbs in positive short answers, and keep not in negative ones."
+    },
+    {
+      "id": "u2-38-c4",
+      "start": 880.169,
+      "end": 883.591,
+      "text": "Ask someone near you: are you ready?"
+    },
+    {
+      "id": "u2-38-c5",
+      "start": 883.624,
+      "end": 888.5,
+      "text": "Then answer for yourself: yes, I am, or no, I’m not."
+    }
+  ],
+  "status": "draft",
+  "reviewEvidence": null,
+  "publication": []
+}

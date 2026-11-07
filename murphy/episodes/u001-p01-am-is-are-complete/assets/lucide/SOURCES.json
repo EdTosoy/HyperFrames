@@ -1,0 +1,45 @@
+{
+  "provider": "Lucide",
+  "release": "0.468.0",
+  "repository": "https://github.com/lucide-icons/lucide/tree/0.468.0",
+  "licenseChecked": "2026-11-06",
+  "licenseURL": "https://lucide.dev/license",
+  "files": [
+    {
+      "file": "FEATHER-LICENSE",
+      "sha256": "308028e93fcf84972523cdf6e616f73168546b4953895f516d01287f16fe7bee"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "1e7290b35280a048667bbf0ebabac1c7fd52a75300e8b2946ac165715997f2bc"
+    },
+    {
+      "file": "backpack.svg",
+      "sha256": "239fdca9bfe7d550be2dbbbe40f3c62f748a96235cde509d15dd32596e982f95"
+    },
+    {
+      "file": "book-open.svg",
+      "sha256": "a5eb669f66989fdbc003b1689ebc93769b3b9d680f840573f2a3ac268756f894"
+    },
+    {
+      "file": "cat.svg",
+      "sha256": "aa8dacc2b7db300a4137da7a7b0e2b4983061d45ef8bfff2c8078796b97e7518"
+    },
+    {
+      "file": "door-open.svg",
+      "sha256": "dd7d3d092ce2770a2e291050aaa9d7f93e197cd0a4179cd2dc051c7ebc02b703"
+    },
+    {
+      "file": "house.svg",
+      "sha256": "1d3bb0587b8ffbe5e59de3436f880785c3eec7911bd06aabd7932195448b120b"
+    },
+    {
+      "file": "notebook.svg",
+      "sha256": "03c9f3fa8ead15c1f64c7dd4269d4c0376d1e88f7c534acbbb716f2995942821"
+    },
+    {
+      "file": "smile.svg",
+      "sha256": "e9b9aa831b0491cfc08c41fe72c41a4815456fc1421b19a0c7f7378efd4c9d29"
+    }
+  ]
+}

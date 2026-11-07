@@ -33,6 +33,30 @@ preserve the rendered picture. Keep verification reports local unless separately
 authorized for Drive upload. Silent visual completion does not establish narrated
 production readiness; the release requirements below still apply.
 
+## Curriculum review and script preparation
+
+Apply the authoritative [teaching standards](TEACHING_STANDARDS.md) to each unit,
+including silent visual versions. This is preparation and part of the existing
+script/visual review, not an additional approval stage.
+
+1. Review the current unit's learning objectives and complete-unit scope.
+2. Check [learning progression](LEARNING_PROGRESSION.md) for confirmed earlier
+   teaching; distinguish approved coverage from plans and verify uncertain gaps.
+3. Identify genuinely new concepts and terms, required prerequisites and concepts
+   intentionally deferred. Follow the curriculum's progression.
+4. Identify likely beginner misunderstandings that the lesson needs to address.
+5. Decide what needs a full explanation and what needs a brief reminder or review.
+   Include enough context for someone who missed an earlier lesson.
+6. Write the original lesson script with examples, meaningful visuals and guided
+   practice, using the existing six teaching phases. Let clarity determine duration.
+7. In the existing script review, check accuracy, clarity, originality, likely
+   confusion, unnecessary repetition and continuity with earlier teaching.
+8. Update the progression record as teaching content is approved. Script-only
+   coverage stays in Planned teaching; during the existing visual review, record
+   teaching actually present in the approved lesson version under Approved
+   teaching, with source/version and approval references. Reconcile changes at
+   subsequent reviews. Do not count planned narration as teaching in silent visuals.
+
 ## Lifecycle
 
 `draft → script-approved → voiceover-ready → visual-review → QA-approved → published`
@@ -40,9 +64,10 @@ production readiness; the release requirements below still apply.
 Transitions are human decisions recorded in episode JSON. Validation checks state
 requirements; the CLI does not publish or infer approval.
 
-1. Create a draft with `npm run episode:new -- uNNN-pNN-topic`. Replace TODOs with
-   an original objective, hook, script, rules, examples and answer keys. Keep the
-   six teaching phases. IDs are stable; do not recycle published IDs.
+1. Use the curriculum review above before writing the script. Create a draft with
+   `npm run episode:new -- uNNN-pNN-topic`. Replace TODOs with an original objective,
+   hook, script, rules, examples and answer keys. Keep the six teaching phases.
+   IDs are stable; do not recycle published IDs.
 2. Review accuracy, originality and teaching effectiveness. Mark `script-approved`
    only after a person approves the script. Keep revision notes with the episode.
 3. Record the owner speaking English. Preserve immutable `take-01.wav` etc. and

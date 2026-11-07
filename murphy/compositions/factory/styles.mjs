@@ -1,7 +1,8 @@
 export function libraryStyles(config) {
   const { typography: t, spacing: s, surface: f, layout: l } = config;
   return `
-.context-stack{display:grid}.context-state{grid-area:1/1;display:flex;flex-direction:column;gap:20px}.context-state .illustration{width:100%;object-fit:contain}.context-sentence{font-size:${t.body}px;line-height:1.3;font-weight:800;color:var(--grammar)}
+.context-stack{display:grid;position:relative}.context-state{grid-area:1/1;display:flex;flex-direction:column;gap:${s.sm}px}.context-state .illustration{width:100%;object-fit:contain}.context-overlay{position:absolute;top:0;left:0;width:100%;height:${l.illustrationHeight}px;pointer-events:none}.context-sentence{font-size:${t.body}px;line-height:1.3;font-weight:800;color:var(--grammar)}
+.context-shared{grid-template-rows:${l.illustrationHeight}px auto;gap:${s.sm}px}.context-shared>.illustration{grid-area:1/1;width:100%}.context-shared>.context-state{grid-area:2/1}
 .library .component-stage{display:flex;flex-direction:column;gap:${s.md}px;min-height:0}
 .library .support{font-size:${t.compact}px;line-height:1.32;font-weight:500;overflow-wrap:anywhere}
 .library .component-stage>.support:last-child{color:var(--muted)}

@@ -375,6 +375,15 @@ export function validateEpisode(
       errors.push(`/scenes/${scene.id}: image requires mediaAssetId`);
     if (
       scene.component === "quiz" &&
+      episode.kind === "lesson" &&
+      !episode.narration &&
+      !scene.visual
+    )
+      errors.push(
+        `/scenes/${scene.id}: silent guided practice requires visual thinking-pause configuration`,
+      );
+    if (
+      scene.component === "quiz" &&
       !scene.visual &&
       episode.quizzes.find((q) => q.id === scene.quizId)?.kind === "fill-blank"
     )
@@ -413,9 +422,14 @@ export function validateEpisode(
           mustExist: checkLocalMedia || map.get(id).distribution === "tracked",
         });
     }
-    for (const scene of episode.scenes)
+    for (const scene of episode.scenes) {
       if (scene.mediaAssetId && map.get(scene.mediaAssetId)?.type !== "image")
         errors.push(`/scenes/${scene.id}/mediaAssetId: expected an image asset`);
+      if (scene.component === "visual-context")
+        for (const item of [...scene.visual.states, ...(scene.visual.layers || [])])
+          if (map.get(item.assetId)?.type !== "image")
+            errors.push(`/scenes/${scene.id}/visual: context asset must be an image`);
+    }
     if (episode.narration) {
       for (const id of [episode.narration.masterAssetId, episode.narration.editAssetId])
         if (map.get(id)?.type !== "audio")

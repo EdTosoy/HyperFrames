@@ -1,0 +1,1943 @@
+{
+  "schemaVersion": 1,
+  "id": "u003-p01-present-continuous",
+  "kind": "lesson",
+  "curriculum": {
+    "reference": "Essential Grammar in Use, Unit 3; owner outline; original examples",
+    "unit": 3,
+    "part": 1
+  },
+  "title": "I am doing — present continuous",
+  "learningObjective": "Describe actions happening now using am/is/are plus verb-ing, form negatives and spell common -ing forms.",
+  "learnerLevel": "A1",
+  "hook": "Watch the spoon move. She is cooking.",
+  "script": "Watch the spoon moving in the pan. She is cooking. The action is happening as we watch. She is not sleeping. Cooking is happening; sleeping is not.\n\nIn Unit 1, she is happy describes a feeling. She is cooking describes an action in progress. We keep is and add the action word with ing.\n\nWe call this the present continuous. Present refers to now in this lesson. Continuous means the action is in progress. Her message is not finished. She is writing as we speak.\n\nLook outside. Drops are falling past the window. It is raining. The rain is happening now. The present continuous is one way to describe the present, not the only way.\n\nUse a subject, am, is or are, and an action word ending in ing. In she is reading, reading names the action. Is and reading work together to show an action in progress.\n\nI studying leaves out am in a standard full sentence. Say I am studying. Adding ing alone is not enough. Choose am, is or are to match the subject, just as in Unit 1.\n\nI am studying. The action is happening now. I’m studying. The contraction has the same meaning. Keep both be and the ing action when you shorten the sentence.\n\nHe is running. The action is happening now. He’s running. The contraction has the same meaning. Keep both be and the ing action when you shorten the sentence.\n\nWe are learning. The action is happening now. We’re learning. The contraction has the same meaning. Keep both be and the ing action when you shorten the sentence.\n\nWatch his legs move through a stride. He is running. Is matches he; running tells us the action. Now we will change the situation, not just the words.\n\nHe is standing still now. He is not running. The running action is not happening. Not makes the continuous sentence negative.\n\nYou know where not goes from Unit 1. I am not sleeping. Keep am, then not, then sleeping. The action still ends in ing in a negative sentence.\n\nHe is not working becomes he isn’t working. She isn’t dancing. They aren’t waiting. I’m not sleeping uses am not. Do not say I amn’t sleeping.\n\nFor many verbs, keep the original letters and add ing. Read becomes reading. Play becomes playing. Work becomes working. The ending works with am, is or are to describe an action in progress.\n\nIn make, the final e is silent. Remove that e before adding ing: make becomes making. Write becomes writing and dance becomes dancing. These follow the same pattern.\n\nRun has one spoken beat, a short vowel sound, and one final consonant. Double n before ing: running. Sit becomes sitting and swim becomes swimming. The spelling and sound pattern matters; not every final consonant doubles.\n\nWork ends with two consonant letters, r and k: working, not workking. Play keeps its y: playing. Do not double w, x or y for this pattern. Longer words depend on the stressed beat too. Learn these short examples first.\n\nHere lie means rest with your body flat. For lie, change ie to y, then add ing: lying. She is lying on the bed. Keep is before lying.\n\nImagine watching a cleaner for a moment. The action began before this moment and continues through now. The highlighted span includes NOW. We are looking inside the action, before it finishes.\n\nWatch the brush move across the floor. He is cleaning. We describe the action we can see in progress. We do not need to see the whole job from start to finish.\n\nWatch the ball move as the game continues. They are playing basketball. They takes are; playing names the action. Use what you can observe now to choose your description.\n\nI ___ studying now. [Pause five seconds.] am With I, use am. Studying is the action in progress.\n\nThe children ___ playing. [Pause five seconds.] are The children means they. They takes are.\n\nShe is ___ a message. (write) [Pause five seconds.] writing Remove the silent e in write, then add ing: writing.\n\nChoose the negative of He is working. [Pause five seconds.] He isn’t working. Put not after is. Isn’t means is not. Keep working.\n\nWhich full sentence is correct? [Pause five seconds.] I am learning. A full present continuous sentence needs am and the ing action.\n\nThey are ___. (run) [Pause five seconds.] running Run has the short-vowel pattern: double n before ing.\n\nThe cat is ___ on the rug. (lie) [Pause five seconds.] lying Change ie to y and add ing: lying.\n\nWatch the movement carefully. Next, choose the sentence that matches this action.\n\nDrops are falling now. Choose the description. [Pause five seconds.] It is raining. Falling drops show rain in progress. Use is plus raining.\n\nWatch the movement carefully. Next, choose the sentence that matches this action.\n\nA pen is moving across a page now. Choose the sentence. [Pause five seconds.] She is writing. The moving pen shows writing in progress. Use is plus writing.\n\nPresent continuous describes an action in progress now. Use am, is or are plus the ing action. Put not after be for a negative. Remember reading, making, running and lying.\n\nImagine you are writing a message right now. Say I’m writing. I’m not sleeping. Now look around. Describe one action you can actually see.",
+  "rules": [],
+  "examples": [],
+  "quizzes": [
+    {
+      "id": "u3-q1",
+      "question": "I ___ studying now.",
+      "choices": ["am", "is", "are"],
+      "answerIndex": 0,
+      "explanation": "With I, use am. Studying is the action in progress."
+    },
+    {
+      "id": "u3-q2",
+      "question": "The children ___ playing.",
+      "choices": ["is", "are", "am"],
+      "answerIndex": 1,
+      "explanation": "The children means they. They takes are."
+    },
+    {
+      "id": "u3-q3",
+      "question": "She is ___ a message. (write)",
+      "choices": ["write", "writing", "writeing"],
+      "answerIndex": 1,
+      "explanation": "Remove the silent e in write, then add ing: writing."
+    },
+    {
+      "id": "u3-q4",
+      "question": "Choose the negative of He is working.",
+      "choices": ["He not working.", "He isn’t working.", "He isn’t work."],
+      "answerIndex": 1,
+      "explanation": "Put not after is. Isn’t means is not. Keep working."
+    },
+    {
+      "id": "u3-q5",
+      "question": "Which full sentence is correct?",
+      "choices": ["I learning.", "I am learn.", "I am learning."],
+      "answerIndex": 2,
+      "explanation": "A full present continuous sentence needs am and the ing action."
+    },
+    {
+      "id": "u3-q6",
+      "question": "They are ___. (run)",
+      "choices": ["runing", "running", "run"],
+      "answerIndex": 1,
+      "explanation": "Run has the short-vowel pattern: double n before ing."
+    },
+    {
+      "id": "u3-q7",
+      "question": "The cat is ___ on the rug. (lie)",
+      "choices": ["lieing", "lying", "liing"],
+      "answerIndex": 1,
+      "explanation": "Change ie to y and add ing: lying."
+    },
+    {
+      "id": "u3-q8",
+      "question": "Drops are falling now. Choose the description.",
+      "choices": ["It is raining.", "It isn’t raining."],
+      "answerIndex": 0,
+      "explanation": "Falling drops show rain in progress. Use is plus raining."
+    },
+    {
+      "id": "u3-q9",
+      "question": "A pen is moving across a page now. Choose the sentence.",
+      "choices": ["She is writing.", "She isn’t writing."],
+      "answerIndex": 0,
+      "explanation": "The moving pen shows writing in progress. Use is plus writing."
+    }
+  ],
+  "profile": "vertical",
+  "safeArea": "social-conservative",
+  "durationSeconds": 614,
+  "durationReason": "Complete progressive silent lesson; provisional timings for later human narration.",
+  "scenes": [
+    {
+      "id": "u3-01",
+      "component": "visual-context",
+      "purpose": "hook",
+      "start": 0,
+      "duration": 18,
+      "heading": "Watch the action",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u003-kitchen",
+            "text": "She is cooking.",
+            "at": 0.5
+          }
+        ],
+        "layers": [
+          {
+            "assetId": "u003-spoon",
+            "x": 10,
+            "y": 10,
+            "width": 660,
+            "height": 290,
+            "at": 1,
+            "duration": 1.4,
+            "cycles": 9,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": 25,
+              "y": 0,
+              "scaleX": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-02",
+      "component": "sentence-builder",
+      "purpose": "grammar-breakdown",
+      "start": 18,
+      "duration": 18,
+      "heading": "Familiar be, a new use",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "label": "A feeling",
+            "at": 0.5,
+            "groups": [
+              {
+                "text": "She",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "verb",
+                "emphasis": "both"
+              },
+              {
+                "text": "happy.",
+                "role": "complement",
+                "emphasis": "none"
+              }
+            ]
+          },
+          {
+            "label": "An action now",
+            "at": 8.5,
+            "groups": [
+              {
+                "text": "She",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "auxiliary",
+                "emphasis": "both"
+              },
+              {
+                "text": "cooking.",
+                "role": "verb",
+                "emphasis": "both"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-03",
+      "component": "visual-context",
+      "purpose": "visual-explanation",
+      "start": 36,
+      "duration": 18,
+      "heading": "Present continuous",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u003-desk",
+            "text": "She is writing.",
+            "at": 0.5
+          }
+        ],
+        "layers": [
+          {
+            "assetId": "u003-pen",
+            "x": 10,
+            "y": 10,
+            "width": 660,
+            "height": 290,
+            "at": 1,
+            "duration": 1.4,
+            "cycles": 9,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": 25,
+              "y": 0,
+              "scaleX": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-04",
+      "component": "visual-context",
+      "purpose": "visual-explanation",
+      "start": 54,
+      "duration": 18,
+      "heading": "Look for action in progress",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u003-window",
+            "text": "It is raining.",
+            "at": 0.5
+          }
+        ],
+        "layers": [
+          {
+            "assetId": "u003-drops",
+            "x": 10,
+            "y": 10,
+            "width": 660,
+            "height": 290,
+            "at": 1,
+            "duration": 1.4,
+            "cycles": 9,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": 0,
+              "y": 18,
+              "scaleX": 1
+            },
+            "yoyo": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-05",
+      "component": "sentence-builder",
+      "purpose": "grammar-breakdown",
+      "start": 72,
+      "duration": 18,
+      "heading": "Both parts matter",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "label": "Build the sentence",
+            "at": 0.5,
+            "groups": [
+              {
+                "text": "She",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "auxiliary",
+                "emphasis": "both"
+              },
+              {
+                "text": "read + ing",
+                "role": "verb",
+                "emphasis": "both"
+              }
+            ]
+          },
+          {
+            "label": "Say it together",
+            "at": 8.5,
+            "groups": [
+              {
+                "text": "She",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "is",
+                "role": "auxiliary",
+                "emphasis": "both"
+              },
+              {
+                "text": "reading.",
+                "role": "verb",
+                "emphasis": "both"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-06",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 90,
+      "duration": 18,
+      "heading": "Keep am in the sentence",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "tokens": [
+          {
+            "text": "I studying.",
+            "at": 0.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "I am studying.",
+              "at": 2.5
+            }
+          },
+          {
+            "text": "She reading.",
+            "at": 4.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "She is reading.",
+              "at": 6.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-07",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 108,
+      "duration": 18,
+      "heading": "I → am",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "tokens": [
+          {
+            "text": "I am studying.",
+            "at": 0.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "I’m studying.",
+              "at": 2.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-08",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 126,
+      "duration": 18,
+      "heading": "He / she / it → is",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "tokens": [
+          {
+            "text": "He is running.",
+            "at": 0.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "He’s running.",
+              "at": 2.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-09",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 144,
+      "duration": 18,
+      "heading": "You / we / they → are",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "tokens": [
+          {
+            "text": "We are learning.",
+            "at": 0.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "We’re learning.",
+              "at": 2.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-10",
+      "component": "visual-context",
+      "purpose": "visual-explanation",
+      "start": 162,
+      "duration": 18,
+      "heading": "He is running",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u003-runner",
+            "text": "He is running.",
+            "at": 0.5
+          }
+        ],
+        "layers": [
+          {
+            "assetId": "u003-stride",
+            "x": 10,
+            "y": 10,
+            "width": 660,
+            "height": 290,
+            "at": 1,
+            "duration": 1.4,
+            "cycles": 9,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": 35,
+              "y": 0,
+              "scaleX": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-11",
+      "component": "visual-context",
+      "purpose": "visual-explanation",
+      "start": 180,
+      "duration": 18,
+      "heading": "Now he is standing",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u003-standing",
+            "text": "He isn’t running.",
+            "at": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-12",
+      "component": "sentence-builder",
+      "purpose": "grammar-breakdown",
+      "start": 198,
+      "duration": 18,
+      "heading": "Put not after be",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "label": "Positive",
+            "at": 0.5,
+            "groups": [
+              {
+                "text": "I",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "am",
+                "role": "auxiliary",
+                "emphasis": "both"
+              },
+              {
+                "text": "sleeping.",
+                "role": "verb",
+                "emphasis": "both"
+              }
+            ]
+          },
+          {
+            "label": "Negative",
+            "at": 8.5,
+            "groups": [
+              {
+                "text": "I",
+                "role": "subject",
+                "emphasis": "none"
+              },
+              {
+                "text": "am not",
+                "role": "auxiliary",
+                "emphasis": "both"
+              },
+              {
+                "text": "sleeping.",
+                "role": "verb",
+                "emphasis": "both"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-13",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 216,
+      "duration": 18,
+      "heading": "Short negative forms",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "tokens": [
+          {
+            "text": "He is not working.",
+            "at": 0.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "He isn’t working.",
+              "at": 2.5
+            }
+          },
+          {
+            "text": "They are not waiting.",
+            "at": 4.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "They aren’t waiting.",
+              "at": 6.5
+            }
+          },
+          {
+            "text": "I am not sleeping.",
+            "at": 8.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "I’m not sleeping.",
+              "at": 10.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-14",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 234,
+      "duration": 18,
+      "heading": "Most verbs: add ing",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "tokens": [
+          {
+            "text": "read + ing",
+            "at": 0.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "reading",
+              "at": 2.5
+            }
+          },
+          {
+            "text": "play + ing",
+            "at": 4.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "playing",
+              "at": 6.5
+            }
+          },
+          {
+            "text": "work + ing",
+            "at": 8.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "working",
+              "at": 10.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-15",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 252,
+      "duration": 18,
+      "heading": "Remove silent e",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "tokens": [
+          {
+            "text": "mak + e",
+            "at": 0.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "mak + ing",
+              "at": 2.5
+            }
+          },
+          {
+            "text": "writ + e",
+            "at": 4.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "writ + ing",
+              "at": 6.5
+            }
+          },
+          {
+            "text": "danc + e",
+            "at": 8.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "danc + ing",
+              "at": 10.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-16",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 270,
+      "duration": 18,
+      "heading": "Double the last consonant",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "tokens": [
+          {
+            "text": "run + n + ing",
+            "at": 0.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "running",
+              "at": 2.5
+            }
+          },
+          {
+            "text": "sit + t + ing",
+            "at": 4.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "sitting",
+              "at": 6.5
+            }
+          },
+          {
+            "text": "swim + m + ing",
+            "at": 8.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "swimming",
+              "at": 10.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-17",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 288,
+      "duration": 18,
+      "heading": "Check the pattern",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "tokens": [
+          {
+            "text": "work + ing",
+            "at": 0.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "working",
+              "at": 2.5
+            }
+          },
+          {
+            "text": "play + ing",
+            "at": 4.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "playing",
+              "at": 6.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-18",
+      "component": "phrase-focus",
+      "purpose": "grammar-breakdown",
+      "start": 306,
+      "duration": 18,
+      "heading": "Lie → lying",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "tokens": [
+          {
+            "text": "l + ie",
+            "at": 0.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "l + y + ing",
+              "at": 2.5
+            }
+          },
+          {
+            "text": "lie",
+            "at": 4.5,
+            "emphasis": "both",
+            "replacement": {
+              "text": "lying",
+              "at": 6.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-19",
+      "component": "timeline",
+      "purpose": "visual-explanation",
+      "start": 324,
+      "duration": 18,
+      "heading": "An action includes NOW",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "labels": {
+          "past": "Before now",
+          "present": "NOW",
+          "future": "After now"
+        },
+        "now": 0.5,
+        "events": [
+          {
+            "id": "cleaning",
+            "label": "Cleaning in progress",
+            "start": 0.2,
+            "end": 0.85,
+            "at": 0.5,
+            "status": "ongoing"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-20",
+      "component": "visual-context",
+      "purpose": "visual-explanation",
+      "start": 342,
+      "duration": 18,
+      "heading": "Watch the cleaning",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u003-room",
+            "text": "He is cleaning.",
+            "at": 0.5
+          }
+        ],
+        "layers": [
+          {
+            "assetId": "u003-brush",
+            "x": 10,
+            "y": 10,
+            "width": 660,
+            "height": 290,
+            "at": 1,
+            "duration": 1.4,
+            "cycles": 9,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": 30,
+              "y": 0,
+              "scaleX": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-21",
+      "component": "visual-context",
+      "purpose": "visual-explanation",
+      "start": 360,
+      "duration": 18,
+      "heading": "On the court",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u003-court",
+            "text": "They are playing.",
+            "at": 0.5
+          }
+        ],
+        "layers": [
+          {
+            "assetId": "u003-ball",
+            "x": 10,
+            "y": 10,
+            "width": 660,
+            "height": 290,
+            "at": 1,
+            "duration": 1.4,
+            "cycles": 9,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": 0,
+              "y": 20,
+              "scaleX": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-22",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 378,
+      "duration": 18,
+      "heading": "Choose be",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 1
+      },
+      "quizId": "u3-q1",
+      "answerAt": 6
+    },
+    {
+      "id": "u3-23",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 396,
+      "duration": 18,
+      "heading": "Match the subject",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 1
+      },
+      "quizId": "u3-q2",
+      "answerAt": 6
+    },
+    {
+      "id": "u3-24",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 414,
+      "duration": 18,
+      "heading": "Complete the action",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 1
+      },
+      "quizId": "u3-q3",
+      "answerAt": 6
+    },
+    {
+      "id": "u3-25",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 432,
+      "duration": 18,
+      "heading": "Make it negative",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 1
+      },
+      "quizId": "u3-q4",
+      "answerAt": 6
+    },
+    {
+      "id": "u3-26",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 450,
+      "duration": 18,
+      "heading": "Keep both parts",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 1
+      },
+      "quizId": "u3-q5",
+      "answerAt": 6
+    },
+    {
+      "id": "u3-27",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 468,
+      "duration": 18,
+      "heading": "Spell the action",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 1
+      },
+      "quizId": "u3-q6",
+      "answerAt": 6
+    },
+    {
+      "id": "u3-28",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 486,
+      "duration": 18,
+      "heading": "Remember lie",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 1
+      },
+      "quizId": "u3-q7",
+      "answerAt": 6
+    },
+    {
+      "id": "u3-29",
+      "component": "visual-context",
+      "purpose": "visual-explanation",
+      "start": 504,
+      "duration": 18,
+      "heading": "Watch, then describe",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u003-window",
+            "text": "Look at the action now.",
+            "at": 0.5
+          }
+        ],
+        "layers": [
+          {
+            "assetId": "u003-drops",
+            "x": 10,
+            "y": 10,
+            "width": 660,
+            "height": 290,
+            "at": 1,
+            "duration": 1.4,
+            "cycles": 9,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": 0,
+              "y": 18,
+              "scaleX": 1
+            },
+            "yoyo": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-30",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 522,
+      "duration": 18,
+      "heading": "Describe the rain",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 1
+      },
+      "quizId": "u3-q8",
+      "answerAt": 6
+    },
+    {
+      "id": "u3-31",
+      "component": "visual-context",
+      "purpose": "visual-explanation",
+      "start": 540,
+      "duration": 18,
+      "heading": "Watch, then describe",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u003-desk",
+            "text": "Look at the action now.",
+            "at": 0.5
+          }
+        ],
+        "layers": [
+          {
+            "assetId": "u003-pen",
+            "x": 10,
+            "y": 10,
+            "width": 660,
+            "height": 290,
+            "at": 1,
+            "duration": 1.4,
+            "cycles": 9,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": 25,
+              "y": 0,
+              "scaleX": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "u3-32",
+      "component": "quiz",
+      "purpose": "guided-practice",
+      "start": 558,
+      "duration": 18,
+      "heading": "Describe the writer",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "thinkingLabel": "Think for 5 seconds.",
+        "thinkingFrom": 1
+      },
+      "quizId": "u3-q9",
+      "answerAt": 6
+    },
+    {
+      "id": "u3-33",
+      "component": "recap",
+      "purpose": "recap",
+      "start": 576,
+      "duration": 20,
+      "heading": "Actions happening now",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "pattern": "am / is / are + verb-ing",
+        "takeaways": [
+          "Now: an action in progress",
+          "Negative: be + not + verb-ing",
+          "reading · making · running · lying"
+        ]
+      }
+    },
+    {
+      "id": "u3-34",
+      "component": "visual-context",
+      "purpose": "recap",
+      "start": 596,
+      "duration": 18,
+      "heading": "Look around you",
+      "body": "",
+      "ruleIds": [],
+      "highlightAt": 0.4,
+      "label": "Unit 3 / happening now",
+      "visual": {
+        "states": [
+          {
+            "assetId": "u003-desk",
+            "text": "I’m writing. I’m not sleeping.",
+            "at": 0.5
+          }
+        ],
+        "layers": [
+          {
+            "assetId": "u003-pen",
+            "x": 10,
+            "y": 10,
+            "width": 660,
+            "height": 290,
+            "at": 1,
+            "duration": 1.4,
+            "cycles": 9,
+            "from": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1
+            },
+            "to": {
+              "x": 25,
+              "y": 0,
+              "scaleX": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "u003-kitchen",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-kitchen.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-desk",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-desk.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-runner",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-runner.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-stride",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-stride.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-pen",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-pen.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-spoon",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-spoon.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-window",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-window.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-drops",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-drops.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-room",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-room.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-brush",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-brush.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-standing",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-standing.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-court",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-court.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    },
+    {
+      "id": "u003-ball",
+      "type": "image",
+      "path": "episodes/u003-p01-present-continuous/assets/u003-ball.svg",
+      "creator": "English, Made Clear",
+      "source": "Original vector geometry for precise seekable action demonstration; no textbook or provider artwork.",
+      "license": {
+        "name": "Original project artwork",
+        "source": "episodes/u003-p01-present-continuous/assets/PROVENANCE.md",
+        "redistributionAllowed": true
+      },
+      "attribution": "English, Made Clear",
+      "intendedUsage": "Teach an action in progress through deterministic movement.",
+      "distribution": "tracked"
+    }
+  ],
+  "mediaAssetIds": [
+    "u003-kitchen",
+    "u003-desk",
+    "u003-runner",
+    "u003-stride",
+    "u003-pen",
+    "u003-spoon",
+    "u003-window",
+    "u003-drops",
+    "u003-room",
+    "u003-brush",
+    "u003-standing",
+    "u003-court",
+    "u003-ball"
+  ],
+  "narration": null,
+  "captions": [
+    {
+      "id": "u3-01-cue-1",
+      "start": 0.6,
+      "end": 6.2,
+      "text": "Watch the spoon moving in the pan."
+    },
+    {
+      "id": "u3-01-cue-2",
+      "start": 6.2,
+      "end": 11.8,
+      "text": "She is cooking. The action is happening as we watch."
+    },
+    {
+      "id": "u3-01-cue-3",
+      "start": 11.8,
+      "end": 17.4,
+      "text": "She is not sleeping. Cooking is happening; sleeping is not."
+    },
+    {
+      "id": "u3-02-cue-1",
+      "start": 18.6,
+      "end": 24.2,
+      "text": "In Unit 1, she is happy describes a feeling."
+    },
+    {
+      "id": "u3-02-cue-2",
+      "start": 24.2,
+      "end": 29.8,
+      "text": "She is cooking describes an action in progress."
+    },
+    {
+      "id": "u3-02-cue-3",
+      "start": 29.8,
+      "end": 35.4,
+      "text": "We keep is and add the action word with ing."
+    },
+    {
+      "id": "u3-03-cue-1",
+      "start": 36.6,
+      "end": 42.2,
+      "text": "We call this the present continuous."
+    },
+    {
+      "id": "u3-03-cue-2",
+      "start": 42.2,
+      "end": 47.8,
+      "text": "Present refers to now in this lesson. Continuous means the action is in progress."
+    },
+    {
+      "id": "u3-03-cue-3",
+      "start": 47.8,
+      "end": 53.4,
+      "text": "Her message is not finished. She is writing as we speak."
+    },
+    {
+      "id": "u3-04-cue-1",
+      "start": 54.6,
+      "end": 60.2,
+      "text": "Look outside. Drops are falling past the window."
+    },
+    {
+      "id": "u3-04-cue-2",
+      "start": 60.2,
+      "end": 65.8,
+      "text": "It is raining. The rain is happening now."
+    },
+    {
+      "id": "u3-04-cue-3",
+      "start": 65.8,
+      "end": 71.4,
+      "text": "The present continuous is one way to describe the present, not the only way."
+    },
+    {
+      "id": "u3-05-cue-1",
+      "start": 72.6,
+      "end": 78.2,
+      "text": "Use a subject, am, is or are, and an action word ending in ing."
+    },
+    {
+      "id": "u3-05-cue-2",
+      "start": 78.2,
+      "end": 83.8,
+      "text": "In she is reading, reading names the action."
+    },
+    {
+      "id": "u3-05-cue-3",
+      "start": 83.8,
+      "end": 89.4,
+      "text": "Is and reading work together to show an action in progress."
+    },
+    {
+      "id": "u3-06-cue-1",
+      "start": 90.6,
+      "end": 96.2,
+      "text": "I studying leaves out am in a standard full sentence."
+    },
+    {
+      "id": "u3-06-cue-2",
+      "start": 96.2,
+      "end": 101.8,
+      "text": "Say I am studying. Adding ing alone is not enough."
+    },
+    {
+      "id": "u3-06-cue-3",
+      "start": 101.8,
+      "end": 107.4,
+      "text": "Choose am, is or are to match the subject, just as in Unit 1."
+    },
+    {
+      "id": "u3-07-cue-1",
+      "start": 108.6,
+      "end": 114.2,
+      "text": "I am studying. The action is happening now."
+    },
+    {
+      "id": "u3-07-cue-2",
+      "start": 114.2,
+      "end": 119.8,
+      "text": "I’m studying. The contraction has the same meaning."
+    },
+    {
+      "id": "u3-07-cue-3",
+      "start": 119.8,
+      "end": 125.4,
+      "text": "Keep both be and the ing action when you shorten the sentence."
+    },
+    {
+      "id": "u3-08-cue-1",
+      "start": 126.6,
+      "end": 132.2,
+      "text": "He is running. The action is happening now."
+    },
+    {
+      "id": "u3-08-cue-2",
+      "start": 132.2,
+      "end": 137.8,
+      "text": "He’s running. The contraction has the same meaning."
+    },
+    {
+      "id": "u3-08-cue-3",
+      "start": 137.8,
+      "end": 143.4,
+      "text": "Keep both be and the ing action when you shorten the sentence."
+    },
+    {
+      "id": "u3-09-cue-1",
+      "start": 144.6,
+      "end": 150.2,
+      "text": "We are learning. The action is happening now."
+    },
+    {
+      "id": "u3-09-cue-2",
+      "start": 150.2,
+      "end": 155.8,
+      "text": "We’re learning. The contraction has the same meaning."
+    },
+    {
+      "id": "u3-09-cue-3",
+      "start": 155.8,
+      "end": 161.4,
+      "text": "Keep both be and the ing action when you shorten the sentence."
+    },
+    {
+      "id": "u3-10-cue-1",
+      "start": 162.6,
+      "end": 168.2,
+      "text": "Watch his legs move through a stride."
+    },
+    {
+      "id": "u3-10-cue-2",
+      "start": 168.2,
+      "end": 173.8,
+      "text": "He is running. Is matches he; running tells us the action."
+    },
+    {
+      "id": "u3-10-cue-3",
+      "start": 173.8,
+      "end": 179.4,
+      "text": "Now we will change the situation, not just the words."
+    },
+    {
+      "id": "u3-11-cue-1",
+      "start": 180.6,
+      "end": 186.2,
+      "text": "He is standing still now."
+    },
+    {
+      "id": "u3-11-cue-2",
+      "start": 186.2,
+      "end": 191.8,
+      "text": "He is not running. The running action is not happening."
+    },
+    {
+      "id": "u3-11-cue-3",
+      "start": 191.8,
+      "end": 197.4,
+      "text": "Not makes the continuous sentence negative."
+    },
+    {
+      "id": "u3-12-cue-1",
+      "start": 198.6,
+      "end": 204.2,
+      "text": "You know where not goes from Unit 1."
+    },
+    {
+      "id": "u3-12-cue-2",
+      "start": 204.2,
+      "end": 209.8,
+      "text": "I am not sleeping. Keep am, then not, then sleeping."
+    },
+    {
+      "id": "u3-12-cue-3",
+      "start": 209.8,
+      "end": 215.4,
+      "text": "The action still ends in ing in a negative sentence."
+    },
+    {
+      "id": "u3-13-cue-1",
+      "start": 216.6,
+      "end": 222.2,
+      "text": "He is not working becomes he isn’t working."
+    },
+    {
+      "id": "u3-13-cue-2",
+      "start": 222.2,
+      "end": 227.8,
+      "text": "She isn’t dancing. They aren’t waiting."
+    },
+    {
+      "id": "u3-13-cue-3",
+      "start": 227.8,
+      "end": 233.4,
+      "text": "I’m not sleeping uses am not. Do not say I amn’t sleeping."
+    },
+    {
+      "id": "u3-14-cue-1",
+      "start": 234.6,
+      "end": 240.2,
+      "text": "For many verbs, keep the original letters and add ing."
+    },
+    {
+      "id": "u3-14-cue-2",
+      "start": 240.2,
+      "end": 245.8,
+      "text": "Read becomes reading. Play becomes playing. Work becomes working."
+    },
+    {
+      "id": "u3-14-cue-3",
+      "start": 245.8,
+      "end": 251.4,
+      "text": "The ending works with am, is or are to describe an action in progress."
+    },
+    {
+      "id": "u3-15-cue-1",
+      "start": 252.6,
+      "end": 258.2,
+      "text": "In make, the final e is silent."
+    },
+    {
+      "id": "u3-15-cue-2",
+      "start": 258.2,
+      "end": 263.8,
+      "text": "Remove that e before adding ing: make becomes making."
+    },
+    {
+      "id": "u3-15-cue-3",
+      "start": 263.8,
+      "end": 269.4,
+      "text": "Write becomes writing and dance becomes dancing. These follow the same pattern."
+    },
+    {
+      "id": "u3-16-cue-1",
+      "start": 270.6,
+      "end": 276.2,
+      "text": "Run has one spoken beat, a short vowel sound, and one final consonant."
+    },
+    {
+      "id": "u3-16-cue-2",
+      "start": 276.2,
+      "end": 281.8,
+      "text": "Double n before ing: running. Sit becomes sitting and swim becomes swimming."
+    },
+    {
+      "id": "u3-16-cue-3",
+      "start": 281.8,
+      "end": 287.4,
+      "text": "The spelling and sound pattern matters; not every final consonant doubles."
+    },
+    {
+      "id": "u3-17-cue-1",
+      "start": 288.6,
+      "end": 294.2,
+      "text": "Work ends with two consonant letters, r and k: working, not workking."
+    },
+    {
+      "id": "u3-17-cue-2",
+      "start": 294.2,
+      "end": 299.8,
+      "text": "Play keeps its y: playing. Do not double w, x or y for this pattern."
+    },
+    {
+      "id": "u3-17-cue-3",
+      "start": 299.8,
+      "end": 305.4,
+      "text": "Longer words depend on the stressed beat too. Learn these short examples first."
+    },
+    {
+      "id": "u3-18-cue-1",
+      "start": 306.6,
+      "end": 312.2,
+      "text": "Here lie means rest with your body flat."
+    },
+    {
+      "id": "u3-18-cue-2",
+      "start": 312.2,
+      "end": 317.8,
+      "text": "For lie, change ie to y, then add ing: lying."
+    },
+    {
+      "id": "u3-18-cue-3",
+      "start": 317.8,
+      "end": 323.4,
+      "text": "She is lying on the bed. Keep is before lying."
+    },
+    {
+      "id": "u3-19-cue-1",
+      "start": 324.6,
+      "end": 330.2,
+      "text": "Imagine watching a cleaner for a moment."
+    },
+    {
+      "id": "u3-19-cue-2",
+      "start": 330.2,
+      "end": 335.8,
+      "text": "The action began before this moment and continues through now."
+    },
+    {
+      "id": "u3-19-cue-3",
+      "start": 335.8,
+      "end": 341.4,
+      "text": "The highlighted span includes NOW. We are looking inside the action, before it finishes."
+    },
+    {
+      "id": "u3-20-cue-1",
+      "start": 342.6,
+      "end": 348.2,
+      "text": "Watch the brush move across the floor."
+    },
+    {
+      "id": "u3-20-cue-2",
+      "start": 348.2,
+      "end": 353.8,
+      "text": "He is cleaning. We describe the action we can see in progress."
+    },
+    {
+      "id": "u3-20-cue-3",
+      "start": 353.8,
+      "end": 359.4,
+      "text": "We do not need to see the whole job from start to finish."
+    },
+    {
+      "id": "u3-21-cue-1",
+      "start": 360.6,
+      "end": 366.2,
+      "text": "Watch the ball move as the game continues."
+    },
+    {
+      "id": "u3-21-cue-2",
+      "start": 366.2,
+      "end": 371.8,
+      "text": "They are playing basketball. They takes are; playing names the action."
+    },
+    {
+      "id": "u3-21-cue-3",
+      "start": 371.8,
+      "end": 377.4,
+      "text": "Use what you can observe now to choose your description."
+    },
+    {
+      "id": "u3-22-answer-cue",
+      "start": 384.6,
+      "end": 395.4,
+      "text": "am With I, use am. Studying is the action in progress."
+    },
+    {
+      "id": "u3-23-answer-cue",
+      "start": 402.6,
+      "end": 413.4,
+      "text": "are The children means they. They takes are."
+    },
+    {
+      "id": "u3-24-answer-cue",
+      "start": 420.6,
+      "end": 431.4,
+      "text": "writing Remove the silent e in write, then add ing: writing."
+    },
+    {
+      "id": "u3-25-answer-cue",
+      "start": 438.6,
+      "end": 449.4,
+      "text": "He isn’t working. Put not after is. Isn’t means is not. Keep working."
+    },
+    {
+      "id": "u3-26-answer-cue",
+      "start": 456.6,
+      "end": 467.4,
+      "text": "I am learning. A full present continuous sentence needs am and the ing action."
+    },
+    {
+      "id": "u3-27-answer-cue",
+      "start": 474.6,
+      "end": 485.4,
+      "text": "running Run has the short-vowel pattern: double n before ing."
+    },
+    {
+      "id": "u3-28-answer-cue",
+      "start": 492.6,
+      "end": 503.4,
+      "text": "lying Change ie to y and add ing: lying."
+    },
+    {
+      "id": "u3-29-cue-1",
+      "start": 504.6,
+      "end": 513.0,
+      "text": "Watch the movement carefully."
+    },
+    {
+      "id": "u3-29-cue-2",
+      "start": 513.0,
+      "end": 521.4,
+      "text": "Next, choose the sentence that matches this action."
+    },
+    {
+      "id": "u3-30-answer-cue",
+      "start": 528.6,
+      "end": 539.4,
+      "text": "It is raining. Falling drops show rain in progress. Use is plus raining."
+    },
+    {
+      "id": "u3-31-cue-1",
+      "start": 540.6,
+      "end": 549.0,
+      "text": "Watch the movement carefully."
+    },
+    {
+      "id": "u3-31-cue-2",
+      "start": 549.0,
+      "end": 557.4,
+      "text": "Next, choose the sentence that matches this action."
+    },
+    {
+      "id": "u3-32-answer-cue",
+      "start": 564.6,
+      "end": 575.4,
+      "text": "She is writing. The moving pen shows writing in progress. Use is plus writing."
+    },
+    {
+      "id": "u3-33-cue-1",
+      "start": 576.6,
+      "end": 582.867,
+      "text": "Present continuous describes an action in progress now."
+    },
+    {
+      "id": "u3-33-cue-2",
+      "start": 582.867,
+      "end": 589.133,
+      "text": "Use am, is or are plus the ing action. Put not after be for a negative."
+    },
+    {
+      "id": "u3-33-cue-3",
+      "start": 589.133,
+      "end": 595.4,
+      "text": "Remember reading, making, running and lying."
+    },
+    {
+      "id": "u3-34-cue-1",
+      "start": 596.6,
+      "end": 602.2,
+      "text": "Imagine you are writing a message right now."
+    },
+    {
+      "id": "u3-34-cue-2",
+      "start": 602.2,
+      "end": 607.8,
+      "text": "Say I’m writing. I’m not sleeping."
+    },
+    {
+      "id": "u3-34-cue-3",
+      "start": 607.8,
+      "end": 613.4,
+      "text": "Now look around. Describe one action you can actually see."
+    }
+  ],
+  "status": "draft",
+  "reviewEvidence": null,
+  "publication": []
+}

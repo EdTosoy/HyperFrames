@@ -8,6 +8,8 @@
   run `hyperframes catch-up` before editing.
 - Canonical standards: docs/SERIES_BIBLE.md, TEACHING_STANDARDS.md, VISUAL_SYSTEM.md,
   ASSET_POLICY.md, PRODUCTION_WORKFLOW.md and QA_CHECKLIST.md. Reuse their boundaries.
+- Follow docs/TEACHING_STANDARDS.md for progressive teaching; consult and maintain
+  docs/LEARNING_PROGRESSION.md when preparing lessons.
 - New lessons are versioned episode JSON; reuse compositions/factory and central
   config. Generated .hyperframes-build HTML is disposable. Translate Studio edits
   back to data/components; do not create competing lesson renderers.

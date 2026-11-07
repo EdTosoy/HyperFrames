@@ -399,6 +399,132 @@
             },
             "required": ["assetId", "text", "at"]
           }
+        },
+        "layers": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "assetId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "x": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 720
+              },
+              "y": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 320
+              },
+              "width": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 720
+              },
+              "height": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 320
+              },
+              "at": {
+                "type": "number",
+                "minimum": 0.3
+              },
+              "duration": {
+                "type": "number",
+                "minimum": 0.1
+              },
+              "cycles": {
+                "enum": [1, 3, 5, 7, 9, 11, 13, 15]
+              },
+              "from": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "minimum": -720,
+                    "maximum": 720
+                  },
+                  "y": {
+                    "type": "number",
+                    "minimum": -320,
+                    "maximum": 320
+                  },
+                  "scaleX": {
+                    "type": "number",
+                    "minimum": 0.05,
+                    "maximum": 1
+                  }
+                },
+                "required": ["x", "y", "scaleX"]
+              },
+              "to": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "minimum": -720,
+                    "maximum": 720
+                  },
+                  "y": {
+                    "type": "number",
+                    "minimum": -320,
+                    "maximum": 320
+                  },
+                  "scaleX": {
+                    "type": "number",
+                    "minimum": 0.05,
+                    "maximum": 1
+                  }
+                },
+                "required": ["x", "y", "scaleX"]
+              },
+              "yoyo": {
+                "type": "boolean"
+              },
+              "via": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "x": {
+                    "type": "number",
+                    "minimum": -720,
+                    "maximum": 720
+                  },
+                  "y": {
+                    "type": "number",
+                    "minimum": -320,
+                    "maximum": 320
+                  },
+                  "scaleX": {
+                    "type": "number",
+                    "minimum": 0.05,
+                    "maximum": 1
+                  }
+                },
+                "required": ["x", "y", "scaleX"]
+              }
+            },
+            "required": [
+              "assetId",
+              "x",
+              "y",
+              "width",
+              "height",
+              "at",
+              "duration",
+              "from",
+              "to"
+            ]
+          }
         }
       },
       "required": ["states"]

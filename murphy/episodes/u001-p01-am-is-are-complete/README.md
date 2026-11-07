@@ -1,55 +1,76 @@
 # Unit 1 — complete silent lesson
 
-Episode: `u001-p01-am-is-are-complete`. One continuous 637-second lesson; `p01`
-is required internal schema metadata, not an audience-facing part or sub-episode.
-The earlier partial lesson remains untouched. This is a draft, not release-ready.
+Episode: `u001-p01-am-is-are-complete`. Replacement draft **v02**, updated in place:
+43 scenes, 14 minutes 50 seconds, 1080×1920, 30 FPS. Internal `p01` is schema
+metadata; learners receive one continuous complete-unit video. The earlier partial
+lesson, previous complete render and owner recordings are preserved.
 
-`episode.json` owns the complete script, 39 scenes, provisional captions, five
-practice questions, timings and asset provenance. `SCRIPT.md` is the editable
-reading copy; update both when revising narration. Eight original SVG illustrations
-are in `assets/`. No stock media, textbook images, third-party icons or music.
+## Editable source
 
-## Teaching sequence
+- `episode.json`: authoritative narration script, scenes, semantic animation cues,
+  121 provisional caption cues, ten practice questions, answer keys and provenance.
+- `SCRIPT.md`: complete editable reading copy with scene times and recording notes.
+  Revise both script sources together; tests check their spoken wording agrees.
+- `assets/`: preserved earlier artwork plus the v02 context boards/object layers.
+  `assets/lucide/` retains exact selected provider SVGs, ISC/MIT notices and a
+  SHA-256 source inventory. See [asset provenance](assets/PROVENANCE.md).
+- Shared renderers: `compositions/factory/`, selected by ordinary scene data.
+  No separate lesson renderer or generated HTML edits are required.
 
-Meaning of be and present states → subject and agreement → singular/plural you →
-negative meaning and not placement → all seven positive contractions → I'm not
-and both negative contraction patterns → that's, there's, here's → five practice
-pauses with explanations → two concise recap scenes.
+## Teaching revision
 
-Beginner-confusion review: subject means the person/thing discussed; present means
-now or generally true; negative means the description is not true; contraction
-means words joined into a shorter form. Singular you still takes are. Both
-negative contraction patterns retain meaning; standard everyday English uses
-I'm not. There's introduces something present, rather than identifying possession;
-here's fits offering an item. Questions and advanced meanings of 's remain outside
-this unit. Practice waits six seconds before revealing an explained answer.
+The earlier complete draft covered the principal forms but left verb undefined,
+repeated an identical negative-contraction explanation six times, used generic
+figures without clear speaker/listener relationships, and described notebook motion
+that its still illustration did not show. Its caption estimates could diverge from
+visual changes; practice covered only five questions and one everyday expression.
 
-Grammar cross-checks (accuracy references only; examples independently written):
-[British Council, present be](https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/present-simple-be?page=2)
-and [Cambridge, here and there](https://dictionary.cambridge.org/grammar/british-grammar/here-and-there?q=here).
-Cambridge's full page blocked retrieval; its indexed explanation was available.
-No private screenshots were found locally.
+This rewrite explains verb, be, tense/present tense, subject, statement, positive,
+negative, contraction and apostrophe through original examples. It distinguishes
+sentence polarity from a good/bad feeling. It shows who I/you/we/they refer to,
+explains that matching depends on the subject, and preserves are for one listener.
+All requested positive and negative forms, contractions and three everyday
+expressions remain within one lesson. Ten guided questions exercise positive
+forms, negatives, short forms and all three expressions, with five caption-free
+thinking seconds followed by an answer and reasoning.
 
-## Review and revisions
+The same door leaf visibly closes before the negative appears. The same notebook
+moves to the listener during an offer. Positive contractions transform in place;
+negative alternatives reveal in order, with the rule explained once and retrieved
+through varied examples. Narration captions and major visual changes share authored
+cue times; all remain provisional until the owner's voice is recorded.
+
+Coverage is **planned**, not approved, in
+[learning progression](../../docs/LEARNING_PROGRESSION.md). Broader meanings of 's,
+questions, short answers, other tenses and plural existential forms are deferred.
+
+Accuracy references (examples independently written):
+[British Council: present be](https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/present-simple-be),
+[Cambridge: contractions](https://dictionary.cambridge.org/grammar/british-grammar/contractions).
+[Lucide's license](https://lucide.dev/license) permits reuse with retained notices;
+the frozen release and original Feather notice are stored locally.
+
+## Preview, render and later narration
 
 ```bash
 npm run validate
 npm run check:static
 HYPERFRAMES_BROWSER_PATH="$(command -v chromium)" npm run check -- u001-p01-am-is-are-complete
 npm run preview -- u001-p01-am-is-are-complete
+npm run preview:status -- u001-p01-am-is-are-complete
+# Use the actual port returned by preview:
 HYPERFRAMES_BROWSER_PATH="$(command -v chromium)" npm run check:visual -- u001-p01-am-is-are-complete http://localhost:3003
-HYPERFRAMES_BROWSER_PATH="$(command -v chromium)" npm run render:draft -- u001-p01-am-is-are-complete
 ```
 
-Use the actual port printed by preview. Draft output is
-`renders/u001-p01-am-is-are-complete/draft.mp4` when using the factory wrapper.
-The reviewed six-worker export is `renders/u001-p01-am-is-are-complete/review-silent.mp4`.
-The preview is editable; translate
-Studio changes back into episode JSON/shared components before rebuilding.
+The versioned review export is `renders/u001-p01-am-is-are-complete/u001-am-is-are-silent-v02.mp4`.
+The factory's normal `render:draft` command remains available; it uses `draft.mp4`.
+This task uses a versioned filename to preserve older renders. The generated
+`.hyperframes-build/u001-p01-am-is-are-complete` is disposable. Translate any Studio
+edits back into source JSON/components before rebuilding.
 
-Later record the owner reading the reviewed script. Preserve the original and a
-separate normalized edit, declare both assets and narration metadata, and manually
-align scene/caption times to that recording. Replace provisional captions with the
-verified spoken transcript; clear obsolete review evidence and rerun checks. Follow
-`docs/PRODUCTION_WORKFLOW.md` for human approvals and production export. Do not
-infer recording/caption approval from this silent render.
+Status remains `draft`, `narration: null`, `reviewEvidence: null`. There is no audio,
+AI speech or music. Later, record the owner, preserve the original plus a separate
+edit, align every scene/caption cue to the selected delivery, verify the transcript
+and repeat human teaching/visual/audio/export review. A silent draft does not meet
+production readiness. See [workflow](../../docs/PRODUCTION_WORKFLOW.md) and current
+[review evidence](REVIEW.md).

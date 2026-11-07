@@ -5,7 +5,10 @@ An automated pass is necessary but does not prove teaching quality.
 
 - Original explanations, examples, illustrations and practice; no textbook content.
   Correct objective, level, unit/part metadata; narrow accurate rule scope.
-- Natural English, answer keys verified, thinking time and explanatory answer reveal.
+- Natural English, answer keys verified; five full thinking seconds after the
+  complete question/choices and prompt captions. Question stays visible with a
+  subtle progress cue; no answer, explanation or answer caption leaks before the
+  pause ends. Answer reveal explains why it is correct.
 - Six teaching phases in order, sensible duration (or exception), no TODOs.
   Scene intervals contiguous; timeline matches the selected narration edit.
 - Owner's narration present, transcript approved, master backed up, selected edit

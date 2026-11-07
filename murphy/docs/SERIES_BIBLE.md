@@ -13,6 +13,10 @@ existing schema's part field is an internal compatibility detail, not a requirem
 to create multiple videos or show part labels to learners.
 This project is not affiliated with its author or publisher.
 
+Treat the series as one continuous, cumulative course. Follow the authoritative
+[progressive teaching standards](TEACHING_STANDARDS.md) and consult the
+[learning progression record](LEARNING_PROGRESSION.md) when preparing each unit.
+
 Use this sequence: hook → real-life example → visual explanation → grammar
 breakdown → guided practice → recap. Vary examples, contexts, visuals and scene
 lengths to serve the objective. A phase can contain several scenes; keep the order

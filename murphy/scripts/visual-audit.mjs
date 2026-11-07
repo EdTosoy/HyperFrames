@@ -115,6 +115,36 @@ try {
           if (j !== i)
             assert.equal(await visible(`#${scene.id}-context-${j}`, time), false);
       }
+      for (const [i, layer] of (v.layers || []).entries()) {
+        const selector = `#${scene.id}-layer-${i}`;
+        const before = scene.start + layer.at - 0.1;
+        const after = scene.start + layer.at + layer.duration * (layer.cycles || 1) + 0.1;
+        async function pose(time) {
+          await seek(time);
+          return page.evaluate((selector) => {
+            const node = document.querySelector(selector);
+            const r = node.getBoundingClientRect();
+            return {
+              left: r.left,
+              top: r.top,
+              width: r.width,
+              scale: node.parentElement.getScreenCTM().a,
+            };
+          }, selector);
+        }
+        const a = await pose(before);
+        const b = await pose(after);
+        assert.ok(
+          Math.abs(b.width / a.width - layer.to.scaleX / layer.from.scaleX) < 0.02,
+          `${selector}: illustration did not reach its authored scale`,
+        );
+        assert.ok(
+          Math.abs(b.left - a.left - (layer.to.x - layer.from.x) * a.scale) < 2 &&
+            Math.abs(b.top - a.top - (layer.to.y - layer.from.y) * a.scale) < 2,
+          `${selector}: illustration did not reach its authored position`,
+        );
+        for (const time of [before, (before + after) / 2, after]) times.add(time);
+      }
     }
     if (scene.component === "sentence-builder")
       for (const [i, state] of v.states.entries()) {
@@ -141,6 +171,66 @@ try {
             );
       }
     if (scene.component === "quiz") {
+      const from = v.thinkingFrom ?? config.motion.enterSeconds;
+      const pause = scene.answerAt - from;
+      const frame = 1 / config.profiles[episode.profile].fps;
+      const question = episode.quizzes.find((q) => q.id === scene.quizId);
+      let promptBounds;
+      // Repeat in reverse after the answer to catch state leaking across seeks.
+      for (const offset of [0, pause / 2, pause - frame, pause + 1, pause / 2, 0]) {
+        if (offset > pause) {
+          await seek(scene.start + from + offset);
+          continue;
+        }
+        const time = scene.start + from + offset;
+        times.add(time);
+        await seek(time);
+        const state = await page.evaluate((id) => {
+          const scope = document.getElementById(`${id}-content`);
+          const opacity = (element) => {
+            let value = 1;
+            for (let node = element; node; node = node.parentElement) {
+              const css = getComputedStyle(node);
+              if (css.visibility === "hidden" || css.display === "none") return 0;
+              value *= Number(css.opacity);
+            }
+            return value;
+          };
+          const prompts = [...scope.querySelectorAll(".quiz-prompt,.quiz-choice")];
+          const bar = scope.querySelector(".thinking-bar");
+          return {
+            promptOpacity: prompts.map(opacity),
+            promptBounds: prompts.map((p) => {
+              const r = p.getBoundingClientRect();
+              return [r.x, r.y, r.width, r.height];
+            }),
+            answerOpacity: opacity(scope.querySelector(".quiz-answer")),
+            thinkingOpacity: opacity(scope.querySelector(".thinking")),
+            remaining:
+              bar.getBoundingClientRect().width /
+              bar.parentElement.getBoundingClientRect().width,
+          };
+        }, scene.id);
+        assert.equal(state.promptOpacity.length, 1 + (question.choices?.length ?? 0));
+        assert.ok(
+          state.promptOpacity.every((a) => a >= 0.999),
+          "Keep full prompts visible",
+        );
+        promptBounds ??= state.promptBounds;
+        assert.deepEqual(state.promptBounds, promptBounds, "Question must stay in place");
+        assert.ok(
+          state.answerOpacity < 0.0001,
+          "Answer/explanation leaked before pause ended",
+        );
+        assert.ok(
+          state.thinkingOpacity >= 0.999,
+          "Thinking cue must cover the full pause",
+        );
+        assert.ok(
+          Math.abs(state.remaining - (1 - offset / pause)) < 0.002,
+          "Thinking progress must follow the authored pause",
+        );
+      }
       const answerDeadline =
         scene.start +
         scene.answerAt +
@@ -247,7 +337,7 @@ try {
           bottom: p.height - safe.bottom,
         };
         for (const element of document.querySelectorAll(
-          ".library .context-state .illustration,.library p,.library h1,.library .word-group,.library .speech,.library .event-line,.library .event-point,.library .comparison-card,.library .recap-pattern,.caption-copy",
+          ".library .context-stack>.illustration,.library .context-state .illustration,.library .context-overlay image,.library p,.library h1,.library .word-group,.library .speech,.library .event-line,.library .event-point,.library .comparison-card,.library .recap-pattern,.caption-copy",
         )) {
           if (!isVisible(element)) continue;
           const r = element.getBoundingClientRect();

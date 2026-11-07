@@ -34,6 +34,24 @@ export function visualErrors(episode, config) {
           error(scene, "context asset must be declared in mediaAssetIds");
         last = state.at;
       }
+      for (const layer of v.layers || []) {
+        if (!episode.mediaAssetIds.includes(layer.assetId))
+          error(scene, "context layer asset must be declared in mediaAssetIds");
+        validateAt(scene, layer.at, "layer.at", layer.duration * (layer.cycles || 1) + 1);
+        if (layer.via && (layer.cycles || 1) !== 1)
+          error(scene, "via movement requires a single cycle");
+        for (const pose of [layer.from, layer.via, layer.to].filter(Boolean)) {
+          const left = layer.x + pose.x;
+          const top = layer.y + pose.y;
+          if (
+            left < 0 ||
+            top < 0 ||
+            left + layer.width * pose.scaleX > 720 ||
+            top + layer.height > 320
+          )
+            error(scene, "context layer poses must fit the 720 × 320 illustration");
+        }
+      }
     }
     if (scene.component === "sentence-builder") {
       let lastEnd = 0;
@@ -129,6 +147,17 @@ export function visualErrors(episode, config) {
     }
     if (scene.component === "quiz") {
       const from = v.thinkingFrom ?? duration;
+      if (episode.kind === "lesson" && !episode.narration) {
+        if (Math.abs(scene.answerAt - from - 5) > 0.000001)
+          error(scene, "silent guided practice requires a five-second thinking pause");
+        if (
+          episode.captions.some(
+            (cue) =>
+              cue.start < scene.start + scene.answerAt && cue.end > scene.start + from,
+          )
+        )
+          error(scene, "keep captions out of the guided-practice thinking pause");
+      }
       if (
         from < duration ||
         scene.answerAt - from < 1 ||

@@ -26,7 +26,8 @@ test("narrated lesson draft uses the selected edit and still blocks silent relea
   const silent = structuredClone(episode);
   silent.narration = null;
   const errors = readinessErrors(silent).join("\n");
-  assert.match(errors, /human narration|recording/i);
+  // Removing narration also requires revising the recorded three-second pause.
+  assert.match(errors, /five-second thinking pause/);
   assert.doesNotMatch(errors, /six teaching phases/);
   assert.doesNotMatch(renderComposition(silent, config, assetMap(silent)), /<audio\b/);
 });

@@ -1,237 +1,203 @@
 # Unit 1 — complete narration script
 
-Silent draft. Times and captions are provisional. Bracketed cues are not spoken.
+Replacement draft v02. Human owner narration is pending. The silent MP4 uses
+provisional 30 FPS cues; bracketed directions are not spoken. Episode JSON is the
+authoritative script/caption/scene source. Revise the JSON and this reading copy
+together. No teaching or production approval is implied.
 
-## 000–017s · Unit 1 · am / is / are
+## Spoken script
 
-Look at these people. I am happy. She is happy. They are happy. The feeling is the same. Why does the small word change? Let’s understand it together.
+### 00:00–00:18 · Unit 1 · am / is / are
 
-[Visual: visual-context; ]
+A smile. A friend. A group of people. I am happy. They are happy. The feeling is the same. Why does am become are? Let’s find out.
 
-## 017–033s · Describe a feeling
+### 00:18–00:44 · What is a verb?
 
-Am, is and are are forms of the verb be. Be helps us describe someone or something. Here, the smile shows a feeling: I am happy.
+A verb is a word that tells us about an action or a state. In I read, read tells us the action. In I am happy, am helps describe my state: how I feel. So a verb does not always describe an action. Am is a verb too.
 
-[Visual: visual-context; ]
+### 00:44–01:07 · Meet the verb be
 
-## 033–051s · Say who someone is
+Be is the name of the verb. Am, is and are are forms of be. We use them to describe people and things. I am happy describes a feeling. She is a student tells us who she is. A student is someone who studies.
 
-Be can tell us who someone is. The person with the open book is a student. She is a student. We say a student when we mean one student.
+### 01:07–01:29 · Conditions and places
 
-[Visual: visual-context; ]
+The door is open. Open describes the door’s condition: how it is. Omar and Maya are at home. At home tells us their location: where they are.
 
-## 051–069s · Say where people are
+### 01:29–01:53 · Find the subject
 
-Be can also describe a condition or a location. The door is open describes a condition. My friends are at home tells us where they are. These people are together.
+The subject tells us who or what the sentence is about. In Maya is a student, Maya is the subject. We can use she instead of Maya. She is still the subject. Find the subject first. It helps you choose am, is or are.
 
-[Visual: visual-context; ]
+### 01:53–02:17 · What does present mean?
 
-## 069–086s · What does “present” mean?
+Tense is how a verb shows time. Present tense describes now, or something generally true. I am happy describes how I feel now. She is a student can be true even when she is not studying at this moment.
 
-Present means we are describing now, or something generally true. I am happy describes how I feel now. She is a student describes her identity, even when she is not studying.
+### 02:17–02:39 · I and you
 
-[Visual: card; True now, or generally true.]
+Use I for yourself, the person speaking. I am happy. Use you for the person you are speaking to. You are happy. Notice that the verb changes.
 
-## 086–106s · Who are we talking about?
+### 02:39–03:04 · Choose is
 
-The subject is the person or thing we are talking about. In my friends are together, my friends is the subject. We can replace my friends with they. The subject helps us choose the form of be.
+English changes be to match its subject. With he, she or it, use is. He is here. She is a student. For the door, use it: it is open. In these examples, he and she refer to people; it refers to a thing.
 
-[Visual: sentence-builder; ]
+### 03:04–03:26 · Choose am or are
 
-## 106–126s · Match the subject
+For I, the form is am. I am happy. With you, use are. You are here. We and they also take are. The form belongs with the subject; we do not choose it from the feeling or place.
 
-English uses different forms of be for different subjects. With I, choose am. With he, she or it, choose is. With you, we or they, choose are. The form changes to match who or what we mean.
+### 03:26–03:48 · We and they
 
-[Visual: sentence-builder; ]
+We means a group that includes me, the speaker. We are together. In this picture, they means Omar and Maya. I am talking about those other people. They are together.
 
-## 126–146s · One person or several
+### 03:48–04:10 · One you. More than one.
 
-You can mean one person or several people. In both cases, use are. Imagine welcoming one visitor, or welcoming a whole family. You are welcome works for both. Do not change are to is for one person.
+You can mean one listener. You are welcome. You can also mean several listeners. You are welcome. Use are in both cases. Even one you takes are.
 
-[Visual: sentence-builder; ]
+### 04:10–04:33 · Positive and negative
 
-## 146–164s · Change the situation
+A statement tells us something. A positive statement says something is true: the door is open. A negative statement says it is not true: the door is not open. Positive and negative here describe the sentence, not a good or bad feeling.
 
-Watch the door. First, the door is open. Now it closes. The door is not open. Adding not says that the description is not true now. This is a negative sentence.
+### 04:33–04:57 · Watch the meaning change
 
-[Visual: visual-context; ]
+Look at the opening. The door is open. Now watch the door close. The door is not open. It is closed. Not changes which description is true. Put not after is.
 
-## 164–184s · Put not after be
+### 04:57–05:21 · Keep be. Add not.
 
-A positive sentence says something is true. A negative sentence says it is not true. Put not immediately after am, is or are. Keep the subject and the correct form of be. Only the meaning changes.
+Keep the correct form of be. Put not straight after it. I am not tired. She is not tired. They are not tired. Tired means needing rest. These sentences say that tired does not describe them.
 
-[Visual: sentence-builder; ]
+### 05:21–05:46 · What is a contraction?
 
-## 184–204s · All three negative forms
+In everyday speech and informal writing, we often use shorter forms called contractions. I am becomes I’m. We join the words and leave out a letter. The little mark is an apostrophe. It shows where a letter is missing. The meaning stays the same.
 
-I am not ready. She is not ready. They are not ready. Ready means prepared to begin. Each sentence says the person or people need more time. The word not stays after the form of be.
+### 05:46–05:58 · He is → he’s
 
-[Visual: sentence-builder; ]
+He is here becomes he’s here. The apostrophe replaces the i in is. The person and the meaning stay the same.
 
-## 204–223s · What is a contraction?
+### 05:58–06:10 · She is → she’s
 
-In everyday English, we often join words into shorter forms. These are called contractions. An apostrophe marks missing letters. The meaning stays the same in these examples. Let’s watch the full forms become shorter.
+She is a student becomes she’s a student. Here, ’s means is. We are describing her identity.
 
-[Visual: card; Two words joined into a shorter form.]
+### 06:10–06:22 · It is → it’s
 
-## 223–232s · Make it shorter
+It is open becomes it’s open. We can describe the door with either the full form or the short form.
 
-I am becomes I’m. I’m happy means I am happy.
+### 06:22–06:34 · You are → you’re
 
-[Visual: phrase-focus; Same meaning. Shorter form.]
+You are welcome becomes you’re welcome. The apostrophe marks the missing a in are. This works for one listener or several.
 
-## 232–241s · Make it shorter
+### 06:34–06:46 · We are → we’re
 
-He is becomes he’s. He’s here means he is here.
+We are at home becomes we’re at home. Remember, we includes the speaker.
 
-[Visual: phrase-focus; Same meaning. Shorter form.]
+### 06:46–06:58 · They are → they’re
 
-## 241–250s · Make it shorter
+They are together becomes they’re together. Here, ’re means are. The people are still the same group.
 
-She is becomes she’s. She’s a student means she is a student.
+### 06:58–07:15 · I am not → I’m not
 
-[Visual: phrase-focus; Same meaning. Shorter form.]
+For I am not, shorten I am and keep not: I’m not tired. Use I’m not in standard everyday English. Do not try to shorten it twice.
 
-## 250–259s · Make it shorter
+### 07:15–07:39 · Two ways. One meaning.
 
-It is becomes it’s. It’s open means it is open.
+He is not here has two common short forms. He’s not here joins he and is. Not stays separate. He isn’t here joins is and not. Both sentences say he is not here. Choose either form.
 
-[Visual: phrase-focus; Same meaning. Shorter form.]
+### 07:39–07:54 · Two ways. One meaning.
 
-## 259–268s · Make it shorter
+Try the same two patterns with she. She’s not tired. She isn’t tired. Both mean she is not tired.
 
-You are becomes you’re. You’re welcome means you are welcome.
+### 07:54–08:09 · Two ways. One meaning.
 
-[Visual: phrase-focus; Same meaning. Shorter form.]
+Now describe the closed door. It’s not open. It isn’t open. Both short forms keep the negative meaning.
 
-## 268–277s · Make it shorter
+### 08:09–08:24 · Two ways. One meaning.
 
-We are becomes we’re. We’re together means we are together.
+Late means arriving after the expected time. You’re not late. You aren’t late. Both say you are not late.
 
-[Visual: phrase-focus; Same meaning. Shorter form.]
+### 08:24–08:39 · Two ways. One meaning.
 
-## 277–286s · Make it shorter
+Imagine our group is outside. We’re not at home. We aren’t at home. These are two ways to describe the same location.
 
-They are becomes they’re. They’re outside means they are outside.
+### 08:39–08:54 · Two ways. One meaning.
 
-[Visual: phrase-focus; Same meaning. Shorter form.]
+Ready means prepared to begin. They’re not ready. They aren’t ready. Both mean the people need more time.
 
-## 286–302s · Make it shorter
+### 08:54–09:18 · Point out and identify
 
-For a negative sentence with I, use I’m not. I’m not ready means I am not ready. In standard everyday English, we do not say I amn’t.
+Imagine pointing to your backpack across the room. That is my backpack. That’s my backpack is the short form. That’s means that is. That helps your listener know which thing you mean. Here, you are identifying the bag.
 
-[Visual: phrase-focus; I’m not ready. / I am not ready.]
+### 09:18–09:42 · Notice something in a place
 
-## 302–321s · Two correct short forms
+You look into a garden and notice one cat. There is a cat in the garden. There’s a cat in the garden means the same thing. There’s is short for there is. This introduces something present in a place. We are talking about one cat here.
 
-He is not ready can become he’s not ready, or he isn’t ready. Both say the same thing. The first joins the subject and be. The second joins be and not. Choose either pattern.
+### 09:42–10:06 · Offer something
 
-[Visual: sentence-builder; Both short forms have the same meaning.]
+Your friend needs their notebook. You offer it and say, here is your notebook. Watch the notebook move to your friend. Here’s your notebook is the common short form. Here’s means here is. Use it as you offer or show the notebook.
 
-## 321–340s · Two correct short forms
+### 10:06–10:30 · Choose am, is or are.
 
-She is not ready can become she’s not ready, or she isn’t ready. Both say the same thing. The first joins the subject and be. The second joins be and not. Choose either pattern.
+I, blank, happy. Which form of be fits? [Pause five seconds.] Am. With I, use am: I am happy.
 
-[Visual: sentence-builder; Both short forms have the same meaning.]
+### 10:30–10:54 · Describe one person.
 
-## 340–359s · Two correct short forms
+Maya, blank, a student. Choose the form that matches Maya. [Pause five seconds.] is. Maya can be replaced by she. She takes is.
 
-It is not ready can become it’s not ready, or it isn’t ready. Both say the same thing. The first joins the subject and be. The second joins be and not. Choose either pattern.
+### 10:54–11:18 · Describe the group.
 
-[Visual: sentence-builder; Both short forms have the same meaning.]
+My friends, blank, at home. Which form fits the group? [Pause five seconds.] are. My friends means they. They takes are.
 
-## 359–378s · Two correct short forms
+### 11:18–11:42 · Speak to one visitor.
 
-You are not ready can become you’re not ready, or you aren’t ready. Both say the same thing. The first joins the subject and be. The second joins be and not. Choose either pattern.
+One visitor arrives. You, blank, welcome. Which form fits? [Pause five seconds.] are. You takes are for one listener or several.
 
-[Visual: sentence-builder; Both short forms have the same meaning.]
+### 11:42–12:06 · Make it negative.
 
-## 378–397s · Two correct short forms
+I am tired. Which choice makes this negative? [Pause five seconds.] I am not tired. Keep am after I. Put not after am.
 
-We are not ready can become we’re not ready, or we aren’t ready. Both say the same thing. The first joins the subject and be. The second joins be and not. Choose either pattern.
+### 12:06–12:30 · Use a short form.
 
-[Visual: sentence-builder; Both short forms have the same meaning.]
+Which short form means I am happy? [Pause five seconds.] I’m happy. I am becomes I’m. The apostrophe marks the missing a.
 
-## 397–416s · Two correct short forms
+### 12:30–12:54 · Two short forms
 
-They are not ready can become they’re not ready, or they aren’t ready. Both say the same thing. The first joins the subject and be. The second joins be and not. Choose either pattern.
+Which pair gives two correct ways to say she is not tired? [Pause five seconds.] She’s not tired. She isn’t tired. Both mean she is not tired.
 
-[Visual: sentence-builder; Both short forms have the same meaning.]
+### 12:54–13:18 · Point to your bag.
 
-## 416–438s · Point something out
+Point to your backpack. Blank, my backpack. Which expression identifies it? [Pause five seconds.] That’s. That’s means that is. It identifies the bag you point to.
 
-Imagine pointing to your backpack over there. You say, that’s my backpack. That’s is short for that is. We use that to point out or identify something. The pointing helps the listener know which thing we mean.
+### 13:18–13:42 · Introduce one cat.
 
-[Visual: visual-context; ]
+You notice a cat in the garden. Which expression introduces it? [Pause five seconds.] There’s. There’s means there is. It introduces one cat in a place.
 
-## 438–447s · Make it shorter
+### 13:42–14:06 · Hand over a notebook.
 
-That is my backpack becomes that’s my backpack. The apostrophe replaces the missing letter.
+You hand your friend a notebook. Blank, your notebook. Which expression fits? [Pause five seconds.] Here’s. Here’s means here is. It fits offering the notebook.
 
-[Visual: phrase-focus; That’s my backpack.]
+### 14:06–14:27 · Start with the subject
 
-## 447–467s · Notice something
+The subject tells us who or what we mean. Match be to the subject. I am. He, she and it take is. You, we and they take are. For a negative statement, put not after am, is or are.
 
-You notice a cat in the garden. There’s a cat in the garden means there is a cat there. This introduces something present in a place. Here, we are talking about one cat.
+### 14:27–14:50 · Use it around you
 
-[Visual: visual-context; ]
+Say how you feel: I’m happy. Describe someone: she’s a student. That’s identifies something. There’s can introduce something in a place. Here’s can offer something. Now describe a person or thing near you. Make one positive statement, then one negative statement.
 
-## 467–479s · Make it shorter
+## Visual and recording notes (not spoken)
 
-There is becomes there’s. Use this form with one person or thing here. We are introducing one cat in the garden.
-
-[Visual: phrase-focus; There’s a cat in the garden.]
-
-## 479–499s · Offer something
-
-Imagine giving someone their notebook. Here’s your notebook means here is your notebook. You can use here’s as you offer or show something to someone. Watch the notebook move from one person to the other.
-
-[Visual: visual-context; ]
-
-## 499–513s · Make it shorter
-
-Here is your notebook becomes here’s your notebook. That’s identifies something, there’s introduces something present, and here’s can offer something. The situation helps us understand.
-
-[Visual: phrase-focus; Here’s your notebook.]
-
-## 513–530s · Choose the form
-
-My cousins \_\_\_ in the kitchen. [Pause six seconds.] are My cousins means they. They takes are.
-
-[Visual: quiz; ]
-
-## 530–547s · Make it negative
-
-Choose the negative of: The room is warm. [Pause six seconds.] The room is not warm. Put not after is: the room is not warm.
-
-[Visual: quiz; ]
-
-## 547–564s · Choose a short form
-
-Which means: We are not late? [Pause six seconds.] We aren’t late. Are not becomes aren’t. We takes are.
-
-[Visual: quiz; ]
-
-## 564–581s · One visitor
-
-One visitor arrives: You \_\_\_ welcome. [Pause six seconds.] are You always takes are, for one person or several.
-
-[Visual: quiz; ]
-
-## 581–598s · Offer a notebook
-
-You hand someone a notebook. What fits? [Pause six seconds.] Here’s your notebook. Here’s means here is. It fits offering the notebook.
-
-[Visual: quiz; ]
-
-## 598–616s · Choose be. Add not.
-
-Choose be to match the subject. I am, he she it is, you we they are. Put not after be for a negative. Short forms keep the same meaning.
-
-[Visual: recap; ]
-
-## 616–637s · Use it in real life
-
-I’m happy. She isn’t ready. They’re together. That’s my backpack identifies something. There’s a cat introduces it. Here’s your notebook offers it. Now you can describe people and things with am, is and are.
-
-[Visual: recap; ]
+- Each heading is a scene cue, not a line to read. The full lesson is continuous.
+- Five-second quiz pauses contain no captions or answers. Read the prompt, pause,
+  then give the answer and reasoning. Replace provisional pauses if your delivery
+  needs more time. Keep thinking and readable answer holds.
+- Verb: action (read) changes to state (am happy). Be: feeling and identity.
+  Places: door condition changes to people at home.
+- Subject: Maya changes to She. Is and am/are choices reveal with the narration.
+- We includes the speaker; they marks the other two people. One and several you
+  retain are. Positive/negative describe sentence meaning, not emotion.
+- The same door leaf closes at 04:40; the negative appears only
+  after closing. The same notebook moves at 09:50.
+- Each positive short form transforms in place. The first two-pattern negative
+  scene explains the alternatives; later scenes retrieve the pattern with new
+  examples. All six pronoun pairs remain visible in the authored sequence.
+- That is / there is / here is become their short forms in context. Their meanings
+  here are useful examples, not exhaustive definitions of these expressions.
+- In this unit ’s means is. Other uses of ’s, questions, short answers, plural
+  existential forms and other tenses are deliberately deferred.
+- Align scene-local visual cues and episode-global captions to the actual
+  recording later. Do not treat estimated cues as an approved transcript.
