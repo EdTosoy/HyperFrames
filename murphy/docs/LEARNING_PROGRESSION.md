@@ -144,6 +144,19 @@ This template is a format example, not a curriculum entry.
 - Visual meaning: contextual licensed icons and original arrangements, exact ending-letter movement into a removed tray, a moving weekly routine cursor, and original dialogues. Calendar counts illustrate a declared routine rather than fixed adverb definitions.
 - Concepts intentionally deferred: full present simple/continuous comparison to owner-specified Unit 8; subject-question exceptions, advanced question patterns and exhaustive adverb positions. The do/does pattern is scoped rather than claimed universal. Future narration is not counted as approved visual teaching.
 
+### Unit 8
+
+- Episode/version and source: [Unit 8 silent draft v01](../episodes/u008-p01-present-simple-vs-continuous/episode.json), [complete editable voice-over script](../episodes/u008-p01-present-simple-vs-continuous/SCRIPT.md).
+- Review: draft; human educational approval and uninterrupted playback/phone review pending.
+- New concepts introduced: choosing present continuous or present simple from meaning; activity in progress now/around now versus habit, general fact and ordinary state; both descriptions can be true for the same person; comparison of question and negative structures; common state meanings; have as activity versus possession; context-sensitive corrections.
+- Terminology explained: state as what someone knows, wants, feels or believes rather than an activity presented in progress; retrieve in progress, habit, base verb and auxiliary from earlier units. Forget is demonstrated as a repeated memory habit, not an absolute non-continuous verb rule.
+- Prerequisites: owner assumes Units 1–7 studied. Their entries remain planned until educational approval. Retrieve Units 3–4 be + verb-ing and Units 5–7 ordinary simple statement/question/negative patterns without repeating their full lectures.
+- Connections: the same reader/book, players/game, cook/kitchen and worker/workspace appear in current and routine views; short breaks can occur within a current project; familiar helpers keep their own main-verb form. Earlier frequency teaching supports occasional viewing versus not watching in the current situation.
+- State meanings covered: like, love, want, need, know, understand, remember, believe, prefer and mean generally take simple forms in the ordinary meanings taught here; forget is used in a repeated memory habit. Other meanings/contexts can allow continuous forms; no absolute ban is taught.
+- Guided practice: fourteen original exercises covering visual actions/routines, both-true interpretation, questions, negatives, state meanings, possession, memory habits, error repair and around-now scope. Five caption-free thinking seconds, stable prompts, progress cues and delayed explanatory answers. Visual contexts precede the first two exercises and are restated in their prompts.
+- Visual meaning: independently folding book page; preserved pen/spoon/ball action layers; same-identity routine calendars; current-project interval; contextual state/ownership illustrations. Counts illustrate declared habits rather than fixed adverb percentages.
+- Concepts intentionally deferred: future uses of the present continuous, advanced tense contrasts, exhaustive state-verb exceptions and other later-unit content. No later unit is prepopulated. Future narration is not counted as approved visual teaching.
+
 ## Approved teaching
 
 No entries recorded yet. Existing lessons have not been audited for this record;

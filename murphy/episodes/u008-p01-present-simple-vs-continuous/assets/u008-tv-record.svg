@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320"><!-- ISC License
+
+Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2022 as part of Feather (MIT). All other copyright (c) for Lucide are held by Lucide Contributors 2022.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+The MIT License (MIT)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ --><text x="15" y="34" font-family="sans-serif" font-size="28" fill="#223248">My TV record: two weeks</text><rect x="20" y="65" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="28" y="89" font-family="sans-serif" font-size="21" fill="#223248">1</text><text x="47" y="131" font-family="sans-serif" font-size="22" fill="#223248">—</text><rect x="118" y="65" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="126" y="89" font-family="sans-serif" font-size="21" fill="#223248">2</text><text x="145" y="131" font-family="sans-serif" font-size="22" fill="#223248">—</text><rect x="216" y="65" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="224" y="89" font-family="sans-serif" font-size="21" fill="#223248">3</text><g transform="translate(239 102) scale(1.75)" fill="none" stroke="#223248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect width="20" height="15" x="2" y="7" rx="2" ry="2" />
+  <polyline points="17 2 12 7 7 2" />
+</g><rect x="314" y="65" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="322" y="89" font-family="sans-serif" font-size="21" fill="#223248">4</text><text x="341" y="131" font-family="sans-serif" font-size="22" fill="#223248">—</text><rect x="412" y="65" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="420" y="89" font-family="sans-serif" font-size="21" fill="#223248">5</text><text x="439" y="131" font-family="sans-serif" font-size="22" fill="#223248">—</text><rect x="510" y="65" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="518" y="89" font-family="sans-serif" font-size="21" fill="#223248">6</text><text x="537" y="131" font-family="sans-serif" font-size="22" fill="#223248">—</text><rect x="608" y="65" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="616" y="89" font-family="sans-serif" font-size="21" fill="#223248">7</text><text x="635" y="131" font-family="sans-serif" font-size="22" fill="#223248">—</text><rect x="20" y="173" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="28" y="197" font-family="sans-serif" font-size="21" fill="#223248">8</text><text x="47" y="239" font-family="sans-serif" font-size="22" fill="#223248">—</text><rect x="118" y="173" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="126" y="197" font-family="sans-serif" font-size="21" fill="#223248">9</text><text x="145" y="239" font-family="sans-serif" font-size="22" fill="#223248">—</text><rect x="216" y="173" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="224" y="197" font-family="sans-serif" font-size="21" fill="#223248">10</text><text x="243" y="239" font-family="sans-serif" font-size="22" fill="#223248">—</text><rect x="314" y="173" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="322" y="197" font-family="sans-serif" font-size="21" fill="#223248">11</text><g transform="translate(337 210) scale(1.75)" fill="none" stroke="#223248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect width="20" height="15" x="2" y="7" rx="2" ry="2" />
+  <polyline points="17 2 12 7 7 2" />
+</g><rect x="412" y="173" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="420" y="197" font-family="sans-serif" font-size="21" fill="#223248">12</text><text x="439" y="239" font-family="sans-serif" font-size="22" fill="#223248">—</text><rect x="510" y="173" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="518" y="197" font-family="sans-serif" font-size="21" fill="#223248">13</text><text x="537" y="239" font-family="sans-serif" font-size="22" fill="#223248">—</text><rect x="608" y="173" width="88" height="96" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="616" y="197" font-family="sans-serif" font-size="21" fill="#223248">14</text><text x="635" y="239" font-family="sans-serif" font-size="22" fill="#223248">—</text><text x="20" y="313" font-family="sans-serif" font-size="22" fill="#223248">Occasional viewing · a stated habit</text></svg>

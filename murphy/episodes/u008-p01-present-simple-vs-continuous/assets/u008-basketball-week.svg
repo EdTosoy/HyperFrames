@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320"><!-- ISC License
+
+Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2022 as part of Feather (MIT). All other copyright (c) for Lucide are held by Lucide Contributors 2022.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+The MIT License (MIT)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ --><text x="16" y="34" font-family="sans-serif" font-size="28" fill="#223248">Their usual basketball weekends</text><g transform="translate(0 92) scale(0.38)"><g fill="none" stroke="#24354b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M80 285h560M570 50v220m-80-210h90v60h-90zM490 120h60"/><circle cx="260" cy="70" r="25"/><path d="M260 95v100m0-60l75 20m-75-20l-45 30m45 30l-35 80m35-80l40 80"/><circle cx="460" cy="70" r="25"/><path d="M460 95v100m0-60l45 20m-45-20l-45 30m45 30l-35 80m35-80l40 80"/></g></g><rect x="300" y="70" width="90" height="100" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="310" y="95" font-family="sans-serif" font-size="22" fill="#223248">Mon</text><text x="328" y="137" font-family="sans-serif" font-size="23" fill="#223248">—</text><rect x="400" y="70" width="90" height="100" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="410" y="95" font-family="sans-serif" font-size="22" fill="#223248">Tue</text><text x="428" y="137" font-family="sans-serif" font-size="23" fill="#223248">—</text><rect x="500" y="70" width="90" height="100" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="510" y="95" font-family="sans-serif" font-size="22" fill="#223248">Wed</text><text x="528" y="137" font-family="sans-serif" font-size="23" fill="#223248">—</text><rect x="600" y="70" width="90" height="100" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="610" y="95" font-family="sans-serif" font-size="22" fill="#223248">Thu</text><text x="628" y="137" font-family="sans-serif" font-size="23" fill="#223248">—</text><rect x="300" y="182" width="90" height="100" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="310" y="207" font-family="sans-serif" font-size="22" fill="#223248">Fri</text><text x="328" y="249" font-family="sans-serif" font-size="23" fill="#223248">—</text><rect x="400" y="182" width="90" height="100" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="410" y="207" font-family="sans-serif" font-size="22" fill="#223248">Sat</text><g transform="translate(423 220)" fill="none" stroke="#223248" stroke-width="3"><circle cx="23" cy="23" r="21"/><path d="M2 23h42M23 2v42M8 8q30 15 30 30M8 38q30-15 30-30"/></g><rect x="500" y="182" width="90" height="100" rx="10" fill="#FFFFFF" stroke="#223248" stroke-width="2"/><text x="510" y="207" font-family="sans-serif" font-size="22" fill="#223248">Sun</text><g transform="translate(523 220)" fill="none" stroke="#223248" stroke-width="3"><circle cx="23" cy="23" r="21"/><path d="M2 23h42M23 2v42M8 8q30 15 30 30M8 38q30-15 30-30"/></g><text x="20" y="313" font-family="sans-serif" font-size="22" fill="#223248">An illustrative declared routine</text></svg>
