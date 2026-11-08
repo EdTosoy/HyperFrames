@@ -109,6 +109,41 @@ This template is a format example, not a curriculum entry.
 - Guided practice: ten original questions; five-second progress cues, stable prompts, delayed answers with reasons, including a visual context adjacent to its exercise.
 - Concepts intentionally deferred: future arrangements, advanced continuous uses, subject-who questions and broader preposition rules. No future-unit content is inferred.
 
+### Unit 5
+
+- Episode/version and source: [Unit 5 silent draft v01](../episodes/u005-p01-present-simple/episode.json), [complete narration script](../episodes/u005-p01-present-simple/SCRIPT.md).
+- Review: draft; human teaching approval pending.
+- New concepts introduced: positive present simple for habits, routines, general facts and preferences; base forms with I/you/we/they; he/she/it and name/noun agreement; third-person -s/-es; has, does and goes; consonant-y → -ies versus vowel-y + -s; always/usually/often/sometimes/never; ordinary main-verb frequency-word placement.
+- Terminology explained: present simple as regular or generally true; habit, routine, main verb and base form; vowel/consonant letters through spelling examples; frequency as how often.
+- Prerequisites: Units 1–4 assumed studied by owner direction; their draft entries remain unapproved. Retrieve subjects, verbs and the Unit 3 action-now example briefly.
+- Connections: contrast cooking now with cooking across evenings only to introduce a habit; build new verb agreement on familiar subject matching. Reuse the prior word-routing animation for frequency-word position.
+- Guided practice: twelve original questions with five-second pauses and explanatory answers; a visual routine immediately precedes its exercise.
+- Concepts intentionally deferred: present simple negatives and questions (owner-specified Units 6 and 7); full present simple/continuous comparison (owner-specified Unit 8); exhaustive adverb-placement and spelling exceptions.
+
+### Unit 6
+
+- Episode/version and source: [Unit 6 silent draft v01](../episodes/u006-p01-present-simple-negative/episode.json), [complete editable voice-over script](../episodes/u006-p01-present-simple-negative/SCRIPT.md).
+- Review: draft; human teaching approval and full playback review pending.
+- New concepts introduced: present simple negative meaning; don't/do not and doesn't/does not; negative auxiliary do/does and subject matching; base verb after the helper; negative have/do/go; never versus not very often; natural usually/often positions in the demonstrated negatives; common agreement and double-marking errors.
+- Terminology explained: auxiliary as a helping verb; base verb as the plain form, retrieved from Unit 5. No new question terminology.
+- Prerequisites: owner assumes Units 1–5 completed. Their entries remain planned, not retrospectively approved; retrieve be negatives, contractions, present continuous and positive present simple only as needed.
+- Connections: Unit 5's positive tea habit becomes a negative; likes/watches/studies and has/does/goes return to base forms after doesn't. Earlier isn't/aren't patterns distinguish be descriptions and be + verb-ing from ordinary present simple negatives.
+- Guided practice: thirteen original exercises with five caption-free thinking seconds, stable prompts, progress cues, delayed answers and explanations; explicit visual evidence precedes the final habit exercise.
+- Visual meaning: pinned licensed Lucide icons in original contexts, explicit no-activity symbols, two-week records showing no events versus occasional events. Calendar counts are illustrative, not definitions of frequency words.
+- Concepts intentionally deferred: detailed present simple questions to owner-specified Unit 7; full present simple/continuous comparison to Unit 8; advanced adverb scope and placement exceptions. Future narration is not counted as approved visual teaching.
+
+### Unit 7
+
+- Episode/version and source: [Unit 7 silent draft v01](../episodes/u007-p01-present-simple-questions/episode.json), [complete editable narration script](../episodes/u007-p01-present-simple-questions/SCRIPT.md).
+- Review: draft; human educational approval and uninterrupted playback/phone review pending.
+- New concepts introduced: standard present simple yes/no and information questions with do/does; subject–auxiliary agreement; helper before subject and base main verb; what/where/when/why/how/how often/how much in the demonstrated patterns; frequency-word placement; occupation meaning and contextual activity meaning of What do you do?; short answers with do/does/don't/doesn't and speaker perspective.
+- Terminology explained: retrieve auxiliary as a helping verb from Unit 6; distinguish the helping do from the main activity verb do. Retrieve base verb and familiar question-word meanings without repeating earlier lectures.
+- Prerequisites: owner assumes Units 1–6 completed; previous entries remain planned until reviewed. Retrieve be question order, pronoun perspective, positive present simple endings, negative helpers and frequency meanings briefly where needed.
+- Connections: She plays tennis → She doesn't play tennis → Does she play tennis? Does carries the subject form just as doesn't did; works/likes/watches/studies/has/goes return to complete base forms. Be questions and be + verb-ing retain their previously taught patterns.
+- Guided practice: twelve original questions covering helper selection, statement transformation, base verbs, word order, question words, frequency placement, routines and short answers; five caption-free thinking seconds, stable prompts, progress cues, delayed answers and explanatory reasoning. Explicit routine context precedes the final question-building exercise.
+- Visual meaning: contextual licensed icons and original arrangements, exact ending-letter movement into a removed tray, a moving weekly routine cursor, and original dialogues. Calendar counts illustrate a declared routine rather than fixed adverb definitions.
+- Concepts intentionally deferred: full present simple/continuous comparison to owner-specified Unit 8; subject-question exceptions, advanced question patterns and exhaustive adverb positions. The do/does pattern is scoped rather than claimed universal. Future narration is not counted as approved visual teaching.
+
 ## Approved teaching
 
 No entries recorded yet. Existing lessons have not been audited for this record;
